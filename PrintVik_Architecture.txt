@@ -1,0 +1,219 @@
+================================================================================
+PRINTVIK ARCHITECTURE DOCUMENTATION
+================================================================================
+
+This document serves as the high-level map for the PrintVik Business Operating System.
+
+================================================================================
+PART 1: BACKEND STRUCTURE (Node.js / Express)
+================================================================================
+
+[MODELS] - /backend/models/
+--------------------------------------------------------------------------------
+1.  User.js                : Stores Users, Operators, Riders, Admins. Includes Auth & Profile data.
+2.  Order.js               : Central Order entity. Links User, Operator, Rider. Stores Status & Files.
+3.  Product.js             : E-commerce products (Stationery, etc.). Includes Inventory & Variants.
+4.  Address.js             : User delivery addresses.
+5.  ServiceType.js         : Printing services (A4, A3, Color, B&W) configuration.
+6.  DeliveryZone.js        : Polygon definitions for delivery areas and pricing.
+7.  Coupon.js              : Discount codes and logic.
+8.  Ledger.js              : Financial transactions (Credits/Debits) for all entities.
+9.  PaymentSettlement.js   : Records of payouts made to Operators/Riders.
+10. OperatorPayout.js      : Specific payout requests/records for Operators.
+11. NotificationTemplate.js: SMS/Email/Push templates (Twilio/SendGrid/FCM).
+12. NotificationLog.js     : History of all sent notifications.
+13. AdminAlert.js          : In-app alerts for Admins (KYC, Low Stock, etc.).
+14. GlobalSettings.js      : System-wide settings (Maintenance mode, etc.).
+15. SystemConfig.js        : Dynamic configuration keys.
+16. PricingConfig.js       : Base rates for printing and delivery.
+
+[CONTROLLERS] - /backend/controllers/
+--------------------------------------------------------------------------------
+A. STANDARD CONTROLLERS
+   - authController.js     : Register, Login, GetMe.
+   - userController.js     : Profile, Address, KYC Upload.
+   - orderController.js    : Create Order, Get My Orders, Track Order.
+   - productController.js  : Browse Products, Search.
+   - riderController.js    : Rider App API (Active Jobs, Update Status).
+   - operatorController.js : Operator App API (Job Queue, Update Status).
+   - paymentController.js  : Payment Gateway Integration (Razorpay/Stripe).
+   - systemController.js   : Public config fetch.
+   - deliveryZoneController: Zone checks.
+
+B. ADMIN CONTROLLERS - /backend/controllers/admin/
+   - adminAuthController.js   : Admin Login, PIN Management.
+   - adminUserController.js   : Manage Users, Verify KYC, Wallet Ops, Operator Rates.
+   - adminOrderController.js  : Manage Orders, Assign Riders, Refunds, File Verification.
+   - adminContentController.js: CMS (Services, Zones, Coupons, Notifications).
+   - adminStatsController.js  : Analytics, Dashboard Stats, Reports.
+
+[SERVICES] - /backend/services/
+--------------------------------------------------------------------------------
+1.  NotificationService.js : Unified engine for sending SMS, Email, Push. Handles templating & logging.
+
+[ROUTES] - /backend/routes/
+--------------------------------------------------------------------------------
+- /api/auth       -> authController
+- /api/users      -> userController
+- /api/orders     -> orderController
+- /api/products   -> productController
+- /api/delivery   -> riderController
+- /api/operators  -> operatorController
+- /api/admin      -> admin/*Controllers
+- /api/payments   -> paymentController
+
+================================================================================
+PART 2: FRONTEND STRUCTURE (React Admin Panel)
+================================================================================
+
+[PAGES] - /admin-dashboard/src/pages/
+--------------------------------------------------------------------------------
+1.  Dashboard.jsx      : Overview Stats. Source: GET /api/admin/stats/dashboard
+2.  Orders.jsx         : Order Management. Source: GET /api/admin/orders
+3.  Users.jsx          : User List. Source: GET /api/admin/users
+4.  UserDetails.jsx    : Single User View. Source: GET /api/admin/users/:id
+5.  Operators.jsx      : Operator List. Source: GET /api/admin/users?role=operator
+6.  Delivery.jsx       : Rider Management. Source: GET /api/admin/users?role=delivery
+7.  Products.jsx       : Inventory. Source: GET /api/products/admin
+8.  Services.jsx       : Service Config. Source: GET /api/admin/services
+9.  Finance.jsx        : Ledger & Settlements. Source: GET /api/admin/finance/*
+10. Communications.jsx : Marketing & Templates. Source: GET /api/admin/notifications/*
+11. Analytics.jsx      : Detailed Charts. Source: GET /api/admin/stats/analytics
+12. Settings.jsx       : Global Config. Source: GET /api/admin/settings
+
+[KEY COMPONENTS]
+--------------------------------------------------------------------------------
+- Layout.jsx           : Main wrapper with Sidebar & Header.
+- Header.jsx           : Contains Notification Bell (Socket.io) & Profile.
+- Sidebar.jsx          : Main Navigation.
+- SocketContext.jsx    : Manages real-time connection.
+
+================================================================================
+PART 3: CRITICAL DATA FLOWS
+================================================================================
+
+[FLOW 1: ASSIGNING A RIDER]
+--------------------------------------------------------------------------------
+1.  **Frontend**: Admin clicks "Assign" on Order Card in `Orders.jsx`.
+2.  **API Call**: POST `/api/admin/orders/assign` with `{ orderId, riderId }`.
+3.  **Controller**: `adminOrderController.assignDelivery`.
+    - Validates Rider status.
+    - Updates Order status to 'out_for_delivery'.
+    - Updates Rider's active count.
+4.  **Service**: Calls `NotificationService.send('RIDER_ASSIGNED')`.
+    - Sends Push Notification to Rider App.
+5.  **Database**: Order & User documents updated.
+
+[FLOW 2: ORDER COMPLETION & PAYOUT SPLIT]
+--------------------------------------------------------------------------------
+1.  **Trigger**: Rider marks order as "Delivered" (via Rider App) OR Admin updates status.
+2.  **Controller**: `riderController.updateDeliveryStatus` OR `adminOrderController.updateOrder`.
+3.  **Logic**:
+    - Checks if Payment Status is 'Paid'.
+    - Calculates Platform Fee (e.g., 10%).
+    - Calculates Delivery Fee (Fixed/Distance).
+    - Calculates Shop Share (Remainder).
+4.  **Database**:
+    - Creates `Ledger` entries:
+      - CREDIT to Admin (Platform Fee).
+      - CREDIT to Rider (Delivery Fee).
+      - CREDIT to Operator (Shop Share).
+    - Updates Order Status to 'completed'.
+
+================================================================================
+PART 4: ADMIN ACTION & CRUD MAPPING
+================================================================================
+
+[USER MANAGEMENT]
+--------------------------------------------------------------------------------
+*   **[Block/Unblock User]**
+    - Frontend UI: `UserDetails.jsx` (Action Menu)
+    - Trigger: "Suspend User" / "Activate User"
+    - API Route: `PUT /api/admin/users/:id`
+    - Backend Controller: `adminUserController.updateUser`
+
+*   **[Add Wallet Balance]**
+    - Frontend UI: `UserDetails.jsx` (Wallet Tab)
+    - Trigger: "Add Funds" Button
+    - API Route: `POST /api/admin/users/:id/wallet`
+    - Backend Controller: `adminUserController.updateUserWallet`
+
+*   **[Reset Password]**
+    - Frontend UI: `UserDetails.jsx` (Security Tab)
+    - Trigger: "Reset Password" Button
+    - API Route: `POST /api/admin/users/:id/reset-password`
+    - Backend Controller: `adminUserController.resetUserPassword`
+
+[ORDER MANAGEMENT]
+--------------------------------------------------------------------------------
+*   **[Update Order Status]**
+    - Frontend UI: `Orders.jsx` (Status Dropdown)
+    - Trigger: Select new status (e.g., "Processing")
+    - API Route: `PUT /api/admin/orders/:id`
+    - Backend Controller: `adminOrderController.updateOrder`
+
+*   **[Assign Rider]**
+    - Frontend UI: `Orders.jsx` (Order Card)
+    - Trigger: "Assign Rider" Button
+    - API Route: `POST /api/admin/orders/assign`
+    - Backend Controller: `adminOrderController.assignDelivery`
+
+*   **[Re-assign Shop]**
+    - Frontend UI: `Orders.jsx` (Order Details Modal)
+    - Trigger: "Reassign Shop" Button
+    - API Route: `POST /api/admin/orders/:id/reassign`
+    - Backend Controller: `adminOrderController.reassignOrder`
+
+*   **[Refund Order]**
+    - Frontend UI: `Orders.jsx` (Action Menu)
+    - Trigger: "Issue Refund" Button
+    - API Route: `POST /api/admin/orders/:id/refund`
+    - Backend Controller: `adminOrderController.refundOrder`
+
+[INVENTORY & PRODUCTS]
+--------------------------------------------------------------------------------
+*   **[Create Product]**
+    - Frontend UI: `Products.jsx`
+    - Trigger: "Add Product" Button -> Save
+    - API Route: `POST /api/products`
+    - Backend Controller: `productController.createProduct`
+
+*   **[Update Stock Quantity]**
+    - Frontend UI: `Products.jsx` (Quick Edit)
+    - Trigger: "Save Stock" Button
+    - API Route: `PATCH /api/products/:id/stock`
+    - Backend Controller: `productController.updateStock`
+
+*   **[Edit Product Details]**
+    - Frontend UI: `Products.jsx` (Edit Modal)
+    - Trigger: "Update Product" Button
+    - API Route: `PUT /api/products/:id`
+    - Backend Controller: `productController.updateProduct`
+
+[OPERATOR MANAGEMENT]
+--------------------------------------------------------------------------------
+*   **[Verify KYC]**
+    - Frontend UI: `UserDetails.jsx` (KYC Tab)
+    - Trigger: "Approve" / "Reject" Buttons
+    - API Route: `POST /api/admin/users/:id/kyc-verify`
+    - Backend Controller: `adminUserController.verifyKyc`
+
+*   **[Update Commission Rates]**
+    - Frontend UI: `UserDetails.jsx` (Operator Settings)
+    - Trigger: "Save Rates" Button
+    - API Route: `PUT /api/admin/users/:id/operator-rates`
+    - Backend Controller: `adminUserController.updateOperatorRates`
+
+[COMMUNICATIONS]
+--------------------------------------------------------------------------------
+*   **[Update Notification Template]**
+    - Frontend UI: `Communications.jsx` (Templates Tab)
+    - Trigger: "Save Template" Button
+    - API Route: `PUT /api/admin/notifications/templates/:id`
+    - Backend Controller: `adminContentController.updateNotificationTemplate`
+
+*   **[Send Marketing Campaign]**
+    - Frontend UI: `Communications.jsx` (Marketing Blaster Tab)
+    - Trigger: "Blast Campaign" Button
+    - API Route: `POST /api/admin/notifications/marketing`
+    - Backend Controller: `adminContentController.sendMarketingCampaign`

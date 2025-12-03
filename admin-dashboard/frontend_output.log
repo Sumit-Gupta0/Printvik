@@ -1,0 +1,21 @@
+
+> printvik-admin@1.0.0 dev
+> vite --port 3001 --port 3001
+
+
+  VITE v5.4.21  ready in 407 ms
+
+  ➜  Local:   http://localhost:3001/
+  ➜  Network: http://10.136.165.93:3001/
+  ➜  press h + enter to show help
+11:41:00 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:41:02 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:41:29 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:47:42 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:53:30 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:55:08 AM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+11:55:10 AM [vite] hmr update /src/components/OrderDetailsModal.jsx, /src/index.css
+12:00:07 PM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+12:00:21 PM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+12:03:00 PM [vite] hmr update /src/pages/Orders.jsx, /src/index.css
+12:03:02 PM [vite] hmr update /src/pages/Orders.jsx, /src/index.css

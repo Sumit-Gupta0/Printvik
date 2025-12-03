@@ -1,0 +1,118 @@
+PRINTVIK OPERATOR DASHBOARD (PARTNER) - MASTER PLAN
+=======================================================
+
+1. OVERVIEW & VISION
+--------------------
+The Operator Dashboard is the "Cockpit" for Print Shop owners. It transforms a standard print shop into a "Cloud Printer".
+Unlike the Admin Panel (which is for control), this dashboard is for **SPEED and EXECUTION**.
+It must be touch-friendly (tablet/iPad optimized), high-contrast, and real-time.
+
+Target Device: Tablets (iPad/Android tablet) & Desktop Monitors.
+Primary User: Shop Owner / Machine Operator.
+
+2. CORE PHILOSOPHY: "The Kitchen Display System (KDS)"
+------------------------------------------------------
+Think of this like a McDonald's Kitchen Screen.
+- **LOUD:** New orders must grab attention (Sound + Visual).
+- **FAST:** One-tap status updates (Accept -> Printing -> Ready).
+- **CLEAR:** Big fonts, clear file links, distinct colors for status.
+
+3. FEATURE BREAKDOWN
+--------------------
+
+A. AUTHENTICATION & ONBOARDING
+   - Login/Register.
+   - **KYC Upload:** Aadhaar, GST, Shop Photos (Critical for approval).
+   - **Service Area Setup:** Define delivery radius (if self-delivery) or "Pickup Only".
+
+B. THE "LIVE DESK" (HOME SCREEN)
+   - **Status Toggle:** GO ONLINE / GO OFFLINE (Global Switch).
+   - **Active Orders Column:**
+     - **Incoming (Red/Blinking):** New orders waiting for acceptance.
+     - **In-Queue (Yellow):** Accepted, files downloading/printing.
+     - **Ready (Green):** Printed, waiting for Rider/Pickup.
+   - **Quick Stats:** Today's Earnings, Pending Orders, Shop Health.
+
+C. ORDER PROCESSING FLOW (The "Chain Reaction")
+   1. **New Order:**
+      - Sound plays.
+      - Card appears in "Incoming".
+      - Details: File Preview, Page Count, Color/BW, Binding Type.
+      - Action: [ACCEPT] or [REJECT (Reason)].
+   2. **Printing:**
+      - Move to "In-Queue".
+      - [Web preview /DOWNLOAD FILES] button (Zipped or individual).
+      - [PRINT LABEL] button (Generates a slip with Order ID & User Name).
+   3. **Completion:**
+      - Action: [MARK READY TO PICKUP].
+      - **System Trigger:**
+        - If Delivery: Backend searches for Rider.
+        - If Pickup: User gets "Ready for Pickup" SMS.
+   4. **Handover:**
+      - **OTP Verification:** Rider/User shows 4-digit PIN.
+      - Operator enters PIN -> Order marked "Dispatched/Completed".
+
+D. INVENTORY & MENU MANAGEMENT(own shop)
+   - **Paper Stock:** Toggle availability of A4, A3, Glossy, Bond etc.
+   - **Services:** Enable/Disable Binding, Lamination, Spiral etc.
+
+E. FINANCIAL LEDGER (The "Cash Register")
+   - **Earnings Wallet:** Net income (after commission).
+   - **Payouts:** Request withdrawal to bank.
+   - **Transaction History:** Detailed log of every order and commission deduction.
+   - **Settlements:** View past payouts.
+
+F. SHOP SETTINGS
+   - **Printer Config:** List available printers.
+   - **Shop Timings:** Auto-offline schedule.
+   - **Staff Access:** Add sub-accounts for employees.
+
+4. TECHNICAL ARCHITECTURE
+-------------------------
+- **Frontend:** React + Vite (Separate Repo or Sub-folder).
+- **Styling:** Tailwind CSS (Dark Mode and light mode optimized for factory floors).
+- **Real-time:** Socket.io (Critical for "New Order" alerts).
+- **State Management:** React Context or Zustand.
+- **Audio:** Browser Audio API for notification sounds.
+
+5. UI/UX GUIDELINES
+-------------------
+- **Font:** 'Outfit' (Modern, Geometric).
+- **Colors:**
+  - Incoming: Rose-500 (Urgent).
+  - Printing: Amber-500 (Caution/Work).
+  - Ready: Emerald-500 (Success).
+- **Touch Targets:** Minimum 48px height for all buttons.
+
+6. IMPLEMENTATION ROADMAP
+-------------------------
+Phase 1: Setup & Auth
+  - Project Init.
+  - Login/Register/KYC Screens.
+
+Phase 2: The Live Desk (Socket.io)
+  - Connect to `operator_room`.
+  - Listen for `NEW_ORDER` events.
+  - Build the Kanban-style board.
+
+Phase 3: Order Actions
+  - API Integration for Status Updates.
+  - File Download handling.
+  - OTP Verification logic.
+
+Phase 4: Finance & Settings
+  - Wallet UI.
+  - Inventory Toggles.
+
+7. API REQUIREMENTS (Backend Exists)
+------------------------------------
+- `GET /api/orders/operator/active` (Live Feed).
+- `PUT /api/orders/:id/status` (Update Status).
+- `POST /api/orders/:id/verify-otp` (Handover).
+- `GET /api/users/me` (Wallet/Profile).
+- `PUT /api/products/stock` (Inventory).
+
+8. SECURITY
+-----------
+- **Token Expiry:** Long-lived tokens (12h) for uninterrupted shifts.
+- **File Security:** Signed URLs for file downloads (expire after 1h).

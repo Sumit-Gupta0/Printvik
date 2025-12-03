@@ -1,0 +1,356 @@
+[
+  {
+    "_id": "692341a54b445d484a787326",
+    "name": "Admin User",
+    "email": "admin@printvik.com",
+    "phone": "9876543210",
+    "role": "admin",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.284Z",
+    "updatedAt": "2025-11-26T16:11:45.921Z",
+    "__v": 1,
+    "walletBalance": 0,
+    "adminNotes": [],
+    "isCodBlocked": false,
+    "totalSpent": 0
+  },
+  {
+    "_id": "692341a54b445d484a787328",
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "phone": "9876543211",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a787336"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.215Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a787329",
+    "name": "Priya Singh",
+    "email": "priya@example.com",
+    "phone": "9876543212",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a78733a"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.222Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a78732a",
+    "name": "Amit Patel",
+    "email": "amit@example.com",
+    "phone": "9876543213",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a78733e"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.224Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a78732e",
+    "name": "Vijay Print Shop",
+    "email": "vijay@printshop.com",
+    "phone": "9876543214",
+    "role": "operator",
+    "addresses": [],
+    "operatorLocation": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "address": "Connaught Place, New Delhi"
+    },
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 15,
+    "currentLoad": 3,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.741Z",
+    "updatedAt": "2025-11-23T17:17:25.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a54b445d484a78732f",
+    "name": "Quick Print Center",
+    "email": "quick@printcenter.com",
+    "phone": "9876543215",
+    "role": "operator",
+    "addresses": [],
+    "operatorLocation": {
+      "lat": 28.5355,
+      "lng": 77.391,
+      "address": "Noida Sector 18"
+    },
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": false,
+    "createdAt": "2025-11-23T17:17:25.741Z",
+    "updatedAt": "2025-11-23T17:17:25.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a54b445d484a787332",
+    "name": "Ravi Kumar",
+    "email": "ravi@delivery.com",
+    "phone": "9876543216",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "vehicleType": "bike",
+    "currentLocation": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.991Z",
+    "updatedAt": "2025-11-23T17:17:26.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a54b445d484a787333",
+    "name": "Suresh Yadav",
+    "email": "suresh@delivery.com",
+    "phone": "9876543217",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "vehicleType": "car",
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.991Z",
+    "updatedAt": "2025-11-24T06:32:25.841Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854e0",
+    "name": "Amit Singh",
+    "email": "amit@delivery.com",
+    "phone": "+91-9876543212",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.704Z",
+    "updatedAt": "2025-11-26T13:02:51.819Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854e7",
+    "name": "Priya Verma",
+    "email": "priya@delivery.com",
+    "phone": "+91-9876543213",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": false,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.823Z",
+    "updatedAt": "2025-11-26T13:02:51.988Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854ea",
+    "name": "Vijay Prints",
+    "email": "vijay@prints.com",
+    "phone": "+91-9876540001",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.990Z",
+    "updatedAt": "2025-11-26T13:02:52.160Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7c26d458102ab854ed",
+    "name": "Print Hub",
+    "email": "printhub@shop.com",
+    "phone": "+91-9876540002",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.163Z",
+    "updatedAt": "2025-11-26T13:06:57.707Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7c26d458102ab854f0",
+    "name": "Rahul Sharma",
+    "email": "rahul@customer.com",
+    "phone": "+91-9876550001",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 9,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.474Z",
+    "updatedAt": "2025-11-26T13:31:07.911Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7c26d458102ab854f3",
+    "name": "Neha Gupta",
+    "email": "neha@customer.com",
+    "phone": "+91-9876550002",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.639Z",
+    "updatedAt": "2025-11-26T13:02:52.749Z",
+    "__v": 0
+  }
+]

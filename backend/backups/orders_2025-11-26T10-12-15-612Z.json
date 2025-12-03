@@ -1,0 +1,869 @@
+[
+  {
+    "_id": "692341a64b445d484a787348",
+    "orderNumber": "ORD17639182462521",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_0.pdf",
+        "url": "/uploads/demo_doc_0.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.226Z",
+        "_id": "692341a64b445d484a787349"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 11,
+      "binding": "spiral",
+      "serviceTypes": []
+    },
+    "instructions": "Please handle with care",
+    "totalAmount": 85,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "discount": {
+      "amount": 20,
+      "couponCode": "DEMO20"
+    },
+    "paymentMethod": "online",
+    "paymentStatus": "completed",
+    "orderStatus": "delivered",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787332",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "delivered",
+    "estimatedDelivery": "2025-11-25T17:17:26.226Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-08T17:17:26.226Z",
+    "updatedAt": "2025-11-23T17:17:26.252Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a78734c",
+    "orderNumber": "ORD17639182462582",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "document_1.pdf",
+        "url": "/uploads/demo_doc_1.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.254Z",
+        "_id": "692341a64b445d484a78734d"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 7,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 115,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "processing",
+    "assignedOperator": null,
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543211",
+      "addressLine1": "1, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110000"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.254Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 115,
+    "codCollected": false,
+    "createdAt": "2025-11-09T17:17:26.254Z",
+    "updatedAt": "2025-11-23T17:17:26.258Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787350",
+    "orderNumber": "ORD17639182462613",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_2.pdf",
+        "url": "/uploads/demo_doc_2.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.259Z",
+        "_id": "692341a64b445d484a787351"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 5,
+      "pages": 23,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 125,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "pending",
+    "orderStatus": "processing",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.259Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-10T17:17:26.259Z",
+    "updatedAt": "2025-11-23T17:17:26.261Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787354",
+    "orderNumber": "ORD17639182462624",
+    "userId": "692341a54b445d484a78732a",
+    "documents": [
+      {
+        "filename": "document_3.pdf",
+        "url": "/uploads/demo_doc_3.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.261Z",
+        "_id": "692341a64b445d484a787355"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 2,
+      "pages": 13,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "instructions": "Please handle with care",
+    "totalAmount": 135,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "out_for_delivery",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787333",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543213",
+      "addressLine1": "3, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110002"
+    },
+    "deliveryStatus": "assigned",
+    "estimatedDelivery": "2025-11-25T17:17:26.261Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 135,
+    "codCollected": false,
+    "createdAt": "2025-11-11T17:17:26.261Z",
+    "updatedAt": "2025-11-23T17:17:26.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787358",
+    "orderNumber": "ORD17639182462645",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_4.pdf",
+        "url": "/uploads/demo_doc_4.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.263Z",
+        "_id": "692341a64b445d484a787359"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 2,
+      "pages": 22,
+      "binding": "spiral",
+      "serviceTypes": []
+    },
+    "totalAmount": 145,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "pending",
+    "orderStatus": "processing",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.263Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-12T17:17:26.263Z",
+    "updatedAt": "2025-11-23T17:17:26.264Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a78735c",
+    "orderNumber": "ORD17639182462666",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "document_5.pdf",
+        "url": "/uploads/demo_doc_5.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.265Z",
+        "_id": "692341a64b445d484a78735d"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 7,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 135,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "discount": {
+      "amount": 20,
+      "couponCode": "DEMO20"
+    },
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "pending",
+    "assignedOperator": null,
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543211",
+      "addressLine1": "1, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110000"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.265Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 155,
+    "codCollected": false,
+    "createdAt": "2025-11-13T17:17:26.265Z",
+    "updatedAt": "2025-11-23T17:17:26.266Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787360",
+    "orderNumber": "ORD17639182462687",
+    "userId": "692341a54b445d484a78732a",
+    "documents": [
+      {
+        "filename": "document_6.pdf",
+        "url": "/uploads/demo_doc_6.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.267Z",
+        "_id": "692341a64b445d484a787361"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 1,
+      "pages": 21,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "instructions": "Please handle with care",
+    "totalAmount": 165,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "pending",
+    "orderStatus": "out_for_delivery",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787332",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543213",
+      "addressLine1": "3, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110002"
+    },
+    "deliveryStatus": "assigned",
+    "estimatedDelivery": "2025-11-25T17:17:26.267Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-14T17:17:26.267Z",
+    "updatedAt": "2025-11-23T17:17:26.268Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787364",
+    "orderNumber": "ORD17639182462708",
+    "userId": "692341a54b445d484a78732a",
+    "documents": [
+      {
+        "filename": "document_7.pdf",
+        "url": "/uploads/demo_doc_7.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.269Z",
+        "_id": "692341a64b445d484a787365"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 19,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 175,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "failed",
+    "orderStatus": "cancelled",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543213",
+      "addressLine1": "3, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110002"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.269Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 175,
+    "codCollected": false,
+    "createdAt": "2025-11-15T17:17:26.269Z",
+    "updatedAt": "2025-11-23T17:17:26.270Z",
+    "__v": 0,
+    "priority": "normal"
+  },
+  {
+    "_id": "692341a64b445d484a787368",
+    "orderNumber": "ORD17639182462739",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "document_8.pdf",
+        "url": "/uploads/demo_doc_8.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.271Z",
+        "_id": "692341a64b445d484a787369"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 23,
+      "binding": "spiral",
+      "serviceTypes": []
+    },
+    "totalAmount": 185,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "pending",
+    "orderStatus": "processing",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543211",
+      "addressLine1": "1, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110000"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.271Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-16T17:17:26.271Z",
+    "updatedAt": "2025-11-23T17:17:26.273Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a78736c",
+    "orderNumber": "ORD176391824627710",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_9.pdf",
+        "url": "/uploads/demo_doc_9.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.275Z",
+        "_id": "692341a64b445d484a78736d"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 4,
+      "pages": 17,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "instructions": "Please handle with care",
+    "totalAmount": 195,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "pending",
+    "assignedOperator": null,
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.275Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 195,
+    "codCollected": false,
+    "createdAt": "2025-11-17T17:17:26.275Z",
+    "updatedAt": "2025-11-23T17:17:26.277Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787370",
+    "orderNumber": "ORD176391824627911",
+    "userId": "692341a54b445d484a78732a",
+    "documents": [
+      {
+        "filename": "document_10.pdf",
+        "url": "/uploads/demo_doc_10.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.278Z",
+        "_id": "692341a64b445d484a787371"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 1,
+      "pages": 24,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 185,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "discount": {
+      "amount": 20,
+      "couponCode": "DEMO20"
+    },
+    "paymentMethod": "online",
+    "paymentStatus": "completed",
+    "orderStatus": "delivered",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787332",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543213",
+      "addressLine1": "3, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110002"
+    },
+    "deliveryStatus": "delivered",
+    "estimatedDelivery": "2025-11-25T17:17:26.278Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-18T17:17:26.278Z",
+    "updatedAt": "2025-11-23T17:17:26.279Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787374",
+    "orderNumber": "ORD176391824628112",
+    "userId": "692341a54b445d484a78732a",
+    "documents": [
+      {
+        "filename": "document_11.pdf",
+        "url": "/uploads/demo_doc_11.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.280Z",
+        "_id": "692341a64b445d484a787375"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 2,
+      "pages": 12,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 215,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "completed",
+    "orderStatus": "delivered",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787332",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543213",
+      "addressLine1": "3, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110002"
+    },
+    "deliveryStatus": "delivered",
+    "estimatedDelivery": "2025-11-25T17:17:26.280Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 215,
+    "codCollected": true,
+    "createdAt": "2025-11-19T17:17:26.280Z",
+    "updatedAt": "2025-11-23T17:17:26.281Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787378",
+    "orderNumber": "ORD176391824628313",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_12.pdf",
+        "url": "/uploads/demo_doc_12.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.281Z",
+        "_id": "692341a64b445d484a787379"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 4,
+      "pages": 21,
+      "binding": "spiral",
+      "serviceTypes": []
+    },
+    "instructions": "Please handle with care",
+    "totalAmount": 225,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "pending",
+    "orderStatus": "processing",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.281Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-20T17:17:26.281Z",
+    "updatedAt": "2025-11-23T17:17:26.283Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a78737c",
+    "orderNumber": "ORD176391824628514",
+    "userId": "692341a54b445d484a787329",
+    "documents": [
+      {
+        "filename": "document_13.pdf",
+        "url": "/uploads/demo_doc_13.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.283Z",
+        "_id": "692341a64b445d484a78737d"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 1,
+      "pages": 8,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 235,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "cancelled",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": null,
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543212",
+      "addressLine1": "2, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "deliveryStatus": "pending",
+    "estimatedDelivery": "2025-11-25T17:17:26.283Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 235,
+    "codCollected": false,
+    "createdAt": "2025-11-21T17:17:26.283Z",
+    "updatedAt": "2025-11-23T17:17:26.285Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a64b445d484a787380",
+    "orderNumber": "ORD176391824628615",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "document_14.pdf",
+        "url": "/uploads/demo_doc_14.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-23T17:17:26.285Z",
+        "_id": "692341a64b445d484a787381"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 4,
+      "pages": 17,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "totalAmount": 245,
+    "platformFee": 10,
+    "deliveryCharge": 30,
+    "paymentMethod": "online",
+    "paymentStatus": "completed",
+    "orderStatus": "out_for_delivery",
+    "assignedOperator": "692341a54b445d484a78732e",
+    "assignedDeliveryPerson": "692341a54b445d484a787333",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Home",
+      "phone": "9876543211",
+      "addressLine1": "1, Sample Street",
+      "addressLine2": "Near Market",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110000"
+    },
+    "deliveryStatus": "assigned",
+    "estimatedDelivery": "2025-11-25T17:17:26.285Z",
+    "qualityCheckPhotos": [],
+    "codAmount": 0,
+    "codCollected": false,
+    "createdAt": "2025-11-22T17:17:26.285Z",
+    "updatedAt": "2025-11-23T17:17:26.286Z",
+    "__v": 0
+  },
+  {
+    "_id": "692419180d1caf42dc1e2708",
+    "orderNumber": "ORD1732445400001",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "assignment.pdf",
+        "url": "/uploads/sample-doc.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-24T08:36:40.578Z"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 5,
+      "pages": 10,
+      "binding": "spiral",
+      "serviceTypes": []
+    },
+    "instructions": "Please bind carefully",
+    "totalAmount": 250,
+    "platformFee": 10,
+    "deliveryCharge": 40,
+    "paymentMethod": "online",
+    "paymentStatus": "refunded",
+    "orderStatus": "cancelled",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Rahul Sharma",
+      "phone": "9876543210",
+      "addressLine1": "123 MG Road",
+      "addressLine2": "Near City Mall",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "location": {
+        "lat": 19.076,
+        "lng": 72.8777
+      }
+    },
+    "deliveryStatus": "assigned",
+    "createdAt": "2025-11-24T08:36:40.578Z",
+    "updatedAt": "2025-11-24T08:36:40.578Z",
+    "assignedDeliveryPerson": "692341a54b445d484a787332",
+    "priority": "normal"
+  },
+  {
+    "_id": "692419180d1caf42dc1e2709",
+    "orderNumber": "ORD1732445400002",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "project-report.pdf",
+        "url": "/uploads/sample-doc2.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-24T08:36:40.578Z"
+      }
+    ],
+    "specifications": {
+      "colorType": "bw",
+      "paperSize": "A4",
+      "copies": 3,
+      "pages": 25,
+      "binding": "staple",
+      "serviceTypes": []
+    },
+    "instructions": "Urgent delivery needed",
+    "totalAmount": 180,
+    "platformFee": 10,
+    "deliveryCharge": 40,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending",
+    "orderStatus": "out_for_delivery",
+    "deliveryOption": "delivery",
+    "deliveryAddress": {
+      "name": "Rahul Sharma",
+      "phone": "9123456789",
+      "addressLine1": "456 Park Street",
+      "addressLine2": "Opposite Metro Station",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "location": {
+        "lat": 28.7041,
+        "lng": 77.1025
+      }
+    },
+    "deliveryStatus": "assigned",
+    "createdAt": "2025-11-24T08:36:40.578Z",
+    "updatedAt": "2025-11-24T08:36:40.578Z",
+    "priority": "normal",
+    "assignedDeliveryPerson": "692341a54b445d484a787333"
+  },
+  {
+    "_id": "692419180d1caf42dc1e270a",
+    "orderNumber": "ORD1732445400003",
+    "userId": "692341a54b445d484a787328",
+    "documents": [
+      {
+        "filename": "notes.pdf",
+        "url": "/uploads/sample-doc3.pdf",
+        "fileType": "application/pdf",
+        "uploadedAt": "2025-11-24T08:36:40.578Z",
+        "_id": "69241c8a13dbf26ffd968f2b"
+      }
+    ],
+    "specifications": {
+      "colorType": "color",
+      "paperSize": "A4",
+      "copies": 2,
+      "pages": 5,
+      "binding": "none",
+      "serviceTypes": []
+    },
+    "instructions": "Will pick up myself",
+    "totalAmount": 100,
+    "platformFee": 5,
+    "deliveryCharge": 0,
+    "paymentMethod": "online",
+    "paymentStatus": "completed",
+    "orderStatus": "pending",
+    "deliveryOption": "pickup",
+    "deliveryStatus": "delivered",
+    "createdAt": "2025-11-24T08:36:40.578Z",
+    "updatedAt": "2025-11-24T08:36:40.578Z",
+    "qualityCheckPhotos": [],
+    "priority": "normal"
+  }
+]

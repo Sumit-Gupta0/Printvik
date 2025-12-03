@@ -1,0 +1,413 @@
+/**
+ * Admin Dashboard 2.0
+ * Zones: Live Pulse, Order Funnel, Action Center, Logistics Map
+ */
+
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import {
+    DollarSign,
+    ShoppingBag,
+    Activity,
+    Clock,
+    CheckCircle,
+    Truck,
+    AlertCircle,
+    MapPin,
+    Printer,
+    AlertTriangle,
+    Plus,
+    Bell,
+    ChevronDown
+} from 'lucide-react';
+import {
+    LineChart, Line, ResponsiveContainer, Tooltip, XAxis
+} from 'recharts';
+import { useNavigate } from 'react-router-dom';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+
+// Fix Leaflet marker icon issue
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41]
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
+function Dashboard() {
+    const navigate = useNavigate();
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [selectedStatus, setSelectedStatus] = useState(null); // Click-to-Filter State
+    const [filteredOrders, setFilteredOrders] = useState([]);
+
+    useEffect(() => {
+        fetchStats();
+        // Poll every 30 seconds for "Live" feel
+        const interval = setInterval(fetchStats, 30000);
+        return () => clearInterval(interval);
+    }, []);
+
+    // Fetch filtered orders when status changes
+    useEffect(() => {
+        if (selectedStatus) {
+            fetchFilteredOrders(selectedStatus);
+        } else {
+            setFilteredOrders([]);
+        }
+    }, [selectedStatus]);
+
+    const fetchStats = async () => {
+        try {
+            const token = localStorage.getItem('token');
+            const response = await axios.get(`${API_URL}/admin/stats/dashboard`, {
+                headers: { Authorization: `Bearer ${token}` }
+            });
+            setData(response.data.data);
+        } catch (error) {
+            console.error('Error fetching dashboard stats:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const fetchFilteredOrders = async (status) => {
+        try {
+            const token = localStorage.getItem('token');
+            // Map pipeline status to API status
+            let apiStatus = status;
+            if (status === 'printing') apiStatus = 'processing,printing';
+            if (status === 'out_for_delivery') apiStatus = 'out-for-delivery,picked-up,in-transit';
+
+            const response = await axios.get(`${API_URL}/admin/orders?status=${apiStatus}&limit=5`, {
+                headers: { Authorization: `Bearer ${token}` }
+            });
+            setFilteredOrders(response.data.data || []);
+        } catch (error) {
+            console.error('Error fetching filtered orders:', error);
+        }
+    };
+
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-screen bg-slate-50">
+                <div className="spinner border-indigo-600"></div>
+            </div>
+        );
+    }
+
+    const { livePulse, pipeline, actionItems, riders } = data || {};
+
+    return (
+        <div className="space-y-8 animate-fade-in pb-20">
+            {/* Header with Quick Actions */}
+            <div className="flex justify-between items-center">
+                <div>
+                    <h1 className="text-2xl font-bold text-slate-800 font-outfit">Dashboard</h1>
+                    <p className="text-slate-500 text-sm">Real-time operational overview</p>
+                </div>
+                <div className="flex gap-3">
+                    <button className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-lg hover:bg-slate-50 transition-colors shadow-sm font-medium text-sm">
+                        <Bell size={16} />
+                        Broadcast
+                    </button>
+                    <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors shadow-md font-medium text-sm">
+                        <Plus size={16} />
+                        Manual Order
+                    </button>
+                </div>
+            </div>
+
+            {/* ZONE 1: Live Pulse (Top Stats) */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {/* Today's GMV */}
+                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all">
+                    <div className="flex justify-between items-start mb-4">
+                        <div className="p-3 bg-indigo-50 rounded-xl">
+                            <DollarSign className="w-6 h-6 text-indigo-600" />
+                        </div>
+                        <span className="flex items-center text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">
+                            +5% vs Yest
+                        </span>
+                    </div>
+                    <p className="text-slate-500 text-sm font-medium">Today's GMV</p>
+                    <h3 className="text-2xl font-bold text-slate-800 mt-1">₹{livePulse?.todayGMV?.toLocaleString() || 0}</h3>
+                    <p className="text-xs text-slate-400 mt-2">{livePulse?.todayOrders || 0} Orders Today</p>
+                </div>
+
+                {/* Net Earnings */}
+                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all">
+                    <div className="flex justify-between items-start mb-4">
+                        <div className="p-3 bg-emerald-50 rounded-xl">
+                            <ShoppingBag className="w-6 h-6 text-emerald-600" />
+                        </div>
+                    </div>
+                    <p className="text-slate-500 text-sm font-medium">Net Earnings (10%)</p>
+                    <h3 className="text-2xl font-bold text-slate-800 mt-1">₹{livePulse?.netEarnings?.toLocaleString() || 0}</h3>
+                    <p className="text-xs text-slate-400 mt-2">Pure Profit</p>
+                </div>
+
+                {/* Active Orders */}
+                <div
+                    onClick={() => navigate('/orders')}
+                    className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all cursor-pointer group ring-1 ring-transparent hover:ring-indigo-100"
+                >
+                    <div className="flex justify-between items-start mb-4">
+                        <div className="p-3 bg-amber-50 rounded-xl">
+                            <Activity className="w-6 h-6 text-amber-600" />
+                        </div>
+                        <span className="flex items-center text-xs font-medium text-amber-600 bg-amber-50 px-2 py-1 rounded-full animate-pulse">
+                            Live
+                        </span>
+                    </div>
+                    <p className="text-slate-500 text-sm font-medium group-hover:text-indigo-600 transition-colors">Active Orders</p>
+                    <h3 className="text-2xl font-bold text-slate-800 mt-1">{livePulse?.activeOrders || 0}</h3>
+                    <p className="text-xs text-slate-400 mt-2">In Pipeline</p>
+                </div>
+
+                {/* Pending Payouts */}
+                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all">
+                    <div className="flex justify-between items-start mb-4">
+                        <div className="p-3 bg-rose-50 rounded-xl">
+                            <AlertCircle className="w-6 h-6 text-rose-600" />
+                        </div>
+                    </div>
+                    <p className="text-slate-500 text-sm font-medium">Pending Payouts</p>
+                    <h3 className="text-2xl font-bold text-slate-800 mt-1">₹{livePulse?.pendingPayouts?.toLocaleString() || 0}</h3>
+                    <p className="text-xs text-slate-400 mt-2">Liability</p>
+                </div>
+            </div>
+
+            {/* ZONE 2: Order Funnel (Pipeline) - Click to Filter */}
+            <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-6 font-outfit">Order Manager</h3>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    {/* New Pending */}
+                    <div
+                        onClick={() => setSelectedStatus(selectedStatus === 'pending' ? null : 'pending')}
+                        className={`p-4 rounded-xl border cursor-pointer transition-all ${selectedStatus === 'pending' ? 'ring-2 ring-rose-500 bg-rose-50' : 'hover:bg-slate-50'} ${pipeline?.pending > 0 ? 'bg-rose-50 border-rose-100' : 'bg-slate-50 border-slate-100'} relative overflow-hidden`}
+                    >
+                        {pipeline?.pending > 0 && (
+                            <div className="absolute top-0 right-0 w-2 h-2 bg-rose-500 rounded-full m-2 animate-ping" />
+                        )}
+                        <div className="flex items-center gap-3 mb-2">
+                            <Clock size={18} className={pipeline?.pending > 0 ? "text-rose-600 animate-pulse" : "text-slate-400"} />
+                            <span className={`text-sm font-medium ${pipeline?.pending > 0 ? "text-rose-700" : "text-slate-600"}`}>New Pending</span>
+                        </div>
+                        <div className={`text-2xl font-bold ${pipeline?.pending > 0 ? "text-rose-700" : "text-slate-800"}`}>{pipeline?.pending || 0}</div>
+                        <div className="text-xs text-slate-400 mt-1">Needs Acceptance</div>
+                    </div>
+
+                    {/* Printing */}
+                    <div
+                        onClick={() => setSelectedStatus(selectedStatus === 'printing' ? null : 'printing')}
+                        className={`p-4 rounded-xl border cursor-pointer transition-all ${selectedStatus === 'printing' ? 'ring-2 ring-indigo-500 bg-indigo-50' : 'hover:bg-slate-50'} bg-indigo-50 border-indigo-100`}
+                    >
+                        <div className="flex items-center gap-3 mb-2">
+                            <Printer size={18} className="text-indigo-600" />
+                            <span className="text-sm font-medium text-slate-600">Printing Now</span>
+                        </div>
+                        <div className="text-2xl font-bold text-slate-800">{pipeline?.printing || 0}</div>
+                        <div className="text-xs text-slate-400 mt-1">In Progress</div>
+                    </div>
+
+                    {/* Ready */}
+                    <div
+                        onClick={() => setSelectedStatus(selectedStatus === 'ready' ? null : 'ready')}
+                        className={`p-4 rounded-xl border cursor-pointer transition-all ${selectedStatus === 'ready' ? 'ring-2 ring-emerald-500 bg-emerald-50' : 'hover:bg-slate-50'} bg-emerald-50 border-emerald-100`}
+                    >
+                        <div className="flex items-center gap-3 mb-2">
+                            <CheckCircle size={18} className="text-emerald-600" />
+                            <span className="text-sm font-medium text-slate-600">Ready for Pickup</span>
+                        </div>
+                        <div className="text-2xl font-bold text-slate-800">{pipeline?.ready || 0}</div>
+                        <div className="text-xs text-slate-400 mt-1">Waiting for Rider</div>
+                    </div>
+
+                    {/* Out for Delivery */}
+                    <div
+                        onClick={() => setSelectedStatus(selectedStatus === 'out_for_delivery' ? null : 'out_for_delivery')}
+                        className={`p-4 rounded-xl border cursor-pointer transition-all ${selectedStatus === 'out_for_delivery' ? 'ring-2 ring-amber-500 bg-amber-50' : 'hover:bg-slate-50'} bg-amber-50 border-amber-100`}
+                    >
+                        <div className="flex items-center gap-3 mb-2">
+                            <Truck size={18} className="text-amber-600" />
+                            <span className="text-sm font-medium text-slate-600">Out for Delivery</span>
+                        </div>
+                        <div className="text-2xl font-bold text-slate-800">{pipeline?.out_for_delivery || 0}</div>
+                        <div className="text-xs text-slate-400 mt-1">On the way</div>
+                    </div>
+                </div>
+
+                {/* Filtered Order List */}
+                {selectedStatus && (
+                    <div className="mt-6 animate-fade-in">
+                        <h4 className="text-sm font-semibold text-slate-700 mb-3 flex items-center gap-2">
+                            <ChevronDown size={16} />
+                            {selectedStatus === 'pending' && 'Pending Orders'}
+                            {selectedStatus === 'printing' && 'Printing Orders'}
+                            {selectedStatus === 'ready' && 'Ready Orders'}
+                            {selectedStatus === 'out_for_delivery' && 'Delivery Orders'}
+                        </h4>
+                        <div className="bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                            {filteredOrders.length > 0 ? (
+                                <table className="w-full text-sm text-left">
+                                    <thead className="bg-slate-100 text-slate-500 font-medium">
+                                        <tr>
+                                            <th className="px-4 py-3">Order ID</th>
+                                            <th className="px-4 py-3">Customer</th>
+                                            <th className="px-4 py-3">Amount</th>
+                                            <th className="px-4 py-3">Status</th>
+                                            <th className="px-4 py-3">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-slate-200">
+                                        {filteredOrders.map(order => (
+                                            <tr key={order._id} className="hover:bg-white transition-colors">
+                                                <td className="px-4 py-3 font-medium text-slate-700">{order.orderNumber}</td>
+                                                <td className="px-4 py-3 text-slate-600">{order.userId?.name || 'Guest'}</td>
+                                                <td className="px-4 py-3 text-slate-600">₹{order.totalAmount}</td>
+                                                <td className="px-4 py-3">
+                                                    <span className="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-600 uppercase">
+                                                        {order.orderStatus}
+                                                    </span>
+                                                </td>
+                                                <td className="px-4 py-3">
+                                                    <button
+                                                        onClick={() => navigate(`/orders`)} // Ideally open modal directly
+                                                        className="text-indigo-600 hover:text-indigo-800 font-medium text-xs"
+                                                    >
+                                                        View
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            ) : (
+                                <div className="p-8 text-center text-slate-400">No orders found in this stage.</div>
+                            )}
+                        </div>
+                    </div>
+                )}
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                {/* ZONE 3: Action Center (Enhanced) */}
+                <div className="lg:col-span-1 bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+                    <div className="flex items-center gap-2 mb-6">
+                        <AlertTriangle className="text-amber-500" size={20} />
+                        <h3 className="text-lg font-bold text-slate-800 font-outfit">Requires Attention</h3>
+                    </div>
+
+                    <div className="space-y-4">
+                        {/* Pending Shops Alert */}
+                        {actionItems?.kycPending > 0 ? (
+                            <div className="p-4 bg-slate-50 rounded-xl border border-slate-100 flex justify-between items-center animate-pulse">
+                                <div>
+                                    <p className="text-sm font-medium text-slate-700">Review Shop Docs</p>
+                                    <p className="text-xs text-slate-500">{actionItems.kycPending} Shops Pending Approval</p>
+                                </div>
+                                <button className="px-3 py-1.5 bg-indigo-600 text-white text-xs font-medium rounded-lg hover:bg-indigo-700">
+                                    Verify
+                                </button>
+                            </div>
+                        ) : null}
+
+                        {/* Delayed Orders Alert */}
+                        {actionItems?.delayedOrders > 0 ? (
+                            <div className="p-4 bg-rose-50 rounded-xl border border-rose-100 flex justify-between items-center animate-pulse">
+                                <div>
+                                    <p className="text-sm font-medium text-rose-700">Order Delayed</p>
+                                    <p className="text-xs text-rose-500">{actionItems.delayedOrders} Orders &gt; 15 mins pending</p>
+                                </div>
+                                <button className="px-3 py-1.5 bg-white text-rose-600 border border-rose-200 text-xs font-medium rounded-lg hover:bg-rose-50">
+                                    Check
+                                </button>
+                            </div>
+                        ) : null}
+
+                        {/* Fallback if no actions */}
+                        {(!actionItems?.kycPending && !actionItems?.delayedOrders && !actionItems?.riderSOS) && (
+                            <div className="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
+                                <CheckCircle className="w-8 h-8 text-emerald-500 mx-auto mb-2" />
+                                <p className="text-sm font-medium text-emerald-700">All Clear!</p>
+                                <p className="text-xs text-emerald-500">No urgent actions required.</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+
+                {/* ZONE 4: Logistics Map (Real Leaflet Map) */}
+                <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+                    <div className="flex justify-between items-center mb-6">
+                        <h3 className="text-lg font-bold text-slate-800 font-outfit">Logistics Overview</h3>
+                        <div className="flex items-center gap-2 text-xs">
+                            <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-emerald-500"></div> Free</span>
+                            <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-rose-500"></div> Busy</span>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-64">
+                        {/* Operational Graph (Mini) */}
+                        <div className="h-full">
+                            <ResponsiveContainer width="100%" height="100%">
+                                <LineChart data={[
+                                    { time: '9am', orders: 5 },
+                                    { time: '11am', orders: 12 },
+                                    { time: '1pm', orders: 25 },
+                                    { time: '3pm', orders: 18 },
+                                    { time: '5pm', orders: 30 },
+                                ]}>
+                                    <XAxis dataKey="time" axisLine={false} tickLine={false} tick={{ fontSize: 10 }} />
+                                    <Tooltip />
+                                    <Line type="monotone" dataKey="orders" stroke="#6366F1" strokeWidth={2} dot={false} />
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+
+                        {/* Real Map */}
+                        <div className="bg-slate-100 rounded-xl relative overflow-hidden h-full z-0">
+                            <MapContainer
+                                center={[28.6139, 77.2090]} // Default: Delhi
+                                zoom={11}
+                                style={{ height: '100%', width: '100%' }}
+                                zoomControl={false}
+                            >
+                                <TileLayer
+                                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                                />
+                                {riders?.map(rider => (
+                                    <Marker
+                                        key={rider.id}
+                                        position={[rider.lat, rider.lng]}
+                                    >
+                                        <Popup>
+                                            <div className="text-xs font-medium">
+                                                {rider.name}<br />
+                                                <span className={rider.status === 'free' ? 'text-emerald-600' : 'text-rose-600'}>
+                                                    {rider.status.toUpperCase()}
+                                                </span>
+                                            </div>
+                                        </Popup>
+                                    </Marker>
+                                ))}
+                            </MapContainer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Dashboard;

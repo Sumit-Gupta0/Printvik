@@ -1,0 +1,1 @@
+{"success":true,"message":"Login successful","data":{"user":{"id":"692341a54b445d484a787326","name":"Admin User","email":"admin@printvik.com","phone":"9876543210","role":"admin","isApproved":true},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjM0MWE1NGI0NDVkNDg0YTc4NzMyNiIsImlhdCI6MTc2NDE5MzIyMSwiZXhwIjoxNzY2Nzg1MjIxfQ.veUj21Kk60IrhwE8NoiemeVf2Ftv0HaxM-7Y7Oo4C7g"}}
