@@ -1,39 +1,52 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const User = require('./models/User');
-require('dotenv').config();
 
-async function resetPassword() {
+const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/printvik');
-        console.log('✅ Connected to MongoDB');
-
-        const email = 'test-e2e-admin@example.com';
-        const password = 'password123';
-
-        let user = await User.findOne({ email });
-
-        if (!user) {
-            console.log(`⚠️ User not found. Creating new admin user...`);
-            user = new User({
-                name: 'E2E Admin',
-                email: email,
-                phone: '+919999999903',
-                role: 'admin'
-            });
-        }
-
-        // Explicitly set password to trigger pre-save hook
-        user.password = password;
-        await user.save();
-
-        console.log(`🎉 Password for ${email} has been reset to: ${password}`);
-        console.log(`🔑 Role: ${user.role}`);
-
-        process.exit(0);
-    } catch (error) {
-        console.error('❌ Error:', error);
+        await mongoose.connect(process.env.MONGODB_URI);
+        console.log('MongoDB Connected');
+    } catch (err) {
+        console.error('Database connection error:', err);
         process.exit(1);
     }
-}
+};
 
-resetPassword();
+const resetAdminPassword = async () => {
+    await connectDB();
+
+    try {
+        const admins = await User.find({ role: 'admin' });
+
+        if (admins.length === 0) {
+            console.log('No admin users found.');
+            process.exit(0);
+        }
+
+        console.log(`Found ${admins.length} admin(s).`);
+
+        const admin = admins[0];
+        console.log(`Resetting password for admin: ${admin.email}`);
+
+        // Set the new password
+        // The pre-save hook in User.js will handle hashing and encryption
+        admin.password = 'admin123';
+
+        await admin.save();
+
+        console.log('---------------------------------------------------');
+        console.log('✅ Admin password reset successfully!');
+        console.log('---------------------------------------------------');
+        console.log(`Email:    ${admin.email}`);
+        console.log(`Password: admin123`);
+        console.log('---------------------------------------------------');
+
+    } catch (error) {
+        console.error('Error resetting password:', error);
+    } finally {
+        await mongoose.disconnect();
+        process.exit(0);
+    }
+};
+
+resetAdminPassword();

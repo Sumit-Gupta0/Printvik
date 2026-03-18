@@ -1,0 +1,741 @@
+[
+  {
+    "_id": "692341a54b445d484a787326",
+    "name": "Admin User",
+    "email": "admin@printvik.com",
+    "phone": "9876543210",
+    "role": "super_admin",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.284Z",
+    "updatedAt": "2025-11-30T18:42:12.244Z",
+    "__v": 3,
+    "walletBalance": 1001,
+    "adminNotes": [
+      {
+        "text": "Wallet credit: ₹1000. Reason: reaason",
+        "author": "Admin User",
+        "date": "2025-11-30T09:29:05.302Z",
+        "_id": "692c0e61e387f2121b7ed0ee"
+      },
+      {
+        "text": "Wallet credit: ₹1. Reason: zero",
+        "author": "Admin User",
+        "date": "2025-11-30T09:29:38.618Z",
+        "_id": "692c0e82e387f2121b7ed0f4"
+      }
+    ],
+    "isCodBlocked": false,
+    "totalSpent": 0,
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isBlocked": false,
+      "isOnline": false
+    },
+    "operatorRateOverrides": {}
+  },
+  {
+    "_id": "692341a54b445d484a787328",
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "phone": "9876543211",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a787336"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.215Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a787329",
+    "name": "Priya Singh",
+    "email": "priya@example.com",
+    "phone": "9876543212",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a78733a"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.222Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a78732a",
+    "name": "Amit Patel",
+    "email": "amit@example.com",
+    "phone": "9876543213",
+    "role": "user",
+    "addresses": [
+      "692341a64b445d484a78733e"
+    ],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.406Z",
+    "updatedAt": "2025-11-23T17:17:26.224Z",
+    "__v": 1
+  },
+  {
+    "_id": "692341a54b445d484a78732e",
+    "name": "Vijay Print Shop",
+    "email": "vijay@printshop.com",
+    "phone": "9876543214",
+    "role": "operator",
+    "addresses": [],
+    "operatorLocation": {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "address": "Connaught Place, New Delhi"
+    },
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 15,
+    "currentLoad": 3,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": false,
+    "createdAt": "2025-11-23T17:17:25.741Z",
+    "updatedAt": "2025-11-30T14:26:31.480Z",
+    "__v": 1,
+    "adminNotes": [],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false,
+      "rejectionReason": "no id found"
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "operatorRateOverrides": {
+      "a4BWSingle": {
+        "base": 1.2,
+        "tier1": 1.1,
+        "tier2": 1,
+        "tier3": 0.9
+      },
+      "a4ColorSingle": {
+        "base": 6,
+        "tier1": 5.5,
+        "tier2": 5,
+        "tier3": 4.5
+      },
+      "a3BWSingle": {
+        "tier3": 1.5
+      }
+    }
+  },
+  {
+    "_id": "692341a54b445d484a78732f",
+    "name": "Quick Print Center",
+    "email": "quick@printcenter.com",
+    "phone": "9876543215",
+    "role": "operator",
+    "addresses": [],
+    "operatorLocation": {
+      "lat": 28.5355,
+      "lng": 77.391,
+      "address": "Noida Sector 18"
+    },
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": false,
+    "createdAt": "2025-11-23T17:17:25.741Z",
+    "updatedAt": "2025-11-29T13:27:12.961Z",
+    "__v": 1,
+    "adminNotes": [],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "bankDetails": {
+        "accountName": "",
+        "accountNumber": "",
+        "ifsc": "",
+        "bankName": ""
+      },
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isOnline": false
+    },
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "shopDetails": {
+      "shopName": "Quick Print Center",
+      "ownerName": "Quick Print Center",
+      "address": "",
+      "openingTime": "00:00",
+      "closingTime": "12:00"
+    }
+  },
+  {
+    "_id": "692341a54b445d484a787332",
+    "name": "Ravi Kumar",
+    "email": "ravi@delivery.com",
+    "phone": "9876543216",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "vehicleType": "bike",
+    "currentLocation": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.991Z",
+    "updatedAt": "2025-11-23T17:17:26.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "692341a54b445d484a787333",
+    "name": "Suresh Yadav",
+    "email": "suresh@delivery.com",
+    "phone": "9876543217",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "vehicleType": "car",
+    "isAvailable": true,
+    "referralRewards": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-23T17:17:25.991Z",
+    "updatedAt": "2025-11-24T06:32:25.841Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854e0",
+    "name": "Amit Singh",
+    "email": "amit@delivery.com",
+    "phone": "+91-9876543212",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.704Z",
+    "updatedAt": "2025-11-26T13:02:51.819Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854e7",
+    "name": "Priya Verma",
+    "email": "priya@delivery.com",
+    "phone": "+91-9876543213",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.823Z",
+    "updatedAt": "2025-11-30T07:21:03.096Z",
+    "__v": 1,
+    "adminNotes": [],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isBlocked": false,
+      "isOnline": false
+    },
+    "totalSpent": 0
+  },
+  {
+    "_id": "6926fa7b26d458102ab854ea",
+    "name": "Vijay Prints",
+    "email": "vijay@prints.com",
+    "phone": "+91-9876540001",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:51.990Z",
+    "updatedAt": "2025-11-29T13:27:11.025Z",
+    "__v": 1,
+    "adminNotes": [],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isOnline": false
+    },
+    "totalSpent": 0
+  },
+  {
+    "_id": "6926fa7c26d458102ab854ed",
+    "name": "Print Hub",
+    "email": "printhub@shop.com",
+    "phone": "+91-9876540002",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.163Z",
+    "updatedAt": "2025-11-30T14:29:53.818Z",
+    "__v": 1,
+    "adminNotes": [],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "totalSpent": 0,
+    "operatorRateOverrides": {}
+  },
+  {
+    "_id": "6926fa7c26d458102ab854f0",
+    "name": "Rahul Sharma",
+    "email": "rahul@customer.com",
+    "phone": "+91-9876550001",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 9,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.474Z",
+    "updatedAt": "2025-11-26T13:31:07.911Z",
+    "__v": 0
+  },
+  {
+    "_id": "6926fa7c26d458102ab854f3",
+    "name": "Neha Gupta",
+    "email": "neha@customer.com",
+    "phone": "+91-9876550002",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "isAvailable": true,
+    "referralRewards": 0,
+    "walletBalance": 0,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "createdAt": "2025-11-26T13:02:52.639Z",
+    "updatedAt": "2025-11-29T10:04:42.574Z",
+    "__v": 3,
+    "adminNotes": [
+      {
+        "text": "Wallet credit: ₹1. Reason: ff",
+        "author": "Admin User",
+        "date": "2025-11-26T20:28:59.740Z",
+        "_id": "6927630bcd386882a7be163a"
+      },
+      {
+        "text": "how are you",
+        "author": "Admin User",
+        "date": "2025-11-26T20:29:27.388Z",
+        "_id": "69276327cd386882a7be163f"
+      },
+      {
+        "text": "Wallet debit: ₹1. Reason: frf",
+        "author": "Admin User",
+        "date": "2025-11-26T20:30:02.606Z",
+        "_id": "6927634acd386882a7be1645"
+      }
+    ],
+    "batteryLevel": 100,
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "isCodBlocked": false,
+    "kyc": {
+      "isVerified": false
+    },
+    "performance": {
+      "rating": 0,
+      "rejectionRate": 0,
+      "totalRatings": 0
+    },
+    "status": {
+      "isBlocked": false,
+      "isOnline": false
+    },
+    "totalSpent": 0
+  },
+  {
+    "_id": "692c8d38bac87eb67df5a404",
+    "name": "E2E User",
+    "email": "test-e2e-user@example.com",
+    "phone": "+919999999901",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "aadhaarUrl": "http://url",
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2025-11-30T18:30:16.584Z",
+    "updatedAt": "2025-11-30T18:30:16.930Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c8d38bac87eb67df5a409",
+    "name": "E2E Rider",
+    "email": "test-e2e-rider@example.com",
+    "phone": "+919999999902",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "adminNotes": [],
+    "isApproved": false,
+    "createdAt": "2025-11-30T18:30:16.705Z",
+    "updatedAt": "2025-11-30T18:30:16.812Z",
+    "__v": 0
+  },
+  {
+    "_id": "692c8d38bac87eb67df5a40c",
+    "name": "E2E Admin",
+    "email": "test-e2e-admin@example.com",
+    "phone": "+919999999903",
+    "role": "admin",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2025-11-30T18:30:16.813Z",
+    "updatedAt": "2026-01-24T20:47:20.974Z",
+    "__v": 0
+  },
+  {
+    "_id": "69752ef7ef753c9d1ac76cc9",
+    "name": "Sumit Gupta",
+    "email": "sumitgupta86400@gmail.com",
+    "phone": "9887654345",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1769287415481MM3YP",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2026-01-24T20:43:35.486Z",
+    "updatedAt": "2026-01-24T20:43:35.617Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,79 @@
+# Printvik Application Flow
+
+This document illustrates the core workflows of the Printvik application, covering the interaction between Customers, Operators, Delivery Partners, and the System Backend.
+
+## High-Level System Flow
+
+```mermaid
+graph TD
+    %% Actors
+    Customer([Customer])
+    Operator([Print Operator])
+    Rider([Delivery Partner])
+    Admin([Admin])
+    System[(Backend / System)]
+
+    %% Customer Flow
+    subgraph "Order Placement"
+        Customer -->|Upload Documents| System
+        Customer -->|Select Print Options| System
+        System -->|Calc Price & Delivery| Customer
+        Customer -->|Place Order & Pay| System
+    end
+
+    %% System Processing
+    System -->|Notify| Operator
+    System -->|Update Order Status| Customer
+
+    %% Operator Flow
+    subgraph "Order Fulfillment"
+        Operator -->|View Job Queue| System
+        Operator -->|Accept/Reject Job| System
+        Operator -->|Download Files| System
+        Operator -->|Print Documents| System
+        Operator -->|Mark as Ready| System
+    end
+
+    %% Delivery Flow
+    subgraph "Delivery"
+        System -- If Delivery --> AssignRider{Assign Rider?}
+        AssignRider -- Yes --> Rider
+        Rider -->|Accept Delivery| System
+        Rider -->|Pick up from Operator| System
+        Rider -->|Delivered to Customer| System
+    end
+
+    %% Admin Flow
+    subgraph "Administration"
+        Admin -->|Manage Users| System
+        Admin -->|Monitor Orders| System
+        Admin -->|Configure Pricing| System
+    end
+```
+
+## Detailed Order Status Lifecycle
+
+```mermaid
+stateDiagram-v2
+    [*] --> Pending: Order Placed
+    Pending --> Processing: Operator Accepts
+    Pending --> Cancelled: Operator Rejects/Customer Cancels
+    Processing --> Printed: Operator Completes Printing
+    
+    state "Delivery Mode?" as DM
+    Printed --> DM
+    
+    state "Self Pickup" as SP
+    state "Home Delivery" as HD
+    
+    DM --> SP: User chose Pickup
+    DM --> HD: User chose Delivery
+    
+    SP --> Completed: Customer Picks Up
+    
+    HD --> OutForDelivery: Rider Assigned & Picked Up
+    OutForDelivery --> Completed: Rider Delivers
+    
+    Completed --> [*]
+    Cancelled --> [*]
+```

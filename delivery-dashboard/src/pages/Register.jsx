@@ -1,5 +1,5 @@
 /**
- * Client Registration - Professional Redesign
+ * Delivery Registration - Professional Redesign
  */
 
 import { useState } from 'react';
@@ -14,21 +14,13 @@ function Register() {
         email: '',
         phone: '',
         password: '',
-        passwordConfirm: ''
+        vehicleType: 'bike',
+        role: 'delivery'
     });
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (formData.password !== formData.passwordConfirm) {
-            alert("Passwords don't match!");
-            return;
-        }
-        const result = await register({
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            password: formData.password
-        });
+        const result = await register(formData);
         if (result.success) navigate('/');
     };
 
@@ -37,16 +29,16 @@ function Register() {
             {/* Brand Section */}
             <div className="brand-section">
                 <img src="/logo.png" alt="PrintVik Logo" style={{ height: '6rem', marginBottom: '2rem', objectFit: 'contain' }} />
-                <h1>Join PrintVik</h1>
-                <p>Create an account to start printing documents from the comfort of your home.</p>
+                <h1>Join the Fleet</h1>
+                <p>Become a PrintVik delivery partner. Flexible hours, reliable earnings.</p>
             </div>
 
             {/* Form Section */}
             <div className="form-section">
                 <div className="auth-card">
                     <div className="auth-header">
-                        <h2>Create Account</h2>
-                        <p className="text-secondary">It only takes a few seconds</p>
+                        <h2>Partner Application</h2>
+                        <p className="text-secondary">Create your account to get started</p>
                     </div>
 
                     {error && (
@@ -93,7 +85,7 @@ function Register() {
                                 <input
                                     type="tel"
                                     className="input"
-                                    placeholder="+91 98765..."
+                                    placeholder="+91 98765 43210"
                                     value={formData.phone}
                                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                                     required
@@ -114,15 +106,18 @@ function Register() {
                         </div>
 
                         <div className="input-group">
-                            <label className="input-label">Confirm Password</label>
-                            <input
-                                type="password"
+                            <label className="input-label">Vehicle Type</label>
+                            <select
                                 className="input"
-                                placeholder="Confirm your password"
-                                value={formData.passwordConfirm}
-                                onChange={(e) => setFormData({ ...formData, passwordConfirm: e.target.value })}
-                                required
-                            />
+                                value={formData.vehicleType}
+                                onChange={(e) => setFormData({ ...formData, vehicleType: e.target.value })}
+                            >
+                                <option value="bike">Motorcycle / Bike</option>
+                                <option value="scooter">Scooter</option>
+                                <option value="car">Car</option>
+                                <option value="van">Delivery Van</option>
+                            </select>
+                            <p className="text-xs text-secondary mt-sm">Select the vehicle you'll verify with.</p>
                         </div>
 
                         <button
@@ -134,13 +129,13 @@ function Register() {
                             {loading ? (
                                 <>
                                     <div className="spinner" style={{ width: '1rem', height: '1rem', borderTopColor: 'white', marginRight: '0.5rem' }}></div>
-                                    Creating Account...
+                                    Submitting Application...
                                 </>
-                            ) : 'Sign Up'}
+                            ) : 'Create Account'}
                         </button>
 
                         <div className="text-center">
-                            <span className="text-secondary">Already have an account? </span>
+                            <span className="text-secondary">Already a partner? </span>
                             <Link to="/login" className="link-highlight">Sign In</Link>
                         </div>
                     </form>

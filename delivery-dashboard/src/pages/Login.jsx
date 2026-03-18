@@ -1,9 +1,9 @@
 /**
- * Delivery Login
+ * Delivery Login - Professional Redesign
  */
 
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import useAuthStore from '../store/authStore';
 
 function Login() {
@@ -18,22 +18,81 @@ function Login() {
     };
 
     return (
-        <div className="container" style={{ maxWidth: '400px', marginTop: '4rem' }}>
-            <div className="card">
-                <h1 className="text-center">Delivery Partner</h1>
-                <p className="text-secondary text-center mb-lg">Login to manage deliveries</p>
-                {error && <div style={{ padding: 'var(--spacing-md)', backgroundColor: '#FEE2E2', color: '#991B1B', borderRadius: 'var(--radius-md)', marginBottom: 'var(--spacing-md)' }}>{error}</div>}
-                <form onSubmit={handleSubmit}>
-                    <div style={{ marginBottom: 'var(--spacing-md)' }}>
-                        <label style={{ display: 'block', marginBottom: 'var(--spacing-sm)', fontSize: '0.875rem', fontWeight: 500 }}>Email</label>
-                        <input type="email" className="input" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} required />
+        <div className="split-screen">
+            {/* Brand Section */}
+            <div className="brand-section">
+                <img src="/logo.png" alt="PrintVik Logo" style={{ height: '6rem', marginBottom: '2rem', objectFit: 'contain' }} />
+                <h1>PrintVik Delivery</h1>
+                <p>Empowering local print delivery. Join our network and start earning today.</p>
+            </div>
+
+            {/* Form Section */}
+            <div className="form-section">
+                <div className="auth-card">
+                    <div className="auth-header">
+                        <h2>Welcome Back</h2>
+                        <p className="text-secondary">Please sign in to your dashboard</p>
                     </div>
-                    <div style={{ marginBottom: 'var(--spacing-lg)' }}>
-                        <label style={{ display: 'block', marginBottom: 'var(--spacing-sm)', fontSize: '0.875rem', fontWeight: 500 }}>Password</label>
-                        <input type="password" className="input" value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })} required />
-                    </div>
-                    <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={loading}>{loading ? 'Logging in...' : 'Login'}</button>
-                </form>
+
+                    {error && (
+                        <div style={{
+                            padding: '1rem',
+                            backgroundColor: '#FEF2F2',
+                            color: '#991B1B',
+                            borderRadius: '0.5rem',
+                            marginBottom: '1.5rem',
+                            fontSize: '0.875rem',
+                            border: '1px solid #FECACA'
+                        }}>
+                            {error}
+                        </div>
+                    )}
+
+                    <form onSubmit={handleSubmit}>
+                        <div className="input-group">
+                            <label className="input-label">Email Address</label>
+                            <input
+                                type="email"
+                                className="input"
+                                placeholder="Enter your email"
+                                value={formData.email}
+                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                required
+                            />
+                        </div>
+
+                        <div className="input-group">
+                            <label className="input-label">Password</label>
+                            <input
+                                type="password"
+                                className="input"
+                                placeholder="Enter your password"
+                                value={formData.password}
+                                onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                                required
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            className="btn btn-primary"
+                            style={{ width: '100%', marginBottom: '1.5rem' }}
+                            disabled={loading}
+                        >
+                            {loading ? (
+                                <>
+                                    <div className="spinner" style={{ width: '1rem', height: '1rem', borderTopColor: 'white', marginRight: '0.5rem' }}></div>
+                                    Signing in...
+                                </>
+                            ) : 'Sign In to Dashboard'}
+                        </button>
+
+                        <div className="text-center">
+                            <span className="text-secondary">New to PrintVik? </span>
+                            <Link to="/register" className="link-highlight">Apply as Partner</Link>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     );

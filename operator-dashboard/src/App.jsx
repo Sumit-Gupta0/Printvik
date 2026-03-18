@@ -27,6 +27,8 @@ const ProtectedRoute = ({ children }) => {
   return <Layout>{children}</Layout>;
 };
 
+import Register from './pages/Register';
+
 function App() {
   const { isAuthenticated, getCurrentUser } = useAuthStore();
 
@@ -40,6 +42,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/" element={<ProtectedRoute><PrintQueue /></ProtectedRoute>} />
         <Route path="/walk-in-queue" element={<ProtectedRoute><WalkInQueue /></ProtectedRoute>} />
         <Route path="/jobs/:id" element={<ProtectedRoute><JobDetail /></ProtectedRoute>} />

@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "692760c39b9c1d83b6ceb36c",
+    "key": "GLOBAL_SETTINGS",
+    "platformCommissionPercent": 10,
+    "baseDeliveryFee": 40,
+    "surgeChargeMultiplier": 1,
+    "isAppMaintenanceMode": false,
+    "maxFileSizeMB": 50,
+    "allowedFileTypes": [
+      ".pdf",
+      ".docx",
+      ".jpg",
+      ".png"
+    ],
+    "createdAt": "2025-11-26T20:19:15.126Z",
+    "updatedAt": "2025-11-30T09:26:52.944Z",
+    "__v": 0,
+    "appVersions": {
+      "minAndroidVersion": "1.0.0",
+      "minIosVersion": "1.0.0"
+    },
+    "features": {
+      "allowUserLogin": true,
+      "allowOperatorLogin": true,
+      "enableCod": false,
+      "enableOnlinePayment": true,
+      "enableNewSignups": true
+    },
+    "lastUpdatedAt": "2025-11-30T09:26:52.943Z",
+    "maintenanceMode": {
+      "isActive": false,
+      "message": "We are currently upgrading our system to serve you better. We will be back shortly!"
+    },
+    "lastUpdatedBy": "692341a54b445d484a787326"
+  }
+]

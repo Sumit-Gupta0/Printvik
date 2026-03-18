@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { useEffect } from 'react';
 import useAuthStore from './store/authStore';
 import Login from './pages/Login';
+import Register from './pages/Register';
 import ActiveDeliveries from './pages/ActiveDeliveries';
 import DeliveryDetail from './pages/DeliveryDetail';
 import Profile from './pages/Profile';
@@ -28,6 +29,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
                 <Route path="/" element={<ProtectedRoute><ActiveDeliveries /></ProtectedRoute>} />
                 <Route path="/deliveries/:id" element={<ProtectedRoute><DeliveryDetail /></ProtectedRoute>} />
                 <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />

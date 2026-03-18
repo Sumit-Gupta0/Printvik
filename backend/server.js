@@ -22,7 +22,10 @@ const io = socketIo(server, {
             process.env.CLIENT_URL,
             process.env.ADMIN_URL,
             process.env.OPERATOR_URL,
-            process.env.DELIVERY_URL
+            process.env.DELIVERY_URL,
+            'http://10.135.245.131:5174',
+            'http://10.135.245.131:5173',
+            'http://10.135.245.131:3006'
         ],
         credentials: true
     }
@@ -65,7 +68,10 @@ app.use(cors({
         process.env.CLIENT_URL,
         process.env.ADMIN_URL,
         process.env.OPERATOR_URL,
-        process.env.DELIVERY_URL
+        process.env.DELIVERY_URL,
+        'http://10.135.245.131:5174',
+        'http://10.135.245.131:5173',
+        'http://10.135.245.131:3006'
     ],
     credentials: true
 }));

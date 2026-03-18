@@ -21209,3 +21209,2005 @@ Create Product Request Body: {"name":"Final Test Pen","sku":"FINAL-PEN-01","desc
 [2025-12-01T18:22:36.057Z] Incoming Request: GET /api/operators/queue
 ✅ Auth Middleware: User authenticated: vijay@printshop.com (operator)
 [2025-12-01T18:22:36.068Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-01-15T11:12:09.864Z] Incoming Request: GET /api/orders?page=1&limit=3
+[2026-01-15T11:12:09.868Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:12:09.916Z] Request Completed: GET /api/orders?page=1&limit=3 - 401 (51ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:12:09.918Z] Request Completed: GET /api/auth/me - 401 (50ms)
+[2026-01-15T11:12:09.919Z] Incoming Request: GET /api/orders?page=1&limit=3
+[2026-01-15T11:12:09.920Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:12:09.923Z] Request Completed: GET /api/orders?page=1&limit=3 - 401 (4ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:12:09.926Z] Request Completed: GET /api/auth/me - 401 (6ms)
+[2026-01-15T11:13:02.407Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:13:02.544Z] Request Completed: POST /api/auth/login - 401 (137ms)
+[2026-01-15T11:13:10.843Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:13:10.947Z] Request Completed: POST /api/auth/login - 401 (104ms)
+[2026-01-15T11:13:42.637Z] Incoming Request: GET /api/users/me
+[2026-01-15T11:13:42.643Z] Incoming Request: GET /api/operators/queue
+[2026-01-15T11:13:42.649Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:13:42.662Z] Request Completed: GET /api/operators/queue - 401 (19ms)
+[2026-01-15T11:13:42.664Z] Request Completed: GET /api/users/me - 404 (27ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:13:42.665Z] Request Completed: GET /api/auth/me - 401 (16ms)
+[2026-01-15T11:13:42.666Z] Incoming Request: GET /api/operators/queue
+[2026-01-15T11:13:42.666Z] Incoming Request: GET /api/users/me
+[2026-01-15T11:13:42.668Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:13:42.672Z] Request Completed: GET /api/operators/queue - 401 (6ms)
+[2026-01-15T11:13:42.674Z] Request Completed: GET /api/users/me - 404 (8ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:13:42.676Z] Request Completed: GET /api/auth/me - 401 (8ms)
+[2026-01-15T11:27:33.674Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:27:33.797Z] Request Completed: POST /api/auth/login - 401 (111ms)
+[2026-01-15T11:27:46.302Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:27:46.403Z] Request Completed: POST /api/auth/login - 401 (101ms)
+[2026-01-15T11:30:00.749Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:30:00.881Z] Request Completed: POST /api/auth/login - 401 (131ms)
+[2026-01-15T11:30:40.653Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:30:40.758Z] Request Completed: POST /api/auth/login - 401 (104ms)
+[2026-01-15T11:32:15.060Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:32:15.078Z] Request Completed: GET /api/admin/stats/dashboard - 401 (17ms)
+[2026-01-15T11:32:15.079Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:32:15.081Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-01-15T11:32:15.081Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:32:15.167Z] Request Completed: GET /api/auth/me - 401 (86ms)
+[2026-01-15T11:32:15.169Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-01-15T11:32:15.175Z] Request Completed: GET /api/auth/me - 401 (6ms)
+[2026-01-15T11:32:35.956Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:32:36.042Z] Request Completed: POST /api/auth/login - 401 (85ms)
+[2026-01-15T11:35:47.930Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:35:48.020Z] Request Completed: POST /api/auth/login - 400 (89ms)
+[2026-01-15T11:36:38.136Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:36:38.141Z] Request Completed: POST /api/auth/login - 400 (4ms)
+[2026-01-15T11:38:25.962Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:38:26.052Z] Request Completed: POST /api/auth/login - 401 (88ms)
+[2026-01-15T11:39:16.750Z] Incoming Request: POST /api/auth/login
+[2026-01-15T11:39:16.840Z] Request Completed: POST /api/auth/login - 401 (90ms)
+[2026-01-24T20:42:52.683Z] Incoming Request: POST /api/auth/login
+[2026-01-24T20:42:52.801Z] Request Completed: POST /api/auth/login - 401 (117ms)
+[2026-01-24T20:43:35.465Z] Incoming Request: POST /api/auth/register
+[2026-01-24T20:43:35.652Z] Request Completed: POST /api/auth/register - 201 (185ms)
+[2026-01-24T20:43:35.669Z] Incoming Request: GET /api/auth/me
+[2026-01-24T20:43:35.677Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumitgupta86400@gmail.com (user)
+[2026-01-24T20:43:35.682Z] Request Completed: GET /api/auth/me - 200 (12ms)
+✅ Auth Middleware: User authenticated: sumitgupta86400@gmail.com (user)
+[2026-01-24T20:43:35.730Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (53ms)
+[2026-01-24T20:43:35.730Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumitgupta86400@gmail.com (user)
+[2026-01-24T20:43:35.735Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (4ms)
+[2026-01-24T20:43:49.946Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumitgupta86400@gmail.com (user)
+[2026-01-24T20:43:49.955Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-01-24T20:43:49.956Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumitgupta86400@gmail.com (user)
+[2026-01-24T20:43:49.964Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (8ms)
+[2026-01-24T20:44:08.742Z] Incoming Request: POST /api/auth/login
+[2026-01-24T20:44:08.846Z] Request Completed: POST /api/auth/login - 401 (104ms)
+[2026-01-24T20:44:18.114Z] Incoming Request: POST /api/auth/login
+[2026-01-24T20:44:18.217Z] Request Completed: POST /api/auth/login - 401 (102ms)
+[2026-01-24T20:48:01.355Z] Incoming Request: POST /api/auth/login
+[2026-01-24T20:48:01.372Z] Request Completed: POST /api/auth/login - 401 (16ms)
+[2026-01-24T20:48:24.682Z] Incoming Request: POST /api/auth/login
+[2026-01-24T20:48:24.795Z] Request Completed: POST /api/auth/login - 200 (112ms)
+[2026-01-24T20:48:24.814Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:24.825Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-01-24T20:48:24.829Z] Request Completed: GET /api/auth/me - 200 (14ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:24.840Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-24T20:48:24.841Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:24.845Z] Request Completed: GET /api/admin/stats/dashboard - 200 (4ms)
+[2026-01-24T20:48:50.764Z] Incoming Request: GET /api/admin/orders?status=pending&limit=5
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:50.792Z] Request Completed: GET /api/admin/orders?status=pending&limit=5 - 200 (27ms)
+[2026-01-24T20:48:53.654Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:53.670Z] Request Completed: GET /api/admin/config/global - 304 (16ms)
+[2026-01-24T20:48:53.671Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:53.677Z] Request Completed: GET /api/admin/config/global - 304 (6ms)
+[2026-01-24T20:48:54.513Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:54.521Z] Request Completed: GET /api/admin/notifications/templates - 200 (8ms)
+[2026-01-24T20:48:54.522Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:54.529Z] Request Completed: GET /api/admin/notifications/templates - 304 (7ms)
+[2026-01-24T20:48:57.330Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:57.339Z] Request Completed: GET /api/products/admin - 200 (9ms)
+[2026-01-24T20:48:57.339Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:57.344Z] Request Completed: GET /api/products/admin - 304 (4ms)
+[2026-01-24T20:48:57.344Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+[2026-01-24T20:48:57.345Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-01-24T20:48:57.346Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (2ms)
+[2026-01-24T20:48:57.346Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (1ms)
+[2026-01-24T20:48:58.165Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:58.209Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 200 (43ms)
+[2026-01-24T20:48:58.210Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:48:58.238Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (27ms)
+[2026-01-24T20:49:22.883Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:22.917Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (33ms)
+[2026-01-24T20:49:22.918Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:22.930Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (12ms)
+[2026-01-24T20:49:35.935Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:35.944Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-01-24T20:49:35.945Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:35.951Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-01-24T20:49:38.373Z] Incoming Request: GET /api/admin/orders
+[2026-01-24T20:49:38.375Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-24T20:49:38.377Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:38.396Z] Request Completed: GET /api/admin/users?role=operator - 200 (20ms)
+[2026-01-24T20:49:38.400Z] Request Completed: GET /api/admin/orders - 200 (27ms)
+[2026-01-24T20:49:38.401Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-24T20:49:38.402Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (25ms)
+[2026-01-24T20:49:38.402Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:38.404Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:38.407Z] Request Completed: GET /api/admin/users?role=operator - 304 (6ms)
+[2026-01-24T20:49:38.412Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (8ms)
+[2026-01-24T20:49:38.415Z] Request Completed: GET /api/admin/orders - 304 (13ms)
+[2026-01-24T20:49:41.765Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:41.775Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-24T20:49:41.776Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:41.783Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-01-24T20:49:49.554Z] Incoming Request: GET /api/admin/orders
+[2026-01-24T20:49:49.555Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-24T20:49:49.557Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:49.579Z] Request Completed: GET /api/admin/users?role=operator - 304 (23ms)
+[2026-01-24T20:49:49.582Z] Request Completed: GET /api/admin/orders - 304 (28ms)
+[2026-01-24T20:49:49.582Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-24T20:49:49.583Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (26ms)
+[2026-01-24T20:49:49.584Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:49.585Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:49.587Z] Request Completed: GET /api/admin/users?role=operator - 304 (5ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:49.594Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (9ms)
+[2026-01-24T20:49:49.596Z] Request Completed: GET /api/admin/orders - 304 (12ms)
+[2026-01-24T20:49:50.572Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:50.594Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (22ms)
+[2026-01-24T20:49:50.595Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:50.612Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (17ms)
+[2026-01-24T20:49:51.364Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:51.375Z] Request Completed: GET /api/admin/users?role=user - 200 (11ms)
+[2026-01-24T20:49:51.376Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:51.382Z] Request Completed: GET /api/admin/users?role=user - 304 (6ms)
+[2026-01-24T20:49:52.994Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:53.002Z] Request Completed: GET /api/products/admin - 304 (8ms)
+[2026-01-24T20:49:53.003Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:53.007Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+[2026-01-24T20:49:53.009Z] Request Completed: GET /api/products/admin - 304 (6ms)
+[2026-01-24T20:49:53.010Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-01-24T20:49:53.012Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (5ms)
+[2026-01-24T20:49:53.012Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (2ms)
+[2026-01-24T20:49:53.965Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:53.972Z] Request Completed: GET /api/admin/notifications/templates - 304 (7ms)
+[2026-01-24T20:49:53.973Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:53.979Z] Request Completed: GET /api/admin/notifications/templates - 304 (6ms)
+[2026-01-24T20:49:54.899Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:54.921Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (22ms)
+[2026-01-24T20:49:54.921Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:54.940Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (19ms)
+[2026-01-24T20:49:59.331Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:59.339Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-01-24T20:49:59.340Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:49:59.347Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-01-24T20:50:03.744Z] Incoming Request: GET /api/admin/orders?status=ready&limit=5
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:50:03.752Z] Request Completed: GET /api/admin/orders?status=ready&limit=5 - 304 (8ms)
+[2026-01-24T20:50:04.929Z] Incoming Request: GET /api/admin/orders?status=processing,printing&limit=5
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:50:04.938Z] Request Completed: GET /api/admin/orders?status=processing,printing&limit=5 - 304 (9ms)
+[2026-01-24T20:50:05.777Z] Incoming Request: GET /api/admin/orders?status=pending&limit=5
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-24T20:50:05.789Z] Request Completed: GET /api/admin/orders?status=pending&limit=5 - 304 (12ms)
+[2026-01-29T05:57:28.478Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-01-29T05:57:28.486Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:57:28.648Z] Request Completed: GET /api/auth/me - 304 (162ms)
+[2026-01-29T05:57:28.650Z] Request Completed: GET /api/admin/stats/dashboard - 200 (171ms)
+[2026-01-29T05:57:28.651Z] Incoming Request: GET /api/auth/me
+[2026-01-29T05:57:28.652Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:57:28.660Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-01-29T05:57:28.661Z] Request Completed: GET /api/auth/me - 304 (10ms)
+[2026-01-29T05:57:58.476Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:57:58.492Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T05:58:28.468Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:58:28.479Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T05:58:58.477Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:58:58.523Z] Request Completed: GET /api/admin/stats/dashboard - 200 (45ms)
+[2026-01-29T05:59:28.475Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:59:28.494Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-01-29T05:59:58.513Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T05:59:58.609Z] Request Completed: GET /api/admin/stats/dashboard - 200 (95ms)
+[2026-01-29T06:00:28.476Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:00:28.494Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:00:58.475Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:00:58.493Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:01:28.473Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:01:28.488Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:01:58.478Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:01:58.499Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-01-29T06:02:28.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:02:28.489Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:02:58.475Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:02:58.492Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:03:28.473Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:03:28.488Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:03:58.473Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:03:58.485Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:04:28.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:04:28.491Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-01-29T06:04:58.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:04:58.489Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:05:28.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:05:28.491Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-01-29T06:05:58.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:05:58.488Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:06:28.474Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:06:28.490Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:06:58.467Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:06:58.480Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-01-29T06:07:28.448Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:07:28.460Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:07:58.446Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:07:58.459Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-01-29T06:08:28.446Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:08:28.457Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:08:58.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:08:58.456Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:09:28.445Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:09:28.458Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:09:58.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:09:58.462Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:10:28.446Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:10:28.458Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:10:58.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:10:58.456Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:11:28.448Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:11:28.469Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-01-29T06:11:58.445Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:11:58.455Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:12:28.443Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:12:28.454Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:12:58.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:12:58.459Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:13:28.445Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:13:28.462Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:13:58.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:13:58.456Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:14:28.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:14:28.459Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:14:58.443Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:14:58.454Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:15:28.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:15:28.458Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:15:58.443Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:15:58.456Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:16:28.448Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:16:28.477Z] Request Completed: GET /api/admin/stats/dashboard - 200 (27ms)
+[2026-01-29T06:16:58.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:16:58.453Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:17:28.443Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:17:28.463Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-01-29T06:17:58.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:17:58.454Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:18:28.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:18:28.459Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-01-29T06:18:58.441Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:18:58.453Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:19:28.441Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:19:28.457Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:19:58.441Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:19:58.454Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-01-29T06:20:28.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:20:28.454Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:20:58.440Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:20:58.451Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:21:28.440Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:21:28.458Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-01-29T06:21:58.442Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:21:58.453Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:22:28.444Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:22:28.460Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-01-29T06:22:58.433Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:22:58.444Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:23:28.421Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:23:28.432Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:23:58.421Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:23:58.433Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:24:28.421Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:24:28.433Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:24:58.418Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:24:58.430Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:25:28.421Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:25:28.432Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:25:58.420Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:25:58.434Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-01-29T06:26:28.419Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:26:28.433Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-01-29T06:26:58.418Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:26:58.430Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-01-29T06:27:28.418Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:27:28.430Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:27:58.417Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:27:58.432Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:28:28.419Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:28:28.430Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:28:58.421Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:28:58.436Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:29:16.247Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:29:16.249Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:29:16.251Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:16.300Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (51ms)
+[2026-01-29T06:29:16.302Z] Request Completed: GET /api/admin/users?role=operator - 304 (55ms)
+[2026-01-29T06:29:16.302Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:29:16.303Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:16.312Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (10ms)
+[2026-01-29T06:29:16.315Z] Request Completed: GET /api/admin/orders - 304 (64ms)
+[2026-01-29T06:29:16.316Z] Request Completed: GET /api/admin/users?role=operator - 304 (13ms)
+[2026-01-29T06:29:16.317Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:16.324Z] Request Completed: GET /api/admin/orders - 304 (7ms)
+[2026-01-29T06:29:17.071Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:17.105Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (34ms)
+[2026-01-29T06:29:17.106Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:17.114Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (8ms)
+[2026-01-29T06:29:18.911Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:29:18.914Z] Incoming Request: GET /api/admin/services
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:18.925Z] Request Completed: GET /api/admin/services - 200 (11ms)
+[2026-01-29T06:29:18.927Z] Request Completed: GET /api/admin/users?role=operator - 304 (15ms)
+[2026-01-29T06:29:18.927Z] Incoming Request: GET /api/admin/services
+[2026-01-29T06:29:18.928Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:18.931Z] Request Completed: GET /api/admin/services - 304 (4ms)
+[2026-01-29T06:29:18.934Z] Request Completed: GET /api/admin/users?role=operator - 304 (6ms)
+[2026-01-29T06:29:20.178Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:20.187Z] Request Completed: GET /api/admin/config/global - 304 (9ms)
+[2026-01-29T06:29:20.188Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:20.192Z] Request Completed: GET /api/admin/config/global - 304 (4ms)
+[2026-01-29T06:29:24.622Z] Incoming Request: GET /api/admin/services
+[2026-01-29T06:29:24.624Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:24.632Z] Request Completed: GET /api/admin/services - 304 (9ms)
+[2026-01-29T06:29:24.635Z] Incoming Request: GET /api/admin/services
+[2026-01-29T06:29:24.636Z] Request Completed: GET /api/admin/users?role=operator - 304 (12ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:24.638Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:29:24.640Z] Request Completed: GET /api/admin/services - 304 (5ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:24.645Z] Request Completed: GET /api/admin/users?role=operator - 304 (7ms)
+[2026-01-29T06:29:32.722Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:32.731Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-01-29T06:29:32.733Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:29:32.739Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-01-29T06:30:02.722Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:02.737Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-01-29T06:30:17.777Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:30:17.778Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:30:17.779Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:17.795Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (17ms)
+[2026-01-29T06:30:17.799Z] Request Completed: GET /api/admin/orders - 304 (22ms)
+[2026-01-29T06:30:17.800Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:30:17.802Z] Request Completed: GET /api/admin/users?role=operator - 304 (23ms)
+[2026-01-29T06:30:17.802Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:17.804Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:17.807Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (7ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:17.815Z] Request Completed: GET /api/admin/users?role=operator - 304 (10ms)
+[2026-01-29T06:30:17.817Z] Request Completed: GET /api/admin/orders - 304 (14ms)
+[2026-01-29T06:30:21.979Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:22.001Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (21ms)
+[2026-01-29T06:30:22.002Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:30:22.011Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (9ms)
+[2026-01-29T06:31:08.245Z] Incoming Request: GET /api/admin/users?role=delivery
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:08.265Z] Request Completed: GET /api/admin/users?role=delivery - 200 (19ms)
+[2026-01-29T06:31:08.266Z] Incoming Request: GET /api/admin/users?role=delivery
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:08.272Z] Request Completed: GET /api/admin/users?role=delivery - 304 (5ms)
+[2026-01-29T06:31:09.473Z] Incoming Request: GET /api/admin/users?role=admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:09.478Z] Request Completed: GET /api/admin/users?role=admin - 200 (5ms)
+[2026-01-29T06:31:10.743Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:10.752Z] Request Completed: GET /api/admin/users?role=operator - 304 (8ms)
+[2026-01-29T06:31:10.753Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:10.760Z] Request Completed: GET /api/admin/users?role=operator - 304 (7ms)
+[2026-01-29T06:31:18.879Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:18.891Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:31:18.892Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:18.898Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-01-29T06:31:48.874Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:31:48.885Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:32:00.131Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:32:00.133Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:32:00.135Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:00.151Z] Request Completed: GET /api/admin/users?role=operator - 304 (17ms)
+[2026-01-29T06:32:00.154Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:32:00.156Z] Request Completed: GET /api/admin/orders - 304 (24ms)
+[2026-01-29T06:32:00.156Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (21ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:00.158Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:32:00.159Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:00.169Z] Request Completed: GET /api/admin/users?role=operator - 304 (15ms)
+[2026-01-29T06:32:00.172Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (13ms)
+[2026-01-29T06:32:00.174Z] Request Completed: GET /api/admin/orders - 304 (16ms)
+[2026-01-29T06:32:02.461Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:02.482Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (21ms)
+[2026-01-29T06:32:02.484Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:02.495Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (11ms)
+[2026-01-29T06:32:05.525Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:32:05.527Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:32:05.529Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:05.544Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (16ms)
+[2026-01-29T06:32:05.547Z] Request Completed: GET /api/admin/orders - 304 (21ms)
+[2026-01-29T06:32:05.548Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:32:05.549Z] Request Completed: GET /api/admin/users?role=operator - 304 (20ms)
+[2026-01-29T06:32:05.550Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:05.551Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:05.553Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (5ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:05.560Z] Request Completed: GET /api/admin/users?role=operator - 304 (9ms)
+[2026-01-29T06:32:05.561Z] Request Completed: GET /api/admin/orders - 304 (11ms)
+[2026-01-29T06:32:06.426Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:06.433Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-01-29T06:32:06.434Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:06.441Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-01-29T06:32:09.609Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:32:09.611Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:32:09.613Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:09.628Z] Request Completed: GET /api/admin/users?role=operator - 304 (16ms)
+[2026-01-29T06:32:09.630Z] Request Completed: GET /api/admin/orders - 304 (20ms)
+[2026-01-29T06:32:09.630Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (17ms)
+[2026-01-29T06:32:09.631Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:32:09.632Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:32:09.633Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:09.637Z] Request Completed: GET /api/admin/users?role=operator - 304 (6ms)
+[2026-01-29T06:32:09.643Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (10ms)
+[2026-01-29T06:32:09.644Z] Request Completed: GET /api/admin/orders - 304 (12ms)
+[2026-01-29T06:32:13.442Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:32:13.444Z] Incoming Request: GET /api/admin/services
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:13.450Z] Request Completed: GET /api/admin/services - 304 (6ms)
+[2026-01-29T06:32:13.451Z] Request Completed: GET /api/admin/users?role=operator - 304 (9ms)
+[2026-01-29T06:32:13.452Z] Incoming Request: GET /api/admin/services
+[2026-01-29T06:32:13.453Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:13.456Z] Request Completed: GET /api/admin/services - 304 (4ms)
+[2026-01-29T06:32:13.459Z] Request Completed: GET /api/admin/users?role=operator - 304 (6ms)
+[2026-01-29T06:32:14.545Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:14.550Z] Request Completed: GET /api/admin/config/global - 304 (5ms)
+[2026-01-29T06:32:14.551Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:14.555Z] Request Completed: GET /api/admin/config/global - 304 (4ms)
+[2026-01-29T06:32:15.492Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:15.503Z] Request Completed: GET /api/admin/notifications/templates - 304 (11ms)
+[2026-01-29T06:32:15.503Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:15.509Z] Request Completed: GET /api/admin/notifications/templates - 304 (5ms)
+[2026-01-29T06:32:16.377Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:16.388Z] Request Completed: GET /api/products/admin - 304 (10ms)
+[2026-01-29T06:32:16.389Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:16.393Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+[2026-01-29T06:32:16.396Z] Request Completed: GET /api/products/admin - 304 (7ms)
+[2026-01-29T06:32:16.396Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-01-29T06:32:16.398Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (4ms)
+[2026-01-29T06:32:16.399Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (3ms)
+[2026-01-29T06:32:25.410Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:25.457Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (46ms)
+[2026-01-29T06:32:25.458Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:25.476Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (18ms)
+[2026-01-29T06:32:29.424Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:29.434Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-01-29T06:32:29.435Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:29.442Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-01-29T06:32:59.424Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:32:59.436Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-01-29T06:33:09.258Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:33:09.292Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (34ms)
+[2026-01-29T06:33:09.293Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:33:09.324Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (31ms)
+[2026-01-29T06:33:10.147Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:33:10.155Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-01-29T06:33:10.156Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:33:10.162Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-01-29T06:33:40.140Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:33:40.151Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-01-29T06:34:10.147Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:10.166Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-01-29T06:34:16.201Z] Incoming Request: GET /api/admin/orders
+[2026-01-29T06:34:16.202Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-01-29T06:34:16.204Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:16.225Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (21ms)
+[2026-01-29T06:34:16.226Z] Request Completed: GET /api/admin/users?role=operator - 304 (23ms)
+[2026-01-29T06:34:16.226Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-01-29T06:34:16.228Z] Request Completed: GET /api/admin/orders - 304 (27ms)
+[2026-01-29T06:34:16.229Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:16.230Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:16.232Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (5ms)
+[2026-01-29T06:34:16.237Z] Request Completed: GET /api/admin/users?role=operator - 304 (8ms)
+[2026-01-29T06:34:16.240Z] Request Completed: GET /api/admin/orders - 304 (10ms)
+[2026-01-29T06:34:17.507Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:17.511Z] Request Completed: GET /api/admin/notifications/templates - 304 (4ms)
+[2026-01-29T06:34:17.511Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:17.514Z] Request Completed: GET /api/admin/notifications/templates - 304 (3ms)
+[2026-01-29T06:34:44.345Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:44.351Z] Request Completed: GET /api/products/admin - 304 (6ms)
+[2026-01-29T06:34:44.352Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:34:44.356Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+[2026-01-29T06:34:44.357Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-01-29T06:34:44.360Z] Request Completed: GET /api/products/admin - 304 (8ms)
+[2026-01-29T06:34:44.361Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (4ms)
+[2026-01-29T06:34:44.361Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (3ms)
+[2026-01-29T06:36:16.082Z] Incoming Request: GET /api/products/admin
+[2026-01-29T06:36:16.088Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:36:16.136Z] Request Completed: GET /api/auth/me - 304 (48ms)
+[2026-01-29T06:36:16.137Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:36:16.142Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-01-29T06:36:16.283Z] Request Completed: GET /api/products/admin - 304 (200ms)
+[2026-01-29T06:36:16.284Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-01-29T06:36:16.300Z] Request Completed: GET /api/products/admin - 304 (16ms)
+[2026-01-29T06:36:16.301Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+[2026-01-29T06:36:16.301Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-01-29T06:36:16.302Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (1ms)
+[2026-01-29T06:36:16.304Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (3ms)
+[2026-02-05T06:02:51.968Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-02-05T06:02:51.995Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.111Z] Request Completed: GET /api/auth/me - 304 (116ms)
+[2026-02-05T06:02:52.112Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.116Z] Request Completed: GET /api/auth/me - 304 (4ms)
+[2026-02-05T06:02:52.117Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.122Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-02-05T06:02:52.123Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.184Z] Request Completed: GET /api/auth/me - 304 (61ms)
+[2026-02-05T06:02:52.203Z] Request Completed: GET /api/admin/stats/dashboard - 200 (234ms)
+[2026-02-05T06:02:52.203Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.209Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-02-05T06:02:52.209Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.213Z] Request Completed: GET /api/admin/stats/dashboard - 200 (4ms)
+[2026-02-05T06:02:52.213Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:02:52.220Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-02-05T06:03:21.963Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:03:21.982Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:03:22.874Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:03:22.889Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:03:51.957Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:03:51.973Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:03:52.876Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:03:52.890Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-05T06:04:21.957Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:04:21.973Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:04:22.874Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:04:22.889Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:04:51.955Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:04:51.970Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:04:52.873Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:04:52.888Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:05:21.954Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:05:21.969Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:05:22.873Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:05:22.887Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:05:51.955Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:05:51.970Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:05:52.871Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:05:52.888Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-02-05T06:06:21.953Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:06:21.984Z] Request Completed: GET /api/admin/stats/dashboard - 200 (30ms)
+[2026-02-05T06:06:22.872Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:06:22.890Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:06:51.954Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:06:51.970Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:06:52.871Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:06:52.887Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:07:21.955Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:21.971Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:07:22.872Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:22.886Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:07:30.901Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-02-05T06:07:30.905Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:31.265Z] Request Completed: GET /api/auth/me - 304 (360ms)
+[2026-02-05T06:07:31.267Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:07:31.279Z] Request Completed: GET /api/admin/stats/dashboard - 200 (378ms)
+[2026-02-05T06:07:31.282Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:31.288Z] Request Completed: GET /api/auth/me - 304 (21ms)
+[2026-02-05T06:07:31.289Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:07:31.290Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-05T06:07:31.291Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:31.302Z] Request Completed: GET /api/auth/me - 304 (13ms)
+[2026-02-05T06:07:31.303Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:07:31.312Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-02-05T06:07:31.319Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:07:31.356Z] Request Completed: GET /api/admin/stats/dashboard - 200 (37ms)
+[2026-02-05T06:07:31.358Z] Request Completed: GET /api/auth/me - 304 (55ms)
+[2026-02-05T06:10:14.268Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:10:14.366Z] Request Completed: GET /api/admin/stats/dashboard - 200 (96ms)
+[2026-02-05T06:10:15.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:10:15.226Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-05T06:10:44.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:10:44.260Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:10:45.217Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:10:45.233Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:11:14.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:11:14.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:11:15.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:11:15.234Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-02-05T06:11:44.251Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:11:44.281Z] Request Completed: GET /api/admin/stats/dashboard - 200 (25ms)
+[2026-02-05T06:11:45.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:11:45.232Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:12:14.245Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:12:14.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-05T06:12:15.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:12:15.231Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:12:44.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:12:44.260Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:12:45.217Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:12:45.229Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-02-05T06:13:14.245Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:13:14.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:13:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:13:16.232Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:13:44.245Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:13:44.264Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-02-05T06:14:14.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:14:14.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:14:16.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:14:16.229Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-02-05T06:14:44.277Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:14:44.430Z] Request Completed: GET /api/admin/stats/dashboard - 200 (151ms)
+[2026-02-05T06:15:14.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:15:14.260Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-02-05T06:15:16.234Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:15:16.240Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-02-05T06:15:44.268Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:15:44.405Z] Request Completed: GET /api/admin/stats/dashboard - 200 (136ms)
+[2026-02-05T06:16:14.308Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:16:14.402Z] Request Completed: GET /api/admin/stats/dashboard - 200 (93ms)
+[2026-02-05T06:16:16.223Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:16:16.229Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-02-05T06:16:44.288Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:16:44.411Z] Request Completed: GET /api/admin/stats/dashboard - 200 (122ms)
+[2026-02-05T06:17:14.243Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:17:14.261Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-02-05T06:17:16.221Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:17:16.228Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-02-05T06:17:44.243Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:17:44.255Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-02-05T06:18:14.249Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:18:14.268Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-02-05T06:18:16.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:18:16.227Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-05T06:18:44.252Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:18:44.270Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:19:14.240Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:19:14.257Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-02-05T06:19:16.217Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:19:16.227Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T06:19:44.245Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:19:44.268Z] Request Completed: GET /api/admin/stats/dashboard - 200 (22ms)
+[2026-02-05T06:20:14.253Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:20:14.279Z] Request Completed: GET /api/admin/stats/dashboard - 200 (24ms)
+[2026-02-05T06:20:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:20:16.224Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-02-05T06:20:44.251Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:20:44.273Z] Request Completed: GET /api/admin/stats/dashboard - 200 (21ms)
+[2026-02-05T06:21:14.250Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:21:14.272Z] Request Completed: GET /api/admin/stats/dashboard - 200 (21ms)
+[2026-02-05T06:21:16.223Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:21:16.243Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-02-05T06:21:44.326Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:21:45.084Z] Request Completed: GET /api/admin/stats/dashboard - 200 (755ms)
+[2026-02-05T06:22:14.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:22:14.261Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-02-05T06:22:16.221Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:22:16.227Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-02-05T06:22:44.241Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:22:44.260Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-02-05T06:23:14.246Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:23:14.267Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-02-05T06:23:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:23:16.236Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:23:44.241Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:23:44.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-02-05T06:24:14.241Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:24:14.257Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:24:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:24:16.237Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-02-05T06:24:44.243Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:24:44.262Z] Request Completed: GET /api/admin/stats/dashboard - 200 (19ms)
+[2026-02-05T06:25:14.240Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:25:14.255Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:25:16.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:25:16.236Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:25:44.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:25:44.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:26:14.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:26:14.252Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T06:26:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:26:16.226Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-05T06:26:44.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:26:44.254Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-05T06:27:14.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:27:14.259Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-05T06:27:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:27:16.228Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T06:27:44.241Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:27:44.253Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-05T06:28:14.243Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:28:14.258Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:28:16.218Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:28:16.223Z] Request Completed: GET /api/admin/stats/dashboard - 200 (5ms)
+[2026-02-05T06:28:44.244Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:28:44.261Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T06:29:14.239Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:29:14.250Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T06:29:16.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:29:16.229Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T06:29:44.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:29:44.256Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T06:30:14.242Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:14.256Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T06:30:16.219Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:16.228Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-02-05T06:30:34.822Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-02-05T06:30:34.837Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:35.297Z] Request Completed: GET /api/auth/me - 304 (460ms)
+[2026-02-05T06:30:35.298Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:30:35.302Z] Request Completed: GET /api/admin/stats/dashboard - 200 (480ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:35.305Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-02-05T06:30:35.308Z] Request Completed: GET /api/auth/me - 304 (9ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:35.312Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:30:35.313Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-05T06:30:35.315Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:35.327Z] Request Completed: GET /api/auth/me - 304 (15ms)
+[2026-02-05T06:30:35.332Z] Incoming Request: GET /api/auth/me
+[2026-02-05T06:30:35.340Z] Request Completed: GET /api/admin/stats/dashboard - 200 (24ms)
+[2026-02-05T06:30:35.341Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:30:35.407Z] Request Completed: GET /api/admin/stats/dashboard - 200 (66ms)
+[2026-02-05T06:30:35.409Z] Request Completed: GET /api/auth/me - 304 (77ms)
+[2026-02-05T06:54:41.587Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:54:41.816Z] Request Completed: GET /api/admin/stats/dashboard - 200 (228ms)
+[2026-02-05T06:54:41.981Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T06:54:41.990Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-02-05T07:03:35.281Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T07:03:35.301Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-02-05T07:03:35.677Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T07:03:35.687Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T07:30:59.999Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T07:31:00.029Z] Request Completed: GET /api/admin/stats/dashboard - 200 (28ms)
+[2026-02-05T07:31:00.396Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T07:31:00.421Z] Request Completed: GET /api/admin/stats/dashboard - 200 (25ms)
+[2026-02-05T08:07:41.258Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T08:07:41.280Z] Request Completed: GET /api/admin/stats/dashboard - 200 (22ms)
+[2026-02-05T08:07:41.659Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T08:07:41.672Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T09:20:23.609Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T09:20:23.645Z] Request Completed: GET /api/admin/stats/dashboard - 200 (36ms)
+[2026-02-05T09:20:24.006Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T09:20:24.023Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T10:09:40.988Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:09:41.011Z] Request Completed: GET /api/admin/stats/dashboard - 200 (22ms)
+[2026-02-05T10:09:41.387Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:09:41.403Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-02-05T10:52:26.746Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:52:26.766Z] Request Completed: GET /api/admin/stats/dashboard - 200 (20ms)
+[2026-02-05T10:52:27.149Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:52:27.233Z] Request Completed: GET /api/admin/stats/dashboard - 200 (83ms)
+[2026-02-05T10:54:16.035Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:54:16.154Z] Request Completed: GET /api/admin/stats/dashboard - 200 (118ms)
+[2026-02-05T10:54:46.004Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:54:46.017Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-05T10:54:57.408Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:54:57.418Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T10:55:16.004Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:55:16.015Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-02-05T10:55:46.011Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:55:46.029Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T10:55:57.408Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:55:57.419Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-02-05T10:56:16.002Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:56:16.016Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-05T10:56:46.004Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:56:46.015Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T10:56:47.014Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:56:47.230Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (216ms)
+[2026-02-05T10:56:47.231Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:56:47.243Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (12ms)
+[2026-02-05T10:56:57.405Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:56:57.420Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-02-05T10:57:57.406Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:57:57.416Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T10:58:57.407Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:58:57.425Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-05T10:59:46.446Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T10:59:46.457Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-02-05T11:00:06.711Z] Incoming Request: GET /api/admin/services
+[2026-02-05T11:00:06.715Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:06.727Z] Request Completed: GET /api/admin/services - 304 (16ms)
+[2026-02-05T11:00:06.729Z] Incoming Request: GET /api/admin/services
+[2026-02-05T11:00:06.732Z] Request Completed: GET /api/admin/users?role=operator - 304 (17ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:06.733Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-05T11:00:06.734Z] Request Completed: GET /api/admin/services - 304 (5ms)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:06.738Z] Request Completed: GET /api/admin/users?role=operator - 304 (5ms)
+[2026-02-05T11:00:08.319Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:08.327Z] Request Completed: GET /api/admin/config/global - 304 (8ms)
+[2026-02-05T11:00:08.328Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:08.333Z] Request Completed: GET /api/admin/config/global - 304 (5ms)
+[2026-02-05T11:00:09.884Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:09.925Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (41ms)
+[2026-02-05T11:00:09.926Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:00:09.947Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (21ms)
+[2026-02-05T11:00:42.398Z] Incoming Request: POST /api/auth/login
+[2026-02-05T11:00:42.507Z] Request Completed: POST /api/auth/login - 401 (106ms)
+[2026-02-05T11:01:40.722Z] Incoming Request: POST /api/auth/register
+[2026-02-05T11:01:40.730Z] Request Completed: POST /api/auth/register - 400 (8ms)
+[2026-02-05T11:02:02.252Z] Incoming Request: POST /api/auth/login
+[2026-02-05T11:02:02.355Z] Request Completed: POST /api/auth/login - 401 (102ms)
+[2026-02-05T11:04:49.874Z] Incoming Request: POST /api/auth/login
+[2026-02-05T11:04:49.981Z] Request Completed: POST /api/auth/login - 200 (105ms)
+[2026-02-05T11:04:50.000Z] Incoming Request: GET /api/auth/me
+[2026-02-05T11:04:50.003Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: rahul@example.com (user)
+✅ Auth Middleware: User authenticated: rahul@example.com (user)
+[2026-02-05T11:04:50.055Z] Request Completed: GET /api/auth/me - 200 (55ms)
+[2026-02-05T11:04:50.057Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (54ms)
+[2026-02-05T11:04:50.058Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: rahul@example.com (user)
+[2026-02-05T11:04:50.067Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (9ms)
+[2026-02-05T11:05:06.827Z] Incoming Request: GET /api/admin/orders
+[2026-02-05T11:05:06.829Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-05T11:05:06.830Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:05:06.847Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (17ms)
+[2026-02-05T11:05:06.848Z] Request Completed: GET /api/admin/users?role=operator - 304 (19ms)
+[2026-02-05T11:05:06.849Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-02-05T11:05:06.851Z] Request Completed: GET /api/admin/orders - 304 (24ms)
+[2026-02-05T11:05:06.851Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:05:06.853Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:05:06.856Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (7ms)
+[2026-02-05T11:05:06.859Z] Request Completed: GET /api/admin/users?role=operator - 304 (7ms)
+[2026-02-05T11:05:06.862Z] Request Completed: GET /api/admin/orders - 304 (9ms)
+[2026-02-05T11:05:09.072Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:05:09.093Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (21ms)
+[2026-02-05T11:05:09.095Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: test-e2e-admin@example.com (admin)
+[2026-02-05T11:05:09.105Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (10ms)
+[2026-02-05T11:06:53.358Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: rahul@example.com (user)
+[2026-02-05T11:06:53.398Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (39ms)
+[2026-02-05T11:06:53.399Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: rahul@example.com (user)
+[2026-02-05T11:06:53.411Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (11ms)
+[2026-02-09T11:59:43.379Z] Incoming Request: POST /api/auth/login
+[2026-02-09T11:59:43.516Z] Request Completed: POST /api/auth/login - 401 (136ms)
+[2026-02-09T12:00:34.610Z] Incoming Request: POST /api/auth/login
+[2026-02-09T12:00:34.714Z] Request Completed: POST /api/auth/login - 401 (103ms)
+[2026-02-09T12:00:53.996Z] Incoming Request: GET /
+[2026-02-09T12:00:53.999Z] Request Completed: GET / - 404 (3ms)
+[2026-02-09T12:00:54.000Z] Incoming Request: GET /
+[2026-02-09T12:00:54.003Z] Request Completed: GET / - 404 (3ms)
+[2026-02-09T12:00:54.117Z] Incoming Request: GET /favicon.ico
+[2026-02-09T12:00:54.121Z] Request Completed: GET /favicon.ico - 404 (3ms)
+[2026-02-09T12:00:54.121Z] Incoming Request: GET /favicon.ico
+[2026-02-09T12:00:54.123Z] Request Completed: GET /favicon.ico - 404 (2ms)
+[2026-02-12T06:04:25.866Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:04:26.004Z] Request Completed: POST /api/auth/login - 401 (137ms)
+[2026-02-12T06:05:41.329Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:05:41.435Z] Request Completed: POST /api/auth/login - 401 (104ms)
+[2026-02-12T06:06:04.051Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:06:04.155Z] Request Completed: POST /api/auth/login - 401 (103ms)
+[2026-02-12T06:06:28.250Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:06:28.354Z] Request Completed: POST /api/auth/login - 401 (103ms)
+[2026-02-12T06:09:24.371Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:09:24.506Z] Request Completed: POST /api/auth/login - 401 (133ms)
+[2026-02-12T06:11:44.185Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:11:44.261Z] Request Completed: POST /api/auth/login - 400 (74ms)
+[2026-02-12T06:12:32.744Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:12:32.844Z] Request Completed: POST /api/auth/login - 401 (99ms)
+[2026-02-12T06:23:44.125Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:23:44.249Z] Request Completed: POST /api/auth/login - 401 (122ms)
+[2026-02-12T06:52:11.566Z] Incoming Request: POST /api/auth/login
+[2026-02-12T06:52:11.704Z] Request Completed: POST /api/auth/login - 401 (137ms)
+[2026-02-12T06:54:35.339Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:54:35.356Z] Request Completed: GET /api/admin/stats/dashboard - 401 (16ms)
+[2026-02-12T06:54:35.359Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:54:35.360Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:54:35.361Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:54:35.362Z] Request Completed: GET /api/admin/stats/dashboard - 401 (0ms)
+[2026-02-12T06:54:35.364Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:54:35.365Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:55:05.321Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:05.323Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-02-12T06:55:06.268Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:06.269Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:55:35.318Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:35.320Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-02-12T06:55:36.266Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:36.269Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-02-12T06:55:38.333Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.337Z] Request Completed: GET /api/admin/orders - 401 (4ms)
+[2026-02-12T06:55:38.339Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.340Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:55:38.340Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.341Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (0ms)
+[2026-02-12T06:55:38.342Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.344Z] Request Completed: GET /api/admin/orders - 401 (1ms)
+[2026-02-12T06:55:38.345Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.346Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:55:38.348Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:38.349Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (1ms)
+[2026-02-12T06:55:39.783Z] Incoming Request: GET /api/admin/riders/fleet-status
+❌ Auth Middleware: No token provided for /api/admin/riders/fleet-status
+[2026-02-12T06:55:39.784Z] Request Completed: GET /api/admin/riders/fleet-status - 401 (1ms)
+[2026-02-12T06:55:39.784Z] Incoming Request: GET /api/admin/riders/fleet-status
+❌ Auth Middleware: No token provided for /api/admin/riders/fleet-status
+[2026-02-12T06:55:39.785Z] Request Completed: GET /api/admin/riders/fleet-status - 401 (1ms)
+[2026-02-12T06:55:48.426Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:48.438Z] Request Completed: GET /api/admin/stats/dashboard - 401 (10ms)
+[2026-02-12T06:55:48.441Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:48.442Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:55:48.487Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:48.506Z] Request Completed: GET /api/admin/stats/dashboard - 401 (18ms)
+[2026-02-12T06:55:48.508Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:48.509Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:55:50.381Z] Incoming Request: GET /api/admin/riders/fleet-status
+❌ Auth Middleware: No token provided for /api/admin/riders/fleet-status
+[2026-02-12T06:55:50.383Z] Request Completed: GET /api/admin/riders/fleet-status - 401 (1ms)
+[2026-02-12T06:55:50.383Z] Incoming Request: GET /api/admin/riders/fleet-status
+❌ Auth Middleware: No token provided for /api/admin/riders/fleet-status
+[2026-02-12T06:55:50.384Z] Request Completed: GET /api/admin/riders/fleet-status - 401 (1ms)
+[2026-02-12T06:55:54.839Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.840Z] Request Completed: GET /api/admin/users?role=operator - 401 (0ms)
+[2026-02-12T06:55:54.841Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.842Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:55:54.842Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.842Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (0ms)
+[2026-02-12T06:55:54.844Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.845Z] Request Completed: GET /api/admin/orders - 401 (1ms)
+[2026-02-12T06:55:54.846Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.846Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (0ms)
+[2026-02-12T06:55:54.847Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:54.848Z] Request Completed: GET /api/admin/orders - 401 (1ms)
+[2026-02-12T06:55:56.925Z] Incoming Request: GET /api/admin/users?role=user
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:56.926Z] Request Completed: GET /api/admin/users?role=user - 401 (1ms)
+[2026-02-12T06:55:56.927Z] Incoming Request: GET /api/admin/users?role=user
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:56.928Z] Request Completed: GET /api/admin/users?role=user - 401 (1ms)
+[2026-02-12T06:55:57.822Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:57.824Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:55:57.824Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:57.825Z] Request Completed: GET /api/admin/users?role=operator - 401 (0ms)
+[2026-02-12T06:55:58.854Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:58.855Z] Request Completed: GET /api/admin/users?role=delivery - 401 (1ms)
+[2026-02-12T06:55:58.856Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:58.857Z] Request Completed: GET /api/admin/users?role=delivery - 401 (1ms)
+[2026-02-12T06:55:59.688Z] Incoming Request: GET /api/admin/users?role=admin
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:55:59.689Z] Request Completed: GET /api/admin/users?role=admin - 401 (1ms)
+[2026-02-12T06:56:00.806Z] Incoming Request: GET /api/admin/services
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:00.808Z] Request Completed: GET /api/admin/services - 401 (1ms)
+[2026-02-12T06:56:00.808Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:00.810Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:56:00.811Z] Incoming Request: GET /api/admin/services
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:00.812Z] Request Completed: GET /api/admin/services - 401 (1ms)
+[2026-02-12T06:56:00.813Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:00.813Z] Request Completed: GET /api/admin/users?role=operator - 401 (0ms)
+[2026-02-12T06:56:01.579Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:01.580Z] Request Completed: GET /api/admin/users?role=delivery - 401 (0ms)
+[2026-02-12T06:56:01.581Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:01.583Z] Request Completed: GET /api/admin/users?role=delivery - 401 (1ms)
+[2026-02-12T06:56:03.970Z] Incoming Request: GET /api/admin/users?role=user
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:03.972Z] Request Completed: GET /api/admin/users?role=user - 401 (1ms)
+[2026-02-12T06:56:06.265Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:06.267Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-02-12T06:56:17.291Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:17.293Z] Request Completed: GET /api/admin/users?role=operator - 401 (2ms)
+[2026-02-12T06:56:17.294Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:17.294Z] Request Completed: GET /api/admin/users?role=operator - 401 (0ms)
+[2026-02-12T06:56:18.245Z] Incoming Request: GET /api/admin/users?role=admin
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:18.246Z] Request Completed: GET /api/admin/users?role=admin - 401 (1ms)
+[2026-02-12T06:56:18.246Z] Incoming Request: GET /api/admin/users?role=admin
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:18.247Z] Request Completed: GET /api/admin/users?role=admin - 401 (1ms)
+[2026-02-12T06:56:19.369Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:19.371Z] Request Completed: GET /api/admin/users?role=operator - 401 (2ms)
+[2026-02-12T06:56:19.372Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:19.373Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:56:20.272Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:20.273Z] Request Completed: GET /api/admin/users?role=delivery - 401 (1ms)
+[2026-02-12T06:56:20.274Z] Incoming Request: GET /api/admin/users?role=delivery
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:20.274Z] Request Completed: GET /api/admin/users?role=delivery - 401 (0ms)
+[2026-02-12T06:56:22.329Z] Incoming Request: GET /api/admin/users?role=admin
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:22.331Z] Request Completed: GET /api/admin/users?role=admin - 401 (1ms)
+[2026-02-12T06:56:24.302Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:24.303Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:56:24.304Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:24.305Z] Request Completed: GET /api/admin/stats/dashboard - 401 (1ms)
+[2026-02-12T06:56:27.985Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.986Z] Request Completed: GET /api/admin/orders - 401 (0ms)
+[2026-02-12T06:56:27.988Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.989Z] Request Completed: GET /api/admin/users?role=operator - 401 (1ms)
+[2026-02-12T06:56:27.989Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.990Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (1ms)
+[2026-02-12T06:56:27.991Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.991Z] Request Completed: GET /api/admin/users?role=delivery_boy - 401 (0ms)
+[2026-02-12T06:56:27.991Z] Incoming Request: GET /api/admin/orders
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.992Z] Request Completed: GET /api/admin/orders - 401 (1ms)
+[2026-02-12T06:56:27.992Z] Incoming Request: GET /api/admin/users?role=operator
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:27.993Z] Request Completed: GET /api/admin/users?role=operator - 401 (0ms)
+[2026-02-12T06:56:36.267Z] Incoming Request: GET /api/admin/stats/dashboard
+❌ Auth Middleware: Token verification failed: jwt malformed
+[2026-02-12T06:56:36.270Z] Request Completed: GET /api/admin/stats/dashboard - 401 (2ms)
+[2026-02-16T20:01:43.040Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:01:43.206Z] Request Completed: POST /api/auth/login - 401 (164ms)
+[2026-02-16T20:06:36.740Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:06:36.767Z] Request Completed: POST /api/auth/login - 401 (26ms)
+[2026-02-16T20:08:13.873Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:08:13.889Z] Request Completed: POST /api/auth/login - 401 (14ms)
+[2026-02-16T20:08:35.508Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:08:35.521Z] Request Completed: POST /api/auth/login - 401 (12ms)
+[2026-02-16T20:09:44.198Z] Incoming Request: POST /api/auth/register
+[2026-02-16T20:09:44.396Z] Request Completed: POST /api/auth/register - 201 (198ms)
+[2026-02-16T20:09:44.411Z] Incoming Request: GET /api/auth/me
+[2026-02-16T20:09:44.417Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumit@gmail.com (user)
+[2026-02-16T20:09:44.423Z] Request Completed: GET /api/auth/me - 200 (12ms)
+✅ Auth Middleware: User authenticated: sumit@gmail.com (user)
+[2026-02-16T20:09:44.477Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (60ms)
+[2026-02-16T20:09:44.478Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumit@gmail.com (user)
+[2026-02-16T20:09:44.483Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (5ms)
+[2026-02-16T20:09:52.315Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumit@gmail.com (user)
+[2026-02-16T20:09:52.327Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (12ms)
+[2026-02-16T20:09:52.328Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sumit@gmail.com (user)
+[2026-02-16T20:09:52.340Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-02-16T20:12:03.944Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:12:04.047Z] Request Completed: POST /api/auth/login - 200 (101ms)
+[2026-02-16T20:12:04.059Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:04.068Z] Request Completed: GET /api/auth/me - 200 (9ms)
+[2026-02-16T20:12:04.109Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:04.165Z] Request Completed: GET /api/admin/stats/dashboard - 200 (56ms)
+[2026-02-16T20:12:04.166Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:04.171Z] Request Completed: GET /api/admin/stats/dashboard - 304 (5ms)
+[2026-02-16T20:12:12.320Z] Incoming Request: GET /api/admin/orders
+[2026-02-16T20:12:12.323Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:12.329Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:12.349Z] Request Completed: GET /api/admin/users?role=operator - 200 (26ms)
+[2026-02-16T20:12:12.349Z] Request Completed: GET /api/admin/users?role=delivery_boy - 200 (20ms)
+[2026-02-16T20:12:12.350Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-16T20:12:12.352Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:12.355Z] Request Completed: GET /api/admin/orders - 200 (35ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:12.358Z] Incoming Request: GET /api/admin/orders
+[2026-02-16T20:12:12.359Z] Request Completed: GET /api/admin/users?role=operator - 304 (9ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:12.360Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (8ms)
+[2026-02-16T20:12:12.367Z] Request Completed: GET /api/admin/orders - 304 (9ms)
+[2026-02-16T20:12:13.762Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:13.788Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (26ms)
+[2026-02-16T20:12:13.789Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:12:13.796Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (7ms)
+[2026-02-16T20:36:03.055Z] Incoming Request: POST /api/auth/register
+[2026-02-16T20:36:03.083Z] Request Completed: POST /api/auth/register - 400 (27ms)
+[2026-02-16T20:36:46.262Z] Incoming Request: POST /api/auth/register
+[2026-02-16T20:36:46.433Z] Request Completed: POST /api/auth/register - 201 (171ms)
+[2026-02-16T20:36:46.441Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:46.449Z] Request Completed: GET /api/auth/me - 200 (8ms)
+[2026-02-16T20:36:46.508Z] Incoming Request: GET /api/users/me
+[2026-02-16T20:36:46.509Z] Incoming Request: GET /api/operators/queue
+[2026-02-16T20:36:46.511Z] Request Completed: GET /api/users/me - 404 (3ms)
+[2026-02-16T20:36:46.513Z] Incoming Request: GET /api/users/me
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:46.515Z] Request Completed: GET /api/users/me - 404 (2ms)
+[2026-02-16T20:36:46.527Z] Request Completed: GET /api/operators/queue - 200 (18ms)
+[2026-02-16T20:36:46.528Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:46.532Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-02-16T20:36:53.106Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:53.113Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-02-16T20:36:53.114Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:53.124Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-16T20:36:53.969Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:53.981Z] Request Completed: GET /api/operators/earnings?period=month - 200 (12ms)
+[2026-02-16T20:36:53.982Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:53.992Z] Request Completed: GET /api/operators/earnings?period=month - 304 (10ms)
+[2026-02-16T20:36:54.720Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:36:54.724Z] Request Completed: GET /api/operators/inventory - 404 (4ms)
+[2026-02-16T20:36:54.725Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:36:54.728Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-02-16T20:36:56.469Z] Incoming Request: GET /api/operators/service-preferences
+[2026-02-16T20:36:56.474Z] Request Completed: GET /api/operators/service-preferences - 404 (5ms)
+[2026-02-16T20:36:56.475Z] Incoming Request: GET /api/operators/service-preferences
+[2026-02-16T20:36:56.478Z] Request Completed: GET /api/operators/service-preferences - 404 (3ms)
+[2026-02-16T20:36:58.934Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:36:58.939Z] Request Completed: GET /api/operators/inventory - 404 (5ms)
+[2026-02-16T20:36:58.940Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:36:58.943Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-02-16T20:36:59.904Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:59.913Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-02-16T20:36:59.914Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:36:59.922Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-02-16T20:37:03.312Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:03.319Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-02-16T20:37:03.320Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:03.330Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-16T20:37:09.622Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:09.631Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-16T20:37:09.632Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:09.640Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-02-16T20:37:12.800Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:12.812Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-16T20:37:12.813Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:12.819Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-02-16T20:37:16.334Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:16.343Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-16T20:37:16.344Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:16.350Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-02-16T20:37:17.153Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:17.163Z] Request Completed: GET /api/operators/earnings?period=month - 304 (10ms)
+[2026-02-16T20:37:17.164Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:17.175Z] Request Completed: GET /api/operators/earnings?period=month - 304 (11ms)
+[2026-02-16T20:37:17.854Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:37:17.858Z] Request Completed: GET /api/operators/inventory - 404 (4ms)
+[2026-02-16T20:37:17.858Z] Incoming Request: GET /api/operators/inventory
+[2026-02-16T20:37:17.861Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-02-16T20:37:19.136Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:19.144Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-02-16T20:37:19.144Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:19.150Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-02-16T20:37:20.469Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:20.479Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-16T20:37:20.480Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:20.487Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-02-16T20:37:27.871Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:27.881Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-16T20:37:27.882Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-16T20:37:27.891Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-16T20:37:39.205Z] Incoming Request: GET /api/admin/orders
+[2026-02-16T20:37:39.208Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-16T20:37:39.210Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:39.249Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (39ms)
+[2026-02-16T20:37:39.250Z] Request Completed: GET /api/admin/users?role=operator - 200 (42ms)
+[2026-02-16T20:37:39.252Z] Request Completed: GET /api/admin/orders - 304 (47ms)
+[2026-02-16T20:37:39.253Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-02-16T20:37:39.254Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-16T20:37:39.254Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:39.258Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (5ms)
+[2026-02-16T20:37:39.264Z] Request Completed: GET /api/admin/users?role=operator - 304 (10ms)
+[2026-02-16T20:37:39.266Z] Request Completed: GET /api/admin/orders - 304 (12ms)
+[2026-02-16T20:37:40.025Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:40.042Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-16T20:37:40.043Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:40.049Z] Request Completed: GET /api/admin/stats/dashboard - 304 (6ms)
+[2026-02-16T20:37:49.454Z] Incoming Request: POST /api/auth/login
+[2026-02-16T20:37:49.557Z] Request Completed: POST /api/auth/login - 200 (102ms)
+[2026-02-16T20:37:49.574Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:49.581Z] Request Completed: GET /api/admin/stats/dashboard - 304 (7ms)
+[2026-02-16T20:37:49.582Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-16T20:37:49.585Z] Request Completed: GET /api/admin/stats/dashboard - 304 (3ms)
+[2026-02-23T18:57:42.616Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-02-23T18:57:42.634Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:57:42.858Z] Request Completed: GET /api/auth/me - 200 (224ms)
+[2026-02-23T18:57:42.859Z] Request Completed: GET /api/admin/stats/dashboard - 304 (242ms)
+[2026-02-23T18:57:42.860Z] Incoming Request: GET /api/auth/me
+[2026-02-23T18:57:42.861Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:57:42.869Z] Request Completed: GET /api/auth/me - 304 (9ms)
+[2026-02-23T18:57:42.870Z] Request Completed: GET /api/admin/stats/dashboard - 304 (9ms)
+[2026-02-23T18:58:00.334Z] Incoming Request: POST /api/auth/login
+[2026-02-23T18:58:00.434Z] Request Completed: POST /api/auth/login - 200 (100ms)
+[2026-02-23T18:58:00.451Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:00.459Z] Request Completed: GET /api/auth/me - 304 (8ms)
+[2026-02-23T18:58:00.460Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:00.475Z] Request Completed: GET /api/admin/stats/dashboard - 304 (15ms)
+[2026-02-23T18:58:00.475Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:00.479Z] Request Completed: GET /api/admin/stats/dashboard - 304 (4ms)
+[2026-02-23T18:58:06.502Z] Incoming Request: GET /api/admin/orders
+[2026-02-23T18:58:06.504Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:06.508Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:06.534Z] Request Completed: GET /api/admin/users?role=operator - 304 (29ms)
+[2026-02-23T18:58:06.535Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-02-23T18:58:06.536Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (28ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:06.538Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-02-23T18:58:06.540Z] Request Completed: GET /api/admin/orders - 304 (37ms)
+[2026-02-23T18:58:06.540Z] Request Completed: GET /api/admin/users?role=operator - 304 (5ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:06.541Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:06.543Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (5ms)
+[2026-02-23T18:58:06.549Z] Request Completed: GET /api/admin/orders - 304 (7ms)
+[2026-02-23T18:58:09.441Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:09.455Z] Request Completed: GET /api/admin/config/global - 200 (14ms)
+[2026-02-23T18:58:09.455Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:09.462Z] Request Completed: GET /api/admin/config/global - 304 (6ms)
+[2026-02-23T18:58:16.858Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:16.925Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 200 (67ms)
+[2026-02-23T18:58:16.926Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T18:58:16.952Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (25ms)
+[2026-02-23T18:58:22.800Z] Incoming Request: GET /api/operators/queue
+[2026-02-23T18:58:22.805Z] Incoming Request: GET /api/auth/me
+[2026-02-23T18:58:22.806Z] Incoming Request: GET /api/users/me
+[2026-02-23T18:58:22.811Z] Request Completed: GET /api/users/me - 404 (5ms)
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:58:22.813Z] Incoming Request: GET /api/users/me
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:58:22.815Z] Request Completed: GET /api/users/me - 404 (2ms)
+[2026-02-23T18:58:22.816Z] Request Completed: GET /api/auth/me - 200 (11ms)
+[2026-02-23T18:58:22.816Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:58:22.819Z] Request Completed: GET /api/auth/me - 304 (3ms)
+[2026-02-23T18:58:22.822Z] Request Completed: GET /api/operators/queue - 304 (21ms)
+[2026-02-23T18:58:22.823Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:58:22.829Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-02-23T18:58:53.196Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:58:53.210Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-02-23T18:59:18.352Z] Incoming Request: POST /api/auth/register
+[2026-02-23T18:59:18.516Z] Request Completed: POST /api/auth/register - 201 (164ms)
+[2026-02-23T18:59:18.529Z] Incoming Request: GET /api/delivery/active
+[2026-02-23T18:59:18.530Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: chiragkhemot@gmail.com (delivery)
+✅ Auth Middleware: User authenticated: chiragkhemot@gmail.com (delivery)
+[2026-02-23T18:59:18.535Z] Request Completed: GET /api/delivery/active - 200 (5ms)
+[2026-02-23T18:59:18.536Z] Request Completed: GET /api/auth/me - 200 (5ms)
+[2026-02-23T18:59:18.536Z] Incoming Request: GET /api/delivery/active
+✅ Auth Middleware: User authenticated: chiragkhemot@gmail.com (delivery)
+[2026-02-23T18:59:18.538Z] Request Completed: GET /api/delivery/active - 304 (2ms)
+[2026-02-23T18:59:23.194Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:59:23.205Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-23T18:59:25.798Z] Incoming Request: GET /api/delivery/active
+✅ Auth Middleware: User authenticated: chiragkhemot@gmail.com (delivery)
+[2026-02-23T18:59:25.807Z] Request Completed: GET /api/delivery/active - 304 (9ms)
+[2026-02-23T18:59:25.808Z] Incoming Request: GET /api/delivery/active
+✅ Auth Middleware: User authenticated: chiragkhemot@gmail.com (delivery)
+[2026-02-23T18:59:25.814Z] Request Completed: GET /api/delivery/active - 304 (6ms)
+[2026-02-23T18:59:53.196Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T18:59:53.210Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:00:23.191Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:00:23.202Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-23T19:00:53.195Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:00:53.207Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:01:23.193Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:01:23.205Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:01:53.195Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:01:53.205Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-23T19:02:27.190Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:02:27.194Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-02-23T19:03:27.195Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:03:27.207Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:04:27.198Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:04:27.219Z] Request Completed: GET /api/operators/queue - 304 (20ms)
+[2026-02-23T19:05:27.197Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:05:27.205Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-02-23T19:06:27.199Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:06:27.216Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-02-23T19:07:27.197Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:07:27.217Z] Request Completed: GET /api/operators/queue - 304 (19ms)
+[2026-02-23T19:08:27.205Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:08:27.221Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-02-23T19:09:27.193Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:09:27.204Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-23T19:10:27.193Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:10:27.243Z] Request Completed: GET /api/operators/queue - 304 (50ms)
+[2026-02-23T19:11:27.196Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:11:27.214Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:12:27.193Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:12:27.206Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:13:27.191Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:13:27.203Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:14:27.193Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:14:27.207Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:15:27.197Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:15:27.209Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:16:27.202Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:16:27.215Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:17:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:17:27.223Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-02-23T19:18:27.210Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:18:27.230Z] Request Completed: GET /api/operators/queue - 304 (19ms)
+[2026-02-23T19:19:13.195Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:19:13.206Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:19:23.202Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:19:23.217Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-02-23T19:19:53.200Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:19:53.214Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:20:27.204Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:20:27.223Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:21:27.201Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:21:27.213Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:22:27.204Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:22:27.222Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:23:27.202Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:23:27.216Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:24:27.204Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:24:27.223Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:25:27.199Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:25:27.212Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:26:27.208Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:26:27.230Z] Request Completed: GET /api/operators/queue - 304 (21ms)
+[2026-02-23T19:27:27.206Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:27:27.220Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:28:27.200Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:28:27.215Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-02-23T19:29:27.201Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:29:27.214Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:29:56.624Z] Incoming Request: POST /api/auth/register
+[2026-02-23T19:29:56.631Z] Request Completed: POST /api/auth/register - 400 (6ms)
+[2026-02-23T19:30:27.201Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:30:27.232Z] Request Completed: GET /api/operators/queue - 304 (31ms)
+[2026-02-23T19:31:27.205Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:31:27.215Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-02-23T19:32:27.209Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:32:27.228Z] Request Completed: GET /api/operators/queue - 304 (18ms)
+[2026-02-23T19:33:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:33:27.228Z] Request Completed: GET /api/operators/queue - 304 (20ms)
+[2026-02-23T19:34:27.205Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:34:27.217Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:34:53.131Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:34:53.144Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:35:22.817Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:35:22.831Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:35:52.818Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:35:52.850Z] Request Completed: GET /api/operators/queue - 304 (31ms)
+[2026-02-23T19:36:22.821Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:36:22.843Z] Request Completed: GET /api/operators/queue - 304 (21ms)
+[2026-02-23T19:36:53.209Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:36:53.226Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:36:59.454Z] Incoming Request: POST /api/auth/register
+[2026-02-23T19:36:59.615Z] Request Completed: POST /api/auth/register - 201 (161ms)
+[2026-02-23T19:36:59.632Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:36:59.638Z] Incoming Request: GET /api/orders?page=1&limit=3
+[2026-02-23T19:36:59.640Z] Request Completed: GET /api/auth/me - 200 (8ms)
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:36:59.698Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (60ms)
+[2026-02-23T19:36:59.699Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:36:59.704Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (5ms)
+[2026-02-23T19:37:27.221Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:37:27.257Z] Request Completed: GET /api/operators/queue - 304 (36ms)
+[2026-02-23T19:38:27.211Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:38:27.225Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:39:15.100Z] Incoming Request: GET /api/orders?page=1&limit=3
+[2026-02-23T19:39:15.104Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:39:15.115Z] Request Completed: GET /api/auth/me - 304 (10ms)
+[2026-02-23T19:39:15.116Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (15ms)
+[2026-02-23T19:39:15.116Z] Incoming Request: GET /api/auth/me
+[2026-02-23T19:39:15.116Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:39:15.121Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-02-23T19:39:15.122Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (6ms)
+[2026-02-23T19:39:27.211Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:39:27.225Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-02-23T19:40:27.204Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:40:27.219Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-02-23T19:41:17.341Z] Incoming Request: POST /api/auth/login
+[2026-02-23T19:41:17.447Z] Request Completed: POST /api/auth/login - 200 (105ms)
+[2026-02-23T19:41:17.551Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:41:17.556Z] Request Completed: GET /api/auth/me - 200 (5ms)
+[2026-02-23T19:41:17.660Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:41:17.670Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (9ms)
+[2026-02-23T19:41:17.694Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: manas@gmail.com (user)
+[2026-02-23T19:41:17.708Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (13ms)
+[2026-02-23T19:41:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:41:27.218Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-02-23T19:42:27.211Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:42:27.228Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-02-23T19:43:27.212Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:43:27.236Z] Request Completed: GET /api/operators/queue - 304 (23ms)
+[2026-02-23T19:44:27.208Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:44:27.225Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-02-23T19:45:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:45:27.222Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-02-23T19:46:27.208Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:46:27.242Z] Request Completed: GET /api/operators/queue - 304 (32ms)
+[2026-02-23T19:47:27.239Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:47:27.324Z] Request Completed: GET /api/operators/queue - 304 (82ms)
+[2026-02-23T19:48:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:48:27.220Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-02-23T19:49:27.207Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:49:27.218Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-02-23T19:50:11.426Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+[2026-02-23T19:50:11.433Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:50:11.455Z] Request Completed: GET /api/auth/me - 200 (22ms)
+[2026-02-23T19:50:11.455Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:50:11.464Z] Request Completed: GET /api/auth/me - 304 (9ms)
+[2026-02-23T19:50:11.522Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 200 (95ms)
+[2026-02-23T19:50:11.523Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:50:11.541Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (18ms)
+[2026-02-23T19:50:13.271Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:50:13.304Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (32ms)
+[2026-02-23T19:50:13.314Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:50:13.319Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-02-23T19:50:27.214Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:50:27.232Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-02-23T19:51:12.752Z] Incoming Request: POST /api/auth/login
+[2026-02-23T19:51:12.920Z] Request Completed: POST /api/auth/login - 401 (168ms)
+[2026-02-23T19:51:27.220Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:51:27.296Z] Request Completed: GET /api/operators/queue - 304 (75ms)
+[2026-02-23T19:51:27.805Z] Incoming Request: POST /api/auth/login
+[2026-02-23T19:51:27.937Z] Request Completed: POST /api/auth/login - 200 (132ms)
+[2026-02-23T19:51:27.953Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:27.958Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-02-23T19:51:27.964Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:28.020Z] Request Completed: GET /api/admin/stats/dashboard - 200 (56ms)
+[2026-02-23T19:51:28.021Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:28.025Z] Request Completed: GET /api/admin/stats/dashboard - 200 (4ms)
+[2026-02-23T19:51:41.524Z] Incoming Request: POST /api/auth/login
+[2026-02-23T19:51:41.624Z] Request Completed: POST /api/auth/login - 200 (99ms)
+[2026-02-23T19:51:41.636Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:41.640Z] Request Completed: GET /api/auth/me - 200 (4ms)
+[2026-02-23T19:51:41.669Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:41.677Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-02-23T19:51:41.677Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:41.682Z] Request Completed: GET /api/admin/stats/dashboard - 200 (4ms)
+[2026-02-23T19:51:58.208Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:51:58.225Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-23T19:52:11.653Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:52:11.671Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-02-23T19:52:27.209Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:52:27.240Z] Request Completed: GET /api/operators/queue - 304 (31ms)
+[2026-02-23T19:52:28.208Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:52:28.220Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-23T19:52:41.655Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:52:41.671Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-23T19:52:58.204Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:52:58.219Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-23T19:53:11.653Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:53:11.670Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-23T19:53:27.237Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:53:27.283Z] Request Completed: GET /api/operators/queue - 304 (45ms)
+[2026-02-23T19:53:28.206Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:53:28.227Z] Request Completed: GET /api/admin/stats/dashboard - 200 (21ms)
+[2026-02-23T19:53:41.656Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:53:41.674Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-02-23T19:53:58.207Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:53:58.220Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-02-23T19:54:11.652Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:54:11.667Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-02-23T19:54:27.205Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: operator@gmail.com (operator)
+[2026-02-23T19:54:27.217Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-02-23T19:54:28.203Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:54:28.215Z] Request Completed: GET /api/admin/stats/dashboard - 200 (12ms)
+[2026-02-23T19:54:41.655Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-02-23T19:54:41.674Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
