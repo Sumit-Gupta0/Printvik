@@ -14,7 +14,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const result = await login(formData);
-        if (result.success) navigate('/');
+        if (result.success) navigate('/'); 
     };
 
     return (
@@ -24,7 +24,7 @@ function Login() {
                 <img src="/logo.png" alt="PrintVik Logo" style={{ height: '6rem', marginBottom: '2rem', objectFit: 'contain' }} />
                 <h1>PrintVik Delivery</h1>
                 <p>Empowering local print delivery. Join our network and start earning today.</p>
-            </div>
+            </div> 
 
             {/* Form Section */}
             <div className="form-section">

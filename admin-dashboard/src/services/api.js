@@ -61,12 +61,12 @@ export const userAPI = {
 
 // Order APIs
 export const orderAPI = {
-    create: (formData) => api.post('/orders', formData, {
+    create: (formData) => api.post('/admin/orders', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
     }),
-    getAll: (params) => api.get('/orders', { params }),
-    getById: (id) => api.get(`/orders/${id}`),
-    updateStatus: (id, data) => api.put(`/orders/${id}/status`, data),
+    getAll: (params) => api.get('/admin/orders', { params }),
+    getById: (id) => api.get(`/orders/${id}`), // The getById might be shared or admin-specific, let's keep it if it works or use /admin/orders/${id}? Wait, we'll see.
+    updateStatus: (id, data) => api.put(`/admin/orders/${id}`, data),
 };
 
 // Payment APIs

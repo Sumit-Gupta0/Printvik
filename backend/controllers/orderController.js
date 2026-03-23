@@ -136,15 +136,15 @@ exports.createOrder = async (req, res) => {
             documents,
             items: parsedItems,
             orderType,
-            specifications: specifications ? JSON.parse(specifications) : undefined,
+            specifications: specifications && specifications !== 'undefined' ? JSON.parse(specifications) : undefined,
             instructions,
             totalAmount,
             platformFee,
             deliveryCharge: orderType === 'WALK_IN' ? 0 : deliveryCharge,
             paymentMethod,
             deliveryOption: orderType === 'WALK_IN' ? 'pickup' : deliveryOption,
-            deliveryAddress: deliveryOption === 'delivery' && orderType !== 'WALK_IN' ? JSON.parse(deliveryAddress) : null,
-            discount: couponCode ? { couponCode } : null
+            deliveryAddress: deliveryOption === 'delivery' && orderType !== 'WALK_IN' && deliveryAddress && deliveryAddress !== 'undefined' ? JSON.parse(deliveryAddress) : null,
+            discount: couponCode && couponCode !== 'undefined' ? { couponCode } : null
         };
 
         if (orderType === 'WALK_IN') {

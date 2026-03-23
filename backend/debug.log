@@ -23211,3 +23211,1454 @@ Create Product Request Body: {"name":"Final Test Pen","sku":"FINAL-PEN-01","desc
 [2026-02-23T19:54:41.655Z] Incoming Request: GET /api/admin/stats/dashboard
 ✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
 [2026-02-23T19:54:41.674Z] Request Completed: GET /api/admin/stats/dashboard - 200 (18ms)
+[2026-03-23T11:22:56.386Z] Incoming Request: GET /api/delivery/active
+[2026-03-23T11:22:56.393Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-03-23T11:22:56.421Z] Request Completed: GET /api/delivery/active - 401 (34ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-03-23T11:22:56.422Z] Request Completed: GET /api/auth/me - 401 (29ms)
+[2026-03-23T11:22:56.422Z] Incoming Request: GET /api/delivery/active
+[2026-03-23T11:22:56.423Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-03-23T11:22:56.424Z] Request Completed: GET /api/delivery/active - 401 (2ms)
+❌ Auth Middleware: Token verification failed: jwt expired
+[2026-03-23T11:22:56.426Z] Request Completed: GET /api/auth/me - 401 (3ms)
+[2026-03-23T11:23:27.968Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:23:27.979Z] Request Completed: POST /api/auth/register - 400 (11ms)
+[2026-03-23T11:23:51.131Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:23:51.138Z] Request Completed: POST /api/auth/register - 400 (6ms)
+[2026-03-23T11:23:53.698Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:23:53.706Z] Request Completed: POST /api/auth/register - 400 (8ms)
+[2026-03-23T11:24:00.413Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:24:00.430Z] Request Completed: POST /api/auth/register - 500 (16ms)
+[2026-03-23T11:24:13.935Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:24:13.943Z] Request Completed: POST /api/auth/register - 500 (8ms)
+[2026-03-23T11:24:16.597Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:24:16.606Z] Request Completed: POST /api/auth/register - 500 (8ms)
+[2026-03-23T11:24:21.366Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:24:21.375Z] Request Completed: POST /api/auth/register - 500 (8ms)
+[2026-03-23T11:24:53.483Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:24:53.620Z] Request Completed: POST /api/auth/register - 201 (137ms)
+[2026-03-23T11:24:53.634Z] Incoming Request: GET /api/auth/me
+[2026-03-23T11:24:53.637Z] Incoming Request: GET /api/delivery/active
+✅ Auth Middleware: User authenticated: jonh@gmail.com (delivery)
+✅ Auth Middleware: User authenticated: jonh@gmail.com (delivery)
+[2026-03-23T11:24:53.651Z] Request Completed: GET /api/auth/me - 200 (17ms)
+[2026-03-23T11:24:53.654Z] Request Completed: GET /api/delivery/active - 304 (17ms)
+[2026-03-23T11:24:53.655Z] Incoming Request: GET /api/delivery/active
+✅ Auth Middleware: User authenticated: jonh@gmail.com (delivery)
+[2026-03-23T11:24:53.657Z] Request Completed: GET /api/delivery/active - 304 (2ms)
+[2026-03-23T11:26:02.255Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:26:02.370Z] Request Completed: POST /api/auth/register - 201 (114ms)
+[2026-03-23T11:26:02.384Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:02.393Z] Request Completed: GET /api/auth/me - 200 (9ms)
+[2026-03-23T11:26:02.450Z] Incoming Request: GET /api/users/me
+[2026-03-23T11:26:02.451Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T11:26:02.452Z] Request Completed: GET /api/users/me - 404 (2ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:02.454Z] Incoming Request: GET /api/users/me
+[2026-03-23T11:26:02.455Z] Request Completed: GET /api/users/me - 404 (1ms)
+[2026-03-23T11:26:02.456Z] Request Completed: GET /api/operators/queue - 200 (5ms)
+[2026-03-23T11:26:02.456Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:02.458Z] Request Completed: GET /api/operators/queue - 304 (2ms)
+[2026-03-23T11:26:07.124Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:07.130Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:26:07.130Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:07.135Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:26:08.221Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:08.229Z] Request Completed: GET /api/operators/earnings?period=month - 304 (8ms)
+[2026-03-23T11:26:08.229Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:08.234Z] Request Completed: GET /api/operators/earnings?period=month - 304 (4ms)
+[2026-03-23T11:26:09.973Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:09.980Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:26:09.980Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:09.985Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:26:11.655Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:11.662Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:26:11.663Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:11.668Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:26:12.440Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:12.447Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:26:12.447Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:12.451Z] Request Completed: GET /api/operators/earnings?period=month - 304 (4ms)
+[2026-03-23T11:26:13.118Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:26:13.122Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-03-23T11:26:13.122Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:26:13.125Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-03-23T11:26:13.819Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:26:13.823Z] Request Completed: GET /api/operators/service-preferences - 404 (3ms)
+[2026-03-23T11:26:13.823Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:26:13.825Z] Request Completed: GET /api/operators/service-preferences - 404 (1ms)
+[2026-03-23T11:26:15.255Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:26:15.258Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:26:15.259Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:26:15.261Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:26:20.463Z] Incoming Request: PUT /api/operators/settings
+[2026-03-23T11:26:20.467Z] Request Completed: PUT /api/operators/settings - 404 (4ms)
+[2026-03-23T11:26:23.839Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:23.844Z] Request Completed: GET /api/operators/earnings?period=month - 304 (5ms)
+[2026-03-23T11:26:23.844Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:23.849Z] Request Completed: GET /api/operators/earnings?period=month - 304 (4ms)
+[2026-03-23T11:26:26.043Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:26.049Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:26:26.049Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:26.054Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:26:26.904Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:26:26.907Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:26:26.908Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:26:26.909Z] Request Completed: GET /api/operators/inventory - 404 (1ms)
+[2026-03-23T11:26:32.312Z] Incoming Request: PUT /api/operators/inventory
+[2026-03-23T11:26:32.317Z] Request Completed: PUT /api/operators/inventory - 404 (5ms)
+[2026-03-23T11:26:35.439Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:35.445Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:26:35.445Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:26:35.449Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:27:05.473Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:27:05.484Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T11:27:35.476Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:27:35.487Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T11:28:05.479Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:28:05.490Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T11:28:35.477Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:28:35.488Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T11:29:05.478Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:29:05.488Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:29:35.475Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:29:35.480Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:30:26.476Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:30:26.489Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T11:31:26.476Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:31:26.485Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:32:26.481Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:32:26.497Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T11:33:26.477Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:33:26.486Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:34:26.482Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:34:26.492Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:35:26.486Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:35:26.502Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-03-23T11:36:26.483Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:36:26.505Z] Request Completed: GET /api/operators/queue - 304 (21ms)
+[2026-03-23T11:37:26.483Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:37:26.496Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T11:37:35.530Z] Incoming Request: POST /api/auth/login
+[2026-03-23T11:37:35.602Z] Request Completed: POST /api/auth/login - 401 (71ms)
+[2026-03-23T11:37:57.816Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:37:57.819Z] Request Completed: POST /api/auth/register - 400 (3ms)
+[2026-03-23T11:38:26.484Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:38:26.495Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T11:39:26.483Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:39:26.521Z] Request Completed: GET /api/operators/queue - 304 (36ms)
+[2026-03-23T11:39:37.313Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:39:37.317Z] Request Completed: POST /api/auth/register - 400 (4ms)
+[2026-03-23T11:40:08.071Z] Incoming Request: POST /api/auth/login
+[2026-03-23T11:40:08.141Z] Request Completed: POST /api/auth/login - 401 (70ms)
+[2026-03-23T11:40:26.488Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:40:26.512Z] Request Completed: GET /api/operators/queue - 304 (23ms)
+[2026-03-23T11:41:14.079Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:14.086Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:41:17.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:17.503Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:41:17.504Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:17.509Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:18.898Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:18.905Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:41:18.905Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:18.912Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:41:19.978Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:19.983Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:41:19.983Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:19.985Z] Request Completed: GET /api/operators/queue - 304 (2ms)
+[2026-03-23T11:41:22.940Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:22.948Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:41:22.949Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:22.955Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:41:24.293Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:24.300Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:41:24.301Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:24.306Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:25.328Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:25.333Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:25.333Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:25.339Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:27.160Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:27.167Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:41:27.168Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:27.173Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:28.410Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:28.419Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:41:28.420Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:28.425Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:29.093Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:29.100Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:41:29.100Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:29.106Z] Request Completed: GET /api/operators/earnings?period=month - 304 (6ms)
+[2026-03-23T11:41:29.812Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:41:29.815Z] Request Completed: GET /api/operators/inventory - 404 (3ms)
+[2026-03-23T11:41:29.815Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:41:29.817Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:41:30.522Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:41:30.527Z] Request Completed: GET /api/operators/service-preferences - 404 (5ms)
+[2026-03-23T11:41:30.528Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:41:30.530Z] Request Completed: GET /api/operators/service-preferences - 404 (2ms)
+[2026-03-23T11:41:31.211Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:41:31.212Z] Request Completed: GET /api/operators/settings - 404 (1ms)
+[2026-03-23T11:41:31.213Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:41:31.215Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:41:32.006Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:41:32.011Z] Request Completed: GET /api/operators/inventory - 404 (5ms)
+[2026-03-23T11:41:32.012Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:41:32.014Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:41:32.961Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:41:32.964Z] Request Completed: GET /api/operators/settings - 404 (3ms)
+[2026-03-23T11:41:32.965Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:41:32.966Z] Request Completed: GET /api/operators/settings - 404 (1ms)
+[2026-03-23T11:41:35.647Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:35.652Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:41:35.653Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:41:35.657Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:42:06.483Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:42:06.495Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T11:42:36.482Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:42:36.492Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:43:06.482Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:43:06.494Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T11:43:36.481Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:43:36.492Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T11:44:00.524Z] Incoming Request: POST /api/auth/login
+[2026-03-23T11:44:00.612Z] Request Completed: POST /api/auth/login - 200 (86ms)
+[2026-03-23T11:44:06.485Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:44:06.494Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:44:36.492Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:44:36.544Z] Request Completed: GET /api/operators/queue - 304 (50ms)
+[2026-03-23T11:45:02.129Z] Incoming Request: POST /api/auth/login
+[2026-03-23T11:45:02.794Z] Request Completed: POST /api/auth/login - 200 (661ms)
+[2026-03-23T11:45:02.823Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:02.848Z] Request Completed: GET /api/auth/me - 200 (25ms)
+[2026-03-23T11:45:02.848Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:02.930Z] Request Completed: GET /api/admin/stats/dashboard - 200 (82ms)
+[2026-03-23T11:45:02.931Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:02.938Z] Request Completed: GET /api/admin/stats/dashboard - 200 (7ms)
+[2026-03-23T11:45:26.491Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:45:26.515Z] Request Completed: GET /api/operators/queue - 304 (22ms)
+[2026-03-23T11:45:32.298Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:45:32.301Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:45:32.306Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:32.328Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (22ms)
+[2026-03-23T11:45:32.329Z] Request Completed: GET /api/admin/users?role=operator - 200 (31ms)
+[2026-03-23T11:45:32.330Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-03-23T11:45:32.332Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:32.337Z] Request Completed: GET /api/admin/orders - 200 (36ms)
+[2026-03-23T11:45:32.339Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:45:32.344Z] Request Completed: GET /api/admin/users?role=operator - 304 (12ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:32.363Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (33ms)
+[2026-03-23T11:45:32.371Z] Request Completed: GET /api/admin/orders - 304 (32ms)
+[2026-03-23T11:45:33.290Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:33.313Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (23ms)
+[2026-03-23T11:45:33.314Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:33.325Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (11ms)
+[2026-03-23T11:45:34.481Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:34.491Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-03-23T11:45:34.492Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:45:34.501Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-03-23T11:46:04.501Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:04.528Z] Request Completed: GET /api/admin/stats/dashboard - 200 (25ms)
+[2026-03-23T11:46:23.039Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:46:23.042Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:46:23.044Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:23.572Z] Request Completed: GET /api/admin/users?role=operator - 304 (530ms)
+[2026-03-23T11:46:23.574Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (530ms)
+[2026-03-23T11:46:23.574Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:46:23.575Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-03-23T11:46:23.577Z] Request Completed: GET /api/admin/orders - 304 (538ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:23.580Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:46:23.581Z] Request Completed: GET /api/admin/users?role=operator - 304 (7ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:23.582Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (7ms)
+[2026-03-23T11:46:23.589Z] Request Completed: GET /api/admin/orders - 304 (9ms)
+[2026-03-23T11:46:25.230Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:25.303Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (73ms)
+[2026-03-23T11:46:25.304Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:25.312Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (8ms)
+[2026-03-23T11:46:26.484Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:46:26.510Z] Request Completed: GET /api/operators/queue - 304 (26ms)
+[2026-03-23T11:46:35.877Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:35.891Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-03-23T11:46:35.893Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:35.901Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-03-23T11:46:47.332Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:46:47.334Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:46:47.336Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:47.350Z] Request Completed: GET /api/admin/users?role=operator - 304 (16ms)
+[2026-03-23T11:46:47.352Z] Request Completed: GET /api/admin/orders - 304 (20ms)
+[2026-03-23T11:46:47.352Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (16ms)
+[2026-03-23T11:46:47.353Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:46:47.354Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T11:46:47.355Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:47.362Z] Request Completed: GET /api/admin/users?role=operator - 304 (9ms)
+[2026-03-23T11:46:47.364Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (9ms)
+[2026-03-23T11:46:47.365Z] Request Completed: GET /api/admin/orders - 304 (11ms)
+[2026-03-23T11:46:50.285Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:50.305Z] Request Completed: GET /api/admin/riders/fleet-status - 200 (20ms)
+[2026-03-23T11:46:50.306Z] Incoming Request: GET /api/admin/riders/fleet-status
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:50.316Z] Request Completed: GET /api/admin/riders/fleet-status - 304 (10ms)
+[2026-03-23T11:46:54.296Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:54.304Z] Request Completed: GET /api/admin/users?role=user - 200 (8ms)
+[2026-03-23T11:46:54.305Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:54.313Z] Request Completed: GET /api/admin/users?role=user - 304 (8ms)
+[2026-03-23T11:46:56.979Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:56.989Z] Request Completed: GET /api/admin/users?role=operator - 304 (9ms)
+[2026-03-23T11:46:56.990Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:46:57.000Z] Request Completed: GET /api/admin/users?role=operator - 304 (10ms)
+[2026-03-23T11:47:00.711Z] Incoming Request: GET /api/admin/users?role=delivery
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:00.717Z] Request Completed: GET /api/admin/users?role=delivery - 200 (4ms)
+[2026-03-23T11:47:00.718Z] Incoming Request: GET /api/admin/users?role=delivery
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:00.726Z] Request Completed: GET /api/admin/users?role=delivery - 304 (8ms)
+[2026-03-23T11:47:04.246Z] Incoming Request: GET /api/admin/users?role=admin
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:04.255Z] Request Completed: GET /api/admin/users?role=admin - 200 (9ms)
+[2026-03-23T11:47:06.145Z] Incoming Request: GET /api/admin/services
+[2026-03-23T11:47:06.150Z] Incoming Request: GET /api/admin/users?role=operator
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:06.157Z] Request Completed: GET /api/admin/users?role=operator - 304 (7ms)
+[2026-03-23T11:47:06.158Z] Request Completed: GET /api/admin/services - 304 (12ms)
+[2026-03-23T11:47:06.159Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T11:47:06.160Z] Incoming Request: GET /api/admin/services
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:06.162Z] Request Completed: GET /api/admin/services - 304 (2ms)
+[2026-03-23T11:47:06.163Z] Request Completed: GET /api/admin/users?role=operator - 304 (4ms)
+[2026-03-23T11:47:13.215Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:13.223Z] Request Completed: GET /api/admin/config/global - 304 (6ms)
+[2026-03-23T11:47:13.224Z] Incoming Request: GET /api/admin/config/global
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:13.227Z] Request Completed: GET /api/admin/config/global - 304 (3ms)
+[2026-03-23T11:47:19.250Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:19.255Z] Request Completed: GET /api/admin/notifications/templates - 304 (5ms)
+[2026-03-23T11:47:19.256Z] Incoming Request: GET /api/admin/notifications/templates
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:19.260Z] Request Completed: GET /api/admin/notifications/templates - 304 (4ms)
+[2026-03-23T11:47:24.148Z] Incoming Request: GET /api/products/admin
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:24.161Z] Request Completed: GET /api/products/admin - 304 (13ms)
+[2026-03-23T11:47:24.162Z] Incoming Request: GET /api/products/admin
+[2026-03-23T11:47:24.166Z] Incoming Request: GET /uploads/1764231947296-855425758.png
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:24.170Z] Incoming Request: GET /uploads/1763920095946-62761722.png
+[2026-03-23T11:47:24.171Z] Request Completed: GET /api/products/admin - 304 (9ms)
+[2026-03-23T11:47:24.172Z] Request Completed: GET /uploads/1764231947296-855425758.png - 404 (5ms)
+[2026-03-23T11:47:24.172Z] Request Completed: GET /uploads/1763920095946-62761722.png - 404 (2ms)
+[2026-03-23T11:47:26.480Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:47:26.483Z] Request Completed: GET /api/operators/queue - 304 (3ms)
+[2026-03-23T11:47:30.199Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:30.251Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (52ms)
+[2026-03-23T11:47:30.251Z] Incoming Request: GET /api/admin/analytics?period=month&compare=false
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T11:47:30.275Z] Request Completed: GET /api/admin/analytics?period=month&compare=false - 304 (24ms)
+[2026-03-23T11:48:26.486Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:48:26.506Z] Request Completed: GET /api/operators/queue - 304 (19ms)
+[2026-03-23T11:49:26.486Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:49:26.503Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T11:49:58.159Z] Incoming Request: POST /api/auth/register
+[2026-03-23T11:49:58.284Z] Request Completed: POST /api/auth/register - 201 (124ms)
+[2026-03-23T11:49:58.303Z] Incoming Request: GET /api/auth/me
+[2026-03-23T11:49:58.307Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:49:58.316Z] Request Completed: GET /api/auth/me - 200 (13ms)
+[2026-03-23T11:49:58.355Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (48ms)
+[2026-03-23T11:49:58.356Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:49:58.373Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (17ms)
+[2026-03-23T11:50:26.487Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:50:26.497Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:51:18.088Z] Incoming Request: POST /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:51:18.121Z] Request Completed: POST /api/orders - 500 (30ms)
+[2026-03-23T11:51:20.268Z] Incoming Request: POST /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:51:20.277Z] Request Completed: POST /api/orders - 500 (8ms)
+[2026-03-23T11:51:26.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:51:26.507Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:52:26.493Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:52:26.511Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-03-23T11:53:26.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:53:26.503Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-03-23T11:53:30.262Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:30.340Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (78ms)
+[2026-03-23T11:53:30.340Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:30.350Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:53:32.416Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:32.425Z] Request Completed: GET /api/orders - 304 (9ms)
+[2026-03-23T11:53:32.426Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:32.435Z] Request Completed: GET /api/orders - 304 (9ms)
+[2026-03-23T11:53:35.127Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:35.140Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (12ms)
+[2026-03-23T11:53:35.141Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:35.151Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:53:36.712Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:36.721Z] Request Completed: GET /api/orders - 304 (9ms)
+[2026-03-23T11:53:36.722Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:36.731Z] Request Completed: GET /api/orders - 304 (9ms)
+[2026-03-23T11:53:38.960Z] Incoming Request: GET /api/orders?status=pending
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:38.977Z] Request Completed: GET /api/orders?status=pending - 304 (16ms)
+[2026-03-23T11:53:39.641Z] Incoming Request: GET /api/orders?status=processing
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:39.656Z] Request Completed: GET /api/orders?status=processing - 304 (15ms)
+[2026-03-23T11:53:40.689Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:40.703Z] Request Completed: GET /api/orders - 304 (14ms)
+[2026-03-23T11:53:42.048Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:42.057Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-03-23T11:53:42.058Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:42.067Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-03-23T11:53:47.403Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:47.412Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-03-23T11:53:47.413Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:47.423Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:53:50.249Z] Incoming Request: GET /api/users/addresses
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:50.264Z] Request Completed: GET /api/users/addresses - 304 (15ms)
+[2026-03-23T11:53:50.264Z] Incoming Request: GET /api/users/addresses
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:50.271Z] Request Completed: GET /api/users/addresses - 304 (6ms)
+[2026-03-23T11:53:55.983Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:55.993Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:53:55.994Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:53:56.005Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T11:54:00.634Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:00.644Z] Request Completed: GET /api/orders - 304 (10ms)
+[2026-03-23T11:54:00.645Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:00.654Z] Request Completed: GET /api/orders - 304 (9ms)
+[2026-03-23T11:54:02.417Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:02.427Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:54:02.427Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:02.437Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T11:54:23.875Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:23.898Z] Request Completed: GET /api/auth/me - 304 (23ms)
+[2026-03-23T11:54:23.898Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:54:23.903Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-03-23T11:54:26.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:26.498Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:54:35.648Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:35.661Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T11:54:40.332Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:40.342Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:54:40.343Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:40.347Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T11:54:41.367Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:41.374Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:54:41.375Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:41.383Z] Request Completed: GET /api/operators/earnings?period=month - 304 (8ms)
+[2026-03-23T11:54:42.241Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:54:42.245Z] Request Completed: GET /api/operators/inventory - 404 (4ms)
+[2026-03-23T11:54:42.246Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:54:42.248Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:54:43.900Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:54:43.904Z] Request Completed: GET /api/operators/service-preferences - 404 (4ms)
+[2026-03-23T11:54:43.904Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:54:43.907Z] Request Completed: GET /api/operators/service-preferences - 404 (2ms)
+[2026-03-23T11:54:45.765Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:54:45.767Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:54:45.768Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:54:45.771Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:54:47.349Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:47.356Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:54:47.356Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:47.360Z] Request Completed: GET /api/operators/earnings?period=month - 304 (3ms)
+[2026-03-23T11:54:48.111Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:48.120Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:54:48.120Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:48.128Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:54:49.346Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:49.354Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:54:49.355Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:49.363Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:54:50.097Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:50.105Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:54:50.105Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:50.112Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:54:51.363Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:51.373Z] Request Completed: GET /api/operators/earnings?period=month - 304 (9ms)
+[2026-03-23T11:54:51.374Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:51.383Z] Request Completed: GET /api/operators/earnings?period=month - 304 (9ms)
+[2026-03-23T11:54:52.013Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:52.022Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:54:52.022Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:52.029Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:54:53.343Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:53.352Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:54:53.352Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:54:53.359Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T11:55:23.350Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:55:23.368Z] Request Completed: GET /api/operators/queue - 304 (18ms)
+[2026-03-23T11:55:24.800Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:55:24.803Z] Request Completed: GET /api/operators/service-preferences - 404 (3ms)
+[2026-03-23T11:55:24.803Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:55:24.805Z] Request Completed: GET /api/operators/service-preferences - 404 (2ms)
+[2026-03-23T11:55:25.998Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:55:26.002Z] Request Completed: GET /api/operators/inventory - 404 (4ms)
+[2026-03-23T11:55:26.002Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:55:26.005Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:55:27.397Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:55:27.401Z] Request Completed: GET /api/operators/service-preferences - 404 (4ms)
+[2026-03-23T11:55:27.402Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:55:27.405Z] Request Completed: GET /api/operators/service-preferences - 404 (3ms)
+[2026-03-23T11:55:29.512Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:55:29.514Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:55:29.515Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:55:29.517Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:55:41.744Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:55:41.754Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:55:41.755Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:55:41.761Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:56:12.490Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:56:12.505Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-03-23T11:56:42.488Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:56:42.501Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T11:57:12.486Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:57:12.501Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T11:57:42.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:57:42.510Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T11:58:12.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:58:12.506Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T11:58:42.492Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:58:42.510Z] Request Completed: GET /api/operators/queue - 304 (18ms)
+[2026-03-23T11:58:54.096Z] Incoming Request: POST /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:54.162Z] Request Completed: POST /api/orders - 201 (66ms)
+[2026-03-23T11:58:54.170Z] Incoming Request: POST /api/payments/cod-confirm
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:54.179Z] Request Completed: POST /api/payments/cod-confirm - 200 (9ms)
+[2026-03-23T11:58:54.195Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:54.208Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (13ms)
+[2026-03-23T11:58:54.208Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:54.212Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (4ms)
+[2026-03-23T11:58:56.236Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:56.250Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (13ms)
+[2026-03-23T11:58:56.251Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T11:58:56.257Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (6ms)
+[2026-03-23T11:59:02.930Z] Incoming Request: GET /api/users/me
+[2026-03-23T11:59:02.933Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T11:59:02.938Z] Request Completed: GET /api/users/me - 404 (7ms)
+[2026-03-23T11:59:02.938Z] Incoming Request: GET /api/auth/me
+[2026-03-23T11:59:02.944Z] Incoming Request: GET /api/users/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:02.955Z] Request Completed: GET /api/users/me - 404 (10ms)
+[2026-03-23T11:59:02.955Z] Request Completed: GET /api/operators/queue - 304 (22ms)
+[2026-03-23T11:59:02.958Z] Request Completed: GET /api/auth/me - 200 (20ms)
+[2026-03-23T11:59:02.958Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T11:59:02.959Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:02.963Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T11:59:02.964Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-03-23T11:59:04.662Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:04.671Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:59:04.672Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:04.678Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:59:05.485Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:05.492Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:59:05.493Z] Incoming Request: GET /api/operators/earnings?period=month
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:05.500Z] Request Completed: GET /api/operators/earnings?period=month - 304 (7ms)
+[2026-03-23T11:59:06.647Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:59:06.650Z] Request Completed: GET /api/operators/inventory - 404 (2ms)
+[2026-03-23T11:59:06.650Z] Incoming Request: GET /api/operators/inventory
+[2026-03-23T11:59:06.652Z] Request Completed: GET /api/operators/inventory - 404 (1ms)
+[2026-03-23T11:59:07.449Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:59:07.453Z] Request Completed: GET /api/operators/service-preferences - 404 (4ms)
+[2026-03-23T11:59:07.453Z] Incoming Request: GET /api/operators/service-preferences
+[2026-03-23T11:59:07.456Z] Request Completed: GET /api/operators/service-preferences - 404 (2ms)
+[2026-03-23T11:59:08.585Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:59:08.587Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:59:08.588Z] Incoming Request: GET /api/operators/settings
+[2026-03-23T11:59:08.590Z] Request Completed: GET /api/operators/settings - 404 (2ms)
+[2026-03-23T11:59:09.482Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:09.490Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:59:09.491Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:09.499Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T11:59:10.479Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:10.489Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T11:59:10.490Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:10.496Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T11:59:40.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T11:59:40.509Z] Request Completed: GET /api/operators/queue - 304 (19ms)
+[2026-03-23T12:00:10.487Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:00:10.499Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:00:40.488Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:00:40.500Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:01:10.486Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:01:10.501Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-03-23T12:01:40.487Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:01:40.498Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:02:10.487Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:02:10.497Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:03:26.485Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:03:26.493Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:04:26.487Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:04:26.499Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:05:26.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:05:26.500Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:06:26.489Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:06:26.493Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T12:07:26.493Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:07:26.505Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:08:21.331Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:21.350Z] Request Completed: GET /api/orders - 200 (18ms)
+[2026-03-23T12:08:21.351Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:21.358Z] Request Completed: GET /api/orders - 304 (7ms)
+[2026-03-23T12:08:23.215Z] Incoming Request: GET /api/orders?status=pending
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:23.239Z] Request Completed: GET /api/orders?status=pending - 304 (24ms)
+[2026-03-23T12:08:24.498Z] Incoming Request: GET /api/orders?status=processing
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:24.517Z] Request Completed: GET /api/orders?status=processing - 200 (19ms)
+[2026-03-23T12:08:26.493Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:08:26.507Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-03-23T12:08:28.515Z] Incoming Request: GET /api/orders?status=delivered
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:28.530Z] Request Completed: GET /api/orders?status=delivered - 304 (15ms)
+[2026-03-23T12:08:30.047Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:30.064Z] Request Completed: GET /api/orders - 304 (17ms)
+[2026-03-23T12:08:35.523Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:35.533Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T12:08:35.534Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:35.543Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-03-23T12:08:40.105Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:40.116Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (11ms)
+[2026-03-23T12:08:40.116Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:40.122Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (5ms)
+[2026-03-23T12:08:41.702Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:41.713Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T12:08:41.714Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:41.722Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (8ms)
+[2026-03-23T12:08:42.983Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:42.997Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (12ms)
+[2026-03-23T12:08:42.997Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:43.006Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (9ms)
+[2026-03-23T12:08:47.253Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:47.262Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (8ms)
+[2026-03-23T12:08:47.263Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:47.272Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (9ms)
+[2026-03-23T12:08:48.237Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:48.247Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (9ms)
+[2026-03-23T12:08:48.248Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:48.252Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (4ms)
+[2026-03-23T12:08:49.330Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:49.341Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T12:08:49.342Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:49.346Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (4ms)
+[2026-03-23T12:08:50.250Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:50.259Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (9ms)
+[2026-03-23T12:08:50.260Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:50.263Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (3ms)
+[2026-03-23T12:08:51.402Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:51.413Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T12:08:51.413Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:51.425Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T12:08:54.932Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:54.943Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (11ms)
+[2026-03-23T12:08:54.944Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:54.952Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (8ms)
+[2026-03-23T12:08:57.170Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:57.180Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T12:08:57.180Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:08:57.188Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (8ms)
+[2026-03-23T12:09:26.502Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:09:26.532Z] Request Completed: GET /api/operators/queue - 304 (29ms)
+[2026-03-23T12:09:38.548Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:09:38.554Z] Request Completed: GET /api/auth/me - 200 (5ms)
+[2026-03-23T12:10:26.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:10:26.506Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:11:26.491Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:11:26.499Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:12:26.492Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:12:26.504Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:13:26.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:13:26.515Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T12:14:26.490Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:14:26.494Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T12:15:26.491Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:15:26.498Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:16:26.492Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:16:26.501Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:17:26.491Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:17:26.499Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:18:26.490Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:18:26.495Z] Request Completed: GET /api/operators/queue - 304 (5ms)
+[2026-03-23T12:19:26.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:19:26.508Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:20:26.494Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:20:26.510Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T12:20:38.616Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:38.657Z] Request Completed: GET /api/admin/stats/dashboard - 200 (40ms)
+[2026-03-23T12:20:38.658Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:38.667Z] Request Completed: GET /api/admin/stats/dashboard - 200 (9ms)
+[2026-03-23T12:20:40.494Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:20:40.507Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-03-23T12:20:44.595Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T12:20:44.597Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T12:20:44.600Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:44.615Z] Request Completed: GET /api/admin/users?role=operator - 304 (19ms)
+[2026-03-23T12:20:44.617Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T12:20:44.618Z] Request Completed: GET /api/admin/orders - 200 (20ms)
+[2026-03-23T12:20:44.619Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (19ms)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:44.620Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T12:20:44.621Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:44.623Z] Request Completed: GET /api/admin/users?role=operator - 304 (6ms)
+[2026-03-23T12:20:44.627Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (6ms)
+[2026-03-23T12:20:44.628Z] Request Completed: GET /api/admin/orders - 304 (8ms)
+[2026-03-23T12:20:45.783Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:45.796Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-03-23T12:20:45.797Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:20:45.807Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-03-23T12:21:10.492Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:21:10.505Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:21:16.492Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:21:16.506Z] Request Completed: GET /api/admin/stats/dashboard - 200 (14ms)
+[2026-03-23T12:21:46.497Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:21:46.514Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-03-23T12:22:16.496Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:22:16.512Z] Request Completed: GET /api/admin/stats/dashboard - 200 (15ms)
+[2026-03-23T12:22:26.202Z] Incoming Request: POST /api/auth/login
+[2026-03-23T12:22:26.356Z] Request Completed: POST /api/auth/login - 200 (153ms)
+[2026-03-23T12:22:26.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:22:26.503Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T12:22:26.529Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:22:26.540Z] Request Completed: GET /api/admin/orders - 200 (11ms)
+[2026-03-23T12:22:46.496Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:22:46.506Z] Request Completed: GET /api/admin/stats/dashboard - 200 (10ms)
+[2026-03-23T12:23:16.493Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:23:16.502Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-03-23T12:23:26.493Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:23:26.500Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:23:46.493Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:23:46.498Z] Request Completed: GET /api/admin/stats/dashboard - 200 (5ms)
+[2026-03-23T12:24:26.494Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-03-23T12:24:26.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:24:26.503Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:24:26.504Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:25:26.494Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-03-23T12:25:26.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:25:26.501Z] Request Completed: GET /api/admin/stats/dashboard - 200 (5ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:25:26.502Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:26:04.558Z] Incoming Request: POST /api/auth/login
+[2026-03-23T12:26:04.641Z] Request Completed: POST /api/auth/login - 200 (83ms)
+[2026-03-23T12:26:04.651Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:26:04.660Z] Request Completed: GET /api/admin/orders - 200 (9ms)
+[2026-03-23T12:26:26.497Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-03-23T12:26:26.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:26:26.510Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-03-23T12:26:26.511Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:27:26.494Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-03-23T12:27:26.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:27:26.508Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-03-23T12:27:26.509Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:28:26.495Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:28:26.495Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:28:26.501Z] Request Completed: GET /api/admin/stats/dashboard - 200 (6ms)
+[2026-03-23T12:28:26.501Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:28:38.874Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:28:38.890Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-03-23T12:28:38.891Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:28:38.891Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:28:38.898Z] Request Completed: GET /api/auth/me - 304 (7ms)
+[2026-03-23T12:28:38.902Z] Request Completed: GET /api/admin/stats/dashboard - 200 (11ms)
+[2026-03-23T12:28:38.903Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:28:38.910Z] Request Completed: GET /api/auth/me - 304 (7ms)
+[2026-03-23T12:29:09.497Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:29:09.506Z] Request Completed: GET /api/admin/stats/dashboard - 200 (8ms)
+[2026-03-23T12:29:26.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:29:26.507Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:29:39.502Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:29:39.515Z] Request Completed: GET /api/admin/stats/dashboard - 200 (13ms)
+[2026-03-23T12:29:49.722Z] Incoming Request: GET /api/admin/stats/dashboard
+[2026-03-23T12:29:49.748Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:29:49.785Z] Request Completed: GET /api/auth/me - 304 (37ms)
+[2026-03-23T12:29:49.787Z] Request Completed: GET /api/admin/stats/dashboard - 200 (62ms)
+[2026-03-23T12:29:49.788Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:29:49.789Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:29:49.869Z] Request Completed: GET /api/auth/me - 304 (81ms)
+[2026-03-23T12:29:49.870Z] Request Completed: GET /api/admin/stats/dashboard - 200 (81ms)
+[2026-03-23T12:29:55.556Z] Incoming Request: GET /api/admin/orders?status=pending&limit=5
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:29:55.587Z] Request Completed: GET /api/admin/orders?status=pending&limit=5 - 200 (30ms)
+[2026-03-23T12:30:07.309Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:07.348Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (38ms)
+[2026-03-23T12:30:07.348Z] Incoming Request: GET /api/orders/69c12afe4c1ac1f9e1bd5961
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:07.355Z] Request Completed: GET /api/orders/69c12afe4c1ac1f9e1bd5961 - 201 (7ms)
+[2026-03-23T12:30:08.672Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:08.681Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (8ms)
+[2026-03-23T12:30:08.682Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:08.687Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (5ms)
+[2026-03-23T12:30:20.501Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:30:20.520Z] Request Completed: GET /api/admin/stats/dashboard - 200 (17ms)
+[2026-03-23T12:30:26.502Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:30:26.518Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T12:30:28.565Z] Incoming Request: POST /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:28.609Z] Request Completed: POST /api/orders - 201 (43ms)
+[2026-03-23T12:30:28.612Z] Incoming Request: POST /api/payments/cod-confirm
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:28.625Z] Request Completed: POST /api/payments/cod-confirm - 200 (13ms)
+[2026-03-23T12:30:28.635Z] Incoming Request: GET /api/orders/69c132644c1ac1f9e1bd5c06
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:28.644Z] Request Completed: GET /api/orders/69c132644c1ac1f9e1bd5c06 - 201 (9ms)
+[2026-03-23T12:30:28.644Z] Incoming Request: GET /api/orders/69c132644c1ac1f9e1bd5c06
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:28.648Z] Request Completed: GET /api/orders/69c132644c1ac1f9e1bd5c06 - 201 (4ms)
+[2026-03-23T12:30:32.261Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:32.273Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (9ms)
+[2026-03-23T12:30:32.273Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:30:32.280Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (7ms)
+[2026-03-23T12:30:49.703Z] Incoming Request: GET /api/admin/stats/dashboard
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:30:49.719Z] Request Completed: GET /api/admin/stats/dashboard - 200 (16ms)
+[2026-03-23T12:30:49.948Z] Incoming Request: GET /api/admin/orders?status=processing,printing&limit=5
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:30:49.957Z] Request Completed: GET /api/admin/orders?status=processing,printing&limit=5 - 304 (9ms)
+[2026-03-23T12:30:57.020Z] Incoming Request: GET /api/admin/orders?status=processing,printing&limit=5
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:30:57.029Z] Request Completed: GET /api/admin/orders?status=processing,printing&limit=5 - 304 (9ms)
+[2026-03-23T12:31:01.354Z] Incoming Request: GET /api/admin/orders?status=pending&limit=5
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:01.365Z] Request Completed: GET /api/admin/orders?status=pending&limit=5 - 304 (10ms)
+[2026-03-23T12:31:05.634Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:05.641Z] Request Completed: GET /api/admin/users?role=user - 200 (7ms)
+[2026-03-23T12:31:05.643Z] Incoming Request: GET /api/admin/users?role=user
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:05.652Z] Request Completed: GET /api/admin/users?role=user - 304 (9ms)
+[2026-03-23T12:31:15.647Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T12:31:15.649Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T12:31:15.651Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:15.664Z] Request Completed: GET /api/admin/users?role=operator - 304 (14ms)
+[2026-03-23T12:31:15.667Z] Request Completed: GET /api/admin/orders - 200 (20ms)
+[2026-03-23T12:31:15.668Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (17ms)
+[2026-03-23T12:31:15.668Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-03-23T12:31:15.669Z] Incoming Request: GET /api/admin/orders
+[2026-03-23T12:31:15.669Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:15.676Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (7ms)
+[2026-03-23T12:31:15.676Z] Request Completed: GET /api/admin/users?role=operator - 304 (8ms)
+[2026-03-23T12:31:15.677Z] Request Completed: GET /api/admin/orders - 304 (8ms)
+[2026-03-23T12:31:26.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:31:26.506Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:31:46.630Z] Incoming Request: POST /api/admin/orders/69c132644c1ac1f9e1bd5c06/verify-file
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:31:46.646Z] Request Completed: POST /api/admin/orders/69c132644c1ac1f9e1bd5c06/verify-file - 500 (15ms)
+[2026-03-23T12:32:13.898Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:13.904Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:32:14.458Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:32:14.460Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:32:14.464Z] Request Completed: GET /api/users/me - 404 (4ms)
+[2026-03-23T12:32:14.464Z] Incoming Request: GET /api/users/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:14.467Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:32:14.470Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:32:14.479Z] Request Completed: GET /api/users/me - 404 (14ms)
+[2026-03-23T12:32:14.483Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:14.490Z] Request Completed: GET /api/auth/me - 200 (23ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:14.494Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:32:14.495Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:14.503Z] Request Completed: GET /api/auth/me - 304 (9ms)
+[2026-03-23T12:32:44.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:44.515Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T12:32:47.111Z] Incoming Request: PUT /api/admin/orders/69c132644c1ac1f9e1bd5c06
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:32:47.143Z] Request Completed: PUT /api/admin/orders/69c132644c1ac1f9e1bd5c06 - 200 (31ms)
+[2026-03-23T12:32:49.455Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:32:49.492Z] Request Completed: GET /api/admin/orders - 200 (36ms)
+[2026-03-23T12:32:58.832Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:32:58.838Z] Request Completed: GET /api/users/me - 404 (6ms)
+[2026-03-23T12:32:58.839Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:32:58.844Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:32:58.848Z] Request Completed: GET /api/users/me - 404 (3ms)
+[2026-03-23T12:32:58.849Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:58.851Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:58.853Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:32:58.854Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-03-23T12:32:58.855Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:58.864Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:32:58.866Z] Request Completed: GET /api/auth/me - 304 (10ms)
+[2026-03-23T12:33:28.835Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:28.844Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:33:39.128Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:33:39.130Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:33:39.132Z] Request Completed: GET /api/users/me - 404 (3ms)
+[2026-03-23T12:33:39.133Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:39.135Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:33:39.138Z] Request Completed: GET /api/auth/me - 304 (8ms)
+[2026-03-23T12:33:39.141Z] Request Completed: GET /api/users/me - 404 (5ms)
+[2026-03-23T12:33:39.142Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:39.144Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:39.145Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:33:39.146Z] Request Completed: GET /api/auth/me - 304 (4ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:39.148Z] Request Completed: GET /api/operators/queue - 304 (3ms)
+[2026-03-23T12:33:40.225Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:33:40.226Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:33:40.226Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:33:40.227Z] Request Completed: GET /api/users/me - 404 (2ms)
+[2026-03-23T12:33:40.229Z] Incoming Request: GET /api/users/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:40.233Z] Request Completed: GET /api/auth/me - 304 (7ms)
+[2026-03-23T12:33:40.234Z] Request Completed: GET /api/users/me - 404 (5ms)
+[2026-03-23T12:33:40.235Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:33:40.236Z] Incoming Request: GET /api/auth/me
+[2026-03-23T12:33:40.236Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:33:40.240Z] Request Completed: GET /api/auth/me - 304 (4ms)
+[2026-03-23T12:33:40.240Z] Request Completed: GET /api/operators/queue - 304 (3ms)
+[2026-03-23T12:34:10.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:34:10.511Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:34:40.496Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:34:40.506Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:35:07.236Z] Incoming Request: PUT /api/admin/orders/69c132644c1ac1f9e1bd5c06
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:35:07.251Z] Request Completed: PUT /api/admin/orders/69c132644c1ac1f9e1bd5c06 - 200 (13ms)
+[2026-03-23T12:35:09.358Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:35:09.382Z] Request Completed: GET /api/admin/orders - 200 (24ms)
+[2026-03-23T12:35:10.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:35:10.513Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-03-23T12:35:13.050Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:35:13.051Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:35:13.054Z] Request Completed: GET /api/users/me - 404 (3ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:35:13.056Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:35:13.058Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:35:13.060Z] Request Completed: GET /api/users/me - 404 (4ms)
+[2026-03-23T12:35:13.060Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:35:13.063Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:35:13.067Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:35:13.069Z] Request Completed: GET /api/auth/me - 304 (6ms)
+[2026-03-23T12:35:13.069Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:35:13.072Z] Request Completed: GET /api/auth/me - 304 (3ms)
+[2026-03-23T12:35:43.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:35:43.510Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:36:13.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:36:13.508Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:36:43.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:36:43.507Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:37:13.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:37:13.508Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:37:43.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:37:43.510Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:38:13.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:38:13.506Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:38:43.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:38:43.513Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:39:26.505Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:39:26.523Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T12:40:26.505Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:40:26.526Z] Request Completed: GET /api/operators/queue - 304 (19ms)
+[2026-03-23T12:41:26.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:41:26.512Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:42:26.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:42:26.510Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:43:26.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:43:26.507Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:44:26.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:44:26.509Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:45:26.501Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:45:26.514Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:45:43.499Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:45:43.505Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:46:13.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:46:13.506Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:47:14.503Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:47:14.514Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T12:48:15.506Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:48:15.522Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T12:49:16.524Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:49:16.586Z] Request Completed: GET /api/operators/queue - 304 (60ms)
+[2026-03-23T12:50:17.503Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:50:17.516Z] Request Completed: GET /api/operators/queue - 304 (12ms)
+[2026-03-23T12:51:18.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:51:18.502Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T12:52:19.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:52:19.508Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:53:20.501Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:53:20.508Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:54:21.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:54:21.507Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T12:55:22.502Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:55:22.512Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:56:23.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:56:23.509Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:57:24.505Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:57:24.515Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T12:57:51.124Z] Incoming Request: DELETE /api/admin/orders/692c8d38bac87eb67df5a412
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:57:51.172Z] Request Completed: DELETE /api/admin/orders/692c8d38bac87eb67df5a412 - 200 (48ms)
+[2026-03-23T12:57:59.031Z] Incoming Request: DELETE /api/admin/orders/692c8d11cbb39c3736987edb
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-03-23T12:57:59.040Z] Request Completed: DELETE /api/admin/orders/692c8d11cbb39c3736987edb - 200 (9ms)
+[2026-03-23T12:58:25.507Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:58:25.516Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T12:59:05.922Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:59:05.930Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T12:59:07.993Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:59:07.995Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:59:08.004Z] Request Completed: GET /api/users/me - 404 (9ms)
+[2026-03-23T12:59:08.005Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:59:08.008Z] Incoming Request: GET /api/users/me
+[2026-03-23T12:59:08.018Z] Request Completed: GET /api/operators/queue - 304 (25ms)
+[2026-03-23T12:59:08.019Z] Request Completed: GET /api/users/me - 404 (11ms)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:59:08.022Z] Incoming Request: GET /api/operators/queue
+[2026-03-23T12:59:08.027Z] Request Completed: GET /api/auth/me - 304 (22ms)
+[2026-03-23T12:59:08.029Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:59:08.032Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T12:59:08.033Z] Request Completed: GET /api/auth/me - 304 (4ms)
+[2026-03-23T12:59:38.508Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T12:59:38.527Z] Request Completed: GET /api/operators/queue - 304 (18ms)
+[2026-03-23T12:59:45.533Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:45.576Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (43ms)
+[2026-03-23T12:59:45.576Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:45.588Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T12:59:54.077Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:54.090Z] Request Completed: GET /api/orders - 200 (13ms)
+[2026-03-23T12:59:54.090Z] Incoming Request: GET /api/orders
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:54.100Z] Request Completed: GET /api/orders - 304 (10ms)
+[2026-03-23T12:59:58.766Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:58.776Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (10ms)
+[2026-03-23T12:59:58.776Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: piyush@gmail.com (user)
+[2026-03-23T12:59:58.787Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (11ms)
+[2026-03-23T13:00:08.504Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:00:08.517Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-03-23T13:00:38.505Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:00:38.516Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T13:01:08.502Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:01:08.510Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T13:01:38.504Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:01:38.512Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T13:02:08.501Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:02:08.505Z] Request Completed: GET /api/operators/queue - 304 (3ms)
+[2026-03-23T13:02:38.502Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:02:38.511Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T13:03:26.504Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:03:26.516Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T13:04:26.503Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:04:26.513Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T13:05:26.506Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:05:26.518Z] Request Completed: GET /api/operators/queue - 304 (10ms)
+[2026-03-23T13:06:26.503Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:06:26.511Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T13:07:26.505Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:07:26.515Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T13:08:26.528Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:08:26.551Z] Request Completed: GET /api/operators/queue - 304 (23ms)
+[2026-03-23T13:09:26.507Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:09:26.523Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T13:10:26.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:10:26.505Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T13:11:26.507Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:11:26.525Z] Request Completed: GET /api/operators/queue - 304 (16ms)
+[2026-03-23T13:12:26.501Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:12:26.509Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T13:13:26.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:13:26.506Z] Request Completed: GET /api/operators/queue - 304 (7ms)
+[2026-03-23T13:14:26.497Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:14:26.505Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T13:15:26.507Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:15:26.517Z] Request Completed: GET /api/operators/queue - 304 (9ms)
+[2026-03-23T13:16:26.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:16:26.511Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T13:17:26.498Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:17:26.504Z] Request Completed: GET /api/operators/queue - 304 (6ms)
+[2026-03-23T13:18:26.500Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:18:26.504Z] Request Completed: GET /api/operators/queue - 304 (4ms)
+[2026-03-23T13:19:26.549Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:19:26.660Z] Request Completed: GET /api/operators/queue - 304 (107ms)
+[2026-03-23T13:20:26.526Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:20:26.614Z] Request Completed: GET /api/operators/queue - 304 (85ms)
+[2026-03-23T13:21:26.508Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:21:26.523Z] Request Completed: GET /api/operators/queue - 304 (14ms)
+[2026-03-23T13:22:26.520Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:22:26.531Z] Request Completed: GET /api/operators/queue - 304 (11ms)
+[2026-03-23T13:23:26.503Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:23:26.517Z] Request Completed: GET /api/operators/queue - 304 (13ms)
+[2026-03-23T13:24:26.513Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:24:26.530Z] Request Completed: GET /api/operators/queue - 304 (17ms)
+[2026-03-23T13:25:26.511Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:25:26.519Z] Request Completed: GET /api/operators/queue - 304 (8ms)
+[2026-03-23T13:26:26.519Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:26:26.535Z] Request Completed: GET /api/operators/queue - 304 (15ms)
+[2026-03-23T13:27:26.516Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: john@gmail.com (operator)
+[2026-03-23T13:27:26.536Z] Request Completed: GET /api/operators/queue - 304 (18ms)

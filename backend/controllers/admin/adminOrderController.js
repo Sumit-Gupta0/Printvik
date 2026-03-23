@@ -63,7 +63,7 @@ exports.getOrders = async (req, res) => {
 
 exports.updateOrder = async (req, res) => {
     try {
-        const { orderStatus, deliveryStatus, paymentStatus, paymentMethod } = req.body;
+        const { orderStatus, deliveryStatus, paymentStatus, paymentMethod, assignedOperator } = req.body;
         const order = await Order.findById(req.params.id);
         if (!order) return res.status(404).json({ success: false, message: 'Order not found' });
 
@@ -82,6 +82,15 @@ exports.updateOrder = async (req, res) => {
         if (deliveryStatus && orderStatus !== 'cancelled') order.deliveryStatus = deliveryStatus;
         if (paymentStatus) order.paymentStatus = paymentStatus;
         if (paymentMethod) order.paymentMethod = paymentMethod;
+
+        // Support operator assignment
+        if (assignedOperator !== undefined) {
+            order.assignedOperator = assignedOperator;
+            if (assignedOperator && (!orderStatus || order.orderStatus === 'pending')) {
+                // Auto-move to processing when assigned so it shows in Queue
+                order.orderStatus = 'processing';
+            }
+        }
 
         // Financial Split Logic
         if (orderStatus === 'delivered' && order.paymentStatus === 'paid') {
