@@ -1,0 +1,10 @@
+
+> printvik-delivery@1.0.0 dev
+> vite --port 3003
+
+
+  VITE v5.4.21  ready in 162 ms
+
+  ➜  Local:   http://localhost:3003/
+  ➜  Network: http://10.138.34.131:3003/
+  ➜  press h + enter to show help
