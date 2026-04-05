@@ -1,0 +1,117 @@
+[
+  {
+    "_id": "692341a64b445d484a787343",
+    "name": "Color Printing",
+    "description": "High-quality color printing",
+    "category": "printing",
+    "isActive": true,
+    "requirements": {
+      "equipment": [],
+      "materials": [],
+      "skills": []
+    },
+    "createdAt": "2025-11-23T17:17:26.225Z",
+    "updatedAt": "2025-11-23T17:52:46.605Z",
+    "__v": 0,
+    "pricing": {
+      "basePrice": 10,
+      "perUnit": "per-page"
+    }
+  },
+  {
+    "_id": "692341a64b445d484a787342",
+    "name": "Black & White Printing",
+    "description": "Standard B&W document printing",
+    "category": "printing",
+    "isActive": true,
+    "requirements": {
+      "equipment": [],
+      "materials": [],
+      "skills": []
+    },
+    "createdAt": "2025-11-23T17:17:26.225Z",
+    "updatedAt": "2025-11-23T17:43:06.225Z",
+    "__v": 0,
+    "pricing": {
+      "basePrice": 2,
+      "perUnit": "per-page"
+    }
+  },
+  {
+    "_id": "692341a64b445d484a787344",
+    "name": "Scanning",
+    "description": "Document scanning service",
+    "category": "printing",
+    "isActive": true,
+    "requirements": {
+      "equipment": [],
+      "materials": [],
+      "skills": []
+    },
+    "createdAt": "2025-11-23T17:17:26.225Z",
+    "updatedAt": "2025-11-23T17:52:54.738Z",
+    "__v": 0,
+    "pricing": {
+      "basePrice": 5,
+      "perUnit": "per-page"
+    }
+  },
+  {
+    "_id": "69235182e5cd88087c7ec835",
+    "name": "Test Service",
+    "description": "Test Description",
+    "category": "printing",
+    "isActive": true,
+    "requirements": {
+      "equipment": [],
+      "materials": [],
+      "skills": []
+    },
+    "pricing": {
+      "basePrice": 15,
+      "perUnit": "per-page"
+    },
+    "createdBy": "692341a54b445d484a787326",
+    "createdAt": "2025-11-23T18:25:06.541Z",
+    "updatedAt": "2025-11-23T18:25:06.541Z",
+    "__v": 0
+  },
+  {
+    "_id": "6928012d89949b2243a54baf",
+    "name": "T-Shirt Printing",
+    "description": "",
+    "icon": "📄👕",
+    "category": "printingMerchandise",
+    "turnaroundTime": "24 Hours2 Days",
+    "isActive": true,
+    "options": [
+      {
+        "label": "New OptionSize",
+        "type": "DROPDOWN",
+        "values": [
+          {
+            "name": "New ValueXL",
+            "priceModifier": 50,
+            "_id": "6928012d89949b2243a54bb1"
+          }
+        ],
+        "_id": "6928012d89949b2243a54bb0"
+      }
+    ],
+    "pricing": {
+      "basePrice": 200,
+      "perUnit": "per-item",
+      "bulkTiers": [
+        {
+          "minQty": 1010,
+          "pricePerUnit": 180,
+          "_id": "6928012d89949b2243a54bb2"
+        }
+      ]
+    },
+    "createdBy": "692341a54b445d484a787326",
+    "createdAt": "2025-11-27T07:43:41.560Z",
+    "updatedAt": "2025-11-27T07:43:41.560Z",
+    "__v": 0
+  }
+]

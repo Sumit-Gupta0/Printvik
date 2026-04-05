@@ -1,0 +1,376 @@
+[
+  {
+    "_id": "6993798822fa35ceab2182da",
+    "name": "sumit gupta",
+    "email": "sumit@gmail.com",
+    "phone": "08640029459",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1771272584211ZYX4K",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2026-02-16T20:09:44.218Z",
+    "updatedAt": "2026-02-16T20:09:44.355Z",
+    "__v": 0
+  },
+  {
+    "_id": "699379ec622003fc7fcb24c0",
+    "name": "Admin User",
+    "email": "admin@printvik.com",
+    "phone": "9999999999",
+    "role": "admin",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "isApproved": true,
+    "adminNotes": [],
+    "createdAt": "2026-02-16T20:11:24.251Z",
+    "updatedAt": "2026-02-16T20:11:24.360Z",
+    "__v": 0
+  },
+  {
+    "_id": "69937fdeb05b0c0593f701a9",
+    "name": "sumit gupta",
+    "email": "operator@gmail.com",
+    "phone": "8784357857",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF17712742062686LX3C",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": false,
+    "createdAt": "2026-02-16T20:36:46.276Z",
+    "updatedAt": "2026-02-16T20:36:46.413Z",
+    "__v": 0
+  },
+  {
+    "_id": "699ca3868ee30b0717812dc3",
+    "name": "chirag khemot",
+    "email": "chiragkhemot@gmail.com",
+    "phone": "8898466308",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1771873158359ASA2G",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": false,
+    "createdAt": "2026-02-23T18:59:18.362Z",
+    "updatedAt": "2026-02-23T18:59:18.497Z",
+    "__v": 0
+  },
+  {
+    "_id": "699cac5b862173b91e95a69e",
+    "name": "manas",
+    "email": "manas@gmail.com",
+    "phone": "9865764743",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1771875419466GTCY7",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2026-02-23T19:36:59.468Z",
+    "updatedAt": "2026-02-23T19:36:59.596Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c12305ae650e3c3227ebdb",
+    "name": "John",
+    "email": "jonh@gmail.com",
+    "phone": "8640077854",
+    "role": "delivery",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1774265093487W9KWY",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": false,
+    "createdAt": "2026-03-23T11:24:53.488Z",
+    "updatedAt": "2026-03-23T11:24:53.605Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c1234aae650e3c3227ebeb",
+    "name": "John",
+    "email": "john@gmail.com",
+    "phone": "8640074794",
+    "role": "operator",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1774265162260RUEL9",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": false,
+    "createdAt": "2026-03-23T11:26:02.260Z",
+    "updatedAt": "2026-03-23T11:26:02.366Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c128e6ae650e3c3227ee0f",
+    "name": "piyush",
+    "email": "piyush@gmail.com",
+    "phone": "3946595494",
+    "role": "user",
+    "addresses": [],
+    "serviceArea": {
+      "zones": []
+    },
+    "maxCapacity": 10,
+    "currentLoad": 0,
+    "skills": [],
+    "serviceCapabilities": [],
+    "financials": {
+      "commissionRate": 10,
+      "pendingPayout": 0
+    },
+    "kyc": {
+      "isVerified": false
+    },
+    "status": {
+      "isOnline": false,
+      "isBlocked": false
+    },
+    "performance": {
+      "rating": 0,
+      "totalRatings": 0,
+      "rejectionRate": 0
+    },
+    "operatorRateOverrides": {},
+    "batteryLevel": 100,
+    "isAvailable": true,
+    "referralCode": "REF1774266598165A8DNG",
+    "referralRewards": 0,
+    "totalSpent": 0,
+    "walletBalance": 0,
+    "isCodBlocked": false,
+    "isActive": true,
+    "isVerified": false,
+    "verificationDocument": null,
+    "adminNotes": [],
+    "isApproved": true,
+    "createdAt": "2026-03-23T11:49:58.166Z",
+    "updatedAt": "2026-03-23T11:49:58.278Z",
+    "__v": 0
+  }
+]
