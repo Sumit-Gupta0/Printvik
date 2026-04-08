@@ -148,18 +148,25 @@ exports.createOrder = async (req, res) => {
         };
 
         if (orderType === 'WALK_IN') {
-            // Auto-assign to the operator (assuming the user is creating it via QR scan which might pass operatorId, 
-            // OR if the operator creates it themselves. 
-            // For "Scan & Print", the user creates it. We need to know WHICH operator.
-            // The prompt says: "User scans QR -> Connects to Specific Shop".
-            // So the request should likely contain `operatorId`.
             if (req.body.operatorId) {
                 orderData.assignedOperator = req.body.operatorId;
                 orderData.orderStatus = 'printed'; // As per prompt: "Ready to Print" state immediately
             }
         }
 
-        const order = await Order.create(orderData);
+        let order;
+        if (req.body.draftOrderId) {
+            // Find existing draft and update it
+            order = await Order.findByIdAndUpdate(req.body.draftOrderId, {
+                $set: {
+                    ...orderData,
+                    documents: undefined // we handle push manually
+                },
+                $push: { documents: { $each: orderData.documents } }
+            }, { new: true });
+        } else {
+            order = await Order.create(orderData);
+        }
 
         // Send order confirmation notification
         try {
@@ -229,6 +236,28 @@ exports.getMyOrders = async (req, res) => {
         res.status(500).json({
             success: false,
             message: 'Error fetching orders',
+            error: error.message
+        });
+    }
+};
+
+exports.getDraftOrder = async (req, res) => {
+    try {
+        const order = await Order.findOne({ userId: req.user.id, orderStatus: 'pending' }).sort({ createdAt: -1 });
+        if (!order) {
+            return res.status(404).json({
+                success: false,
+                message: 'No pending draft order found'
+            });
+        }
+        res.json({
+            success: true,
+            data: order
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            message: 'Error fetching draft order',
             error: error.message
         });
     }

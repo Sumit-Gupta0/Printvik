@@ -12,6 +12,7 @@ const systemGuard = require('./middleware/systemGuard');
 const http = require('http');
 const socketIo = require('socket.io');
 const NotificationService = require('./services/NotificationService');
+const WhatsAppBotService = require('./services/WhatsAppBotService');
 
 // Initialize Express app
 const app = express();
@@ -33,6 +34,7 @@ const io = socketIo(server, {
 
 // Pass Socket.io instance to NotificationService
 NotificationService.setSocket(io);
+WhatsAppBotService.setSocket(io);
 
 // Socket.io Connection Handler
 io.on('connection', (socket) => {
@@ -78,6 +80,9 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Serve static files from uploads folder
+app.use('/uploads', express.static(require('path').join(__dirname, 'uploads')));
+
 // Latency Logger Middleware
 app.use((req, res, next) => {
     const fs = require('fs');
@@ -98,6 +103,12 @@ app.use(systemGuard);
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./config/swagger');
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
+// WhatsApp Config API
+app.get('/api/whatsapp/config', (req, res) => {
+    const number = WhatsAppBotService.botNumber || process.env.WHATSAPP_BOT_NUMBER || '';
+    res.json({ number });
+});
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));

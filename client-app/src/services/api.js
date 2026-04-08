@@ -65,6 +65,7 @@ export const orderAPI = {
         headers: { 'Content-Type': 'multipart/form-data' }
     }),
     getAll: (params) => api.get('/orders', { params }),
+    getDraft: () => api.get('/orders/draft'),
     getById: (id) => api.get(`/orders/${id}`),
     updateStatus: (id, data) => api.put(`/orders/${id}/status`, data),
 };

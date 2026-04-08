@@ -24,6 +24,13 @@ router.post('/', protect, upload.array('documents', 5), orderController.createOr
 router.get('/', protect, orderController.getMyOrders);
 
 /**
+ * @route   GET /api/orders/draft
+ * @desc    Get user's pending draft order (for WhatsApp sync)
+ * @access  Private
+ */
+router.get('/draft', protect, orderController.getDraftOrder);
+
+/**
  * @route   GET /api/orders/:id
  * @desc    Get single order
  * @access  Private
