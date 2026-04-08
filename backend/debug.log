@@ -27976,3 +27976,64 @@ Create Product Request Body: {"name":"Final Test Pen","sku":"FINAL-PEN-01","desc
 [2026-04-08T13:06:48.415Z] Incoming Request: GET /api/orders/draft
 ✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
 [2026-04-08T13:06:48.438Z] Request Completed: GET /api/orders/draft - 404 (23ms)
+[2026-04-08T13:30:27.474Z] Incoming Request: GET /api/orders/draft
+[2026-04-08T13:30:27.481Z] Incoming Request: GET /api/auth/me
+[2026-04-08T13:30:27.661Z] Incoming Request: GET /api/auth/me
+[2026-04-08T13:30:27.662Z] Incoming Request: GET /api/orders/draft
+[2026-04-08T13:30:27.673Z] Incoming Request: GET /api/orders/draft
+[2026-04-08T13:30:27.674Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+[2026-04-08T13:30:27.824Z] Request Completed: GET /api/orders/draft - 401 (151ms)
+[2026-04-08T13:30:27.826Z] Incoming Request: GET /api/orders/draft
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+[2026-04-08T13:30:27.828Z] Request Completed: GET /api/auth/me - 401 (154ms)
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+[2026-04-08T13:30:27.829Z] Incoming Request: GET /api/auth/me
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+❌ Auth Middleware: User not found for ID: 69d649e85f429ffcb3335924
+[2026-04-08T13:30:46.551Z] Incoming Request: POST /api/auth/login
+[2026-04-08T13:30:46.707Z] Request Completed: POST /api/auth/login - 401 (155ms)
+[2026-04-08T13:31:01.709Z] Incoming Request: POST /api/auth/login
+[2026-04-08T13:31:02.254Z] Request Completed: POST /api/auth/login - 401 (544ms)
+[2026-04-08T13:31:23.689Z] Incoming Request: POST /api/auth/login
+[2026-04-08T13:31:23.896Z] Request Completed: POST /api/auth/login - 401 (206ms)
+[2026-04-08T13:35:24.313Z] Incoming Request: POST /api/auth/login
+[2026-04-08T13:35:24.462Z] Request Completed: POST /api/auth/login - 401 (147ms)
+[2026-04-08T13:36:14.591Z] Incoming Request: POST /api/auth/register
+[2026-04-08T13:36:15.030Z] Request Completed: POST /api/auth/register - 201 (437ms)
+[2026-04-08T13:36:15.071Z] Incoming Request: GET /api/auth/me
+[2026-04-08T13:36:15.096Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:15.264Z] Request Completed: GET /api/auth/me - 200 (185ms)
+[2026-04-08T13:36:15.466Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (370ms)
+[2026-04-08T13:36:15.466Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:15.767Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (300ms)
+[2026-04-08T13:36:18.292Z] Incoming Request: GET /api/orders/draft
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:18.606Z] Request Completed: GET /api/orders/draft - 404 (313ms)
+[2026-04-08T13:36:18.608Z] Incoming Request: GET /api/orders/draft
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:18.837Z] Request Completed: GET /api/orders/draft - 404 (229ms)
+[2026-04-08T13:36:35.292Z] Incoming Request: POST /api/orders
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:36.707Z] Request Completed: POST /api/orders - 201 (1414ms)
+[2026-04-08T13:36:36.715Z] Incoming Request: POST /api/payments/cod-confirm
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:36.948Z] Request Completed: POST /api/payments/cod-confirm - 200 (232ms)
+[2026-04-08T13:36:36.970Z] Incoming Request: GET /api/orders/69d659e3747d730507ad70ae
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:37.411Z] Request Completed: GET /api/orders/69d659e3747d730507ad70ae - 201 (440ms)
+[2026-04-08T13:36:37.414Z] Incoming Request: GET /api/orders/69d659e3747d730507ad70ae
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:37.718Z] Request Completed: GET /api/orders/69d659e3747d730507ad70ae - 201 (304ms)
+[2026-04-08T13:36:38.527Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:38.832Z] Request Completed: GET /api/orders?page=1&limit=3 - 200 (305ms)
+[2026-04-08T13:36:38.833Z] Incoming Request: GET /api/orders?page=1&limit=3
+✅ Auth Middleware: User authenticated: sanjay@gmail.com (user)
+[2026-04-08T13:36:39.127Z] Request Completed: GET /api/orders?page=1&limit=3 - 304 (294ms)
