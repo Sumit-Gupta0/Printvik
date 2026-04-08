@@ -27934,3 +27934,45 @@ Create Product Request Body: {"name":"Final Test Pen","sku":"FINAL-PEN-01","desc
 [2026-04-08T12:47:02.328Z] Incoming Request: GET /api/orders/draft
 ✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
 [2026-04-08T12:47:02.332Z] Request Completed: GET /api/orders/draft - 404 (4ms)
+[2026-04-08T13:06:47.316Z] Incoming Request: GET /api/admin/orders
+[2026-04-08T13:06:47.329Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-04-08T13:06:47.329Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-04-08T13:06:47.331Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-04-08T13:06:47.575Z] Request Completed: GET /api/auth/me - 200 (244ms)
+[2026-04-08T13:06:47.576Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-04-08T13:06:47.583Z] Request Completed: GET /api/auth/me - 304 (7ms)
+[2026-04-08T13:06:47.643Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (314ms)
+[2026-04-08T13:06:47.644Z] Request Completed: GET /api/admin/users?role=operator - 304 (315ms)
+[2026-04-08T13:06:47.647Z] Request Completed: GET /api/admin/orders - 304 (329ms)
+[2026-04-08T13:06:47.648Z] Incoming Request: GET /api/admin/users?role=delivery_boy
+[2026-04-08T13:06:47.650Z] Incoming Request: GET /api/admin/users?role=operator
+[2026-04-08T13:06:47.651Z] Incoming Request: GET /api/admin/orders
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+✅ Auth Middleware: User authenticated: admin@printvik.com (admin)
+[2026-04-08T13:06:47.685Z] Request Completed: GET /api/admin/users?role=operator - 304 (35ms)
+[2026-04-08T13:06:47.686Z] Request Completed: GET /api/admin/users?role=delivery_boy - 304 (37ms)
+[2026-04-08T13:06:47.688Z] Request Completed: GET /api/admin/orders - 304 (37ms)
+[2026-04-08T13:06:48.351Z] Incoming Request: GET /api/orders/draft
+[2026-04-08T13:06:48.353Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+[2026-04-08T13:06:48.359Z] Request Completed: GET /api/orders/draft - 404 (8ms)
+[2026-04-08T13:06:48.360Z] Request Completed: GET /api/auth/me - 200 (7ms)
+[2026-04-08T13:06:48.361Z] Incoming Request: GET /api/orders/draft
+[2026-04-08T13:06:48.361Z] Incoming Request: GET /api/auth/me
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+[2026-04-08T13:06:48.365Z] Request Completed: GET /api/orders/draft - 404 (4ms)
+[2026-04-08T13:06:48.366Z] Request Completed: GET /api/auth/me - 304 (5ms)
+[2026-04-08T13:06:48.368Z] Incoming Request: GET /api/orders/draft
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+[2026-04-08T13:06:48.371Z] Request Completed: GET /api/orders/draft - 404 (2ms)
+[2026-04-08T13:06:48.415Z] Incoming Request: GET /api/orders/draft
+✅ Auth Middleware: User authenticated: piyush123@gmail.com (user)
+[2026-04-08T13:06:48.438Z] Request Completed: GET /api/orders/draft - 404 (23ms)
