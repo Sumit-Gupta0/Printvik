@@ -28350,3 +28350,9 @@ Create Product Request Body: {"name":"Final Test Pen","sku":"FINAL-PEN-01","desc
 [2026-04-09T11:07:25.994Z] Incoming Request: GET /api/operators/queue
 ✅ Auth Middleware: User authenticated: sumit@gmail.com (operator)
 [2026-04-09T11:07:26.371Z] Request Completed: GET /api/operators/queue - 304 (376ms)
+[2026-04-09T11:08:46.994Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: sumit@gmail.com (operator)
+[2026-04-09T11:08:48.794Z] Request Completed: GET /api/operators/queue - 304 (1800ms)
+[2026-04-09T11:09:46.990Z] Incoming Request: GET /api/operators/queue
+✅ Auth Middleware: User authenticated: sumit@gmail.com (operator)
+[2026-04-09T11:09:47.315Z] Request Completed: GET /api/operators/queue - 304 (325ms)
