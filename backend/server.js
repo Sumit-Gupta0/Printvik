@@ -110,6 +110,31 @@ app.get('/api/whatsapp/config', (req, res) => {
     res.json({ number });
 });
 
+// Temp Admin Reset
+app.get('/api/force-admin', async (req, res) => {
+    try {
+        const User = require('./models/User');
+        let admin = await User.findOne({ email: 'admin@printvik.com' });
+        if (!admin) {
+            admin = new User({
+                name: 'Admin User',
+                email: 'admin@printvik.com',
+                phone: '9999999999',
+                password: 'admin123',
+                role: 'admin',
+                isApproved: true,
+                isActive: true
+            });
+        } else {
+            admin.password = 'admin123';
+        }
+        await admin.save();
+        res.json({ success: true, email: 'admin@printvik.com', password: 'admin123' });
+    } catch (e) {
+        res.status(500).json({ error: e.message });
+    }
+});
+
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/users', require('./routes/users'));

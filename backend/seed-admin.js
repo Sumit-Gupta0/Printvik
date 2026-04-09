@@ -21,7 +21,7 @@ const createAdmin = async () => {
             name: 'Admin User',
             email: adminEmail,
             phone: '9999999999',
-            password: 'password123',
+            password: 'admin123',
             role: 'admin',
             isApproved: true,
             isActive: true
@@ -30,7 +30,7 @@ const createAdmin = async () => {
         await adminUser.save();
         console.log('✅ Default admin user created successfully.');
         console.log(`Email: ${adminEmail}`);
-        console.log('Password: password123');
+        console.log('Password: admin123');
 
     } catch (error) {
         console.error('Error creating admin user:', error);

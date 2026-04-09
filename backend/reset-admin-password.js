@@ -16,26 +16,29 @@ const resetAdminPassword = async () => {
     await connectDB();
 
     try {
-        const admins = await User.find({ role: 'admin' });
+        const adminEmail = 'admin@printvik.com';
+        let admin = await User.findOne({ email: adminEmail });
 
-        if (admins.length === 0) {
-            console.log('No admin users found.');
-            process.exit(0);
+        if (!admin) {
+            console.log(`Admin user not found. Creating ${adminEmail}...`);
+            admin = new User({
+                name: 'Admin User',
+                email: adminEmail,
+                phone: '9999999999',
+                password: 'admin123',
+                role: 'admin',
+                isApproved: true,
+                isActive: true
+            });
+        } else {
+            console.log(`Resetting password for admin: ${admin.email}`);
+            admin.password = 'admin123';
         }
-
-        console.log(`Found ${admins.length} admin(s).`);
-
-        const admin = admins[0];
-        console.log(`Resetting password for admin: ${admin.email}`);
-
-        // Set the new password
-        // The pre-save hook in User.js will handle hashing and encryption
-        admin.password = 'admin123';
 
         await admin.save();
 
         console.log('---------------------------------------------------');
-        console.log('✅ Admin password reset successfully!');
+        console.log('✅ Admin credentials configured successfully!');
         console.log('---------------------------------------------------');
         console.log(`Email:    ${admin.email}`);
         console.log(`Password: admin123`);
